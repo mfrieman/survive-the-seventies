@@ -1,0 +1,24 @@
+# Ren'Py build artifacts
+game/cache/
+game/saves/
+game/bytecode.rpyb
+*.rpyc
+*.rpyb
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Local-only working files
+*.psd
+*.aseprite
+*.tmp
