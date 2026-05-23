@@ -1,13 +1,18 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint
 # places.yaml — locations in the 1976 world
 #
 # SCHEMA (per entry under each category)
 #   id:            kebab-case, unique. (required)
 #   name:          in-game name (required)
-#   real_name:     optional — what it was IRL if renamed
 #   change_name:   true | false
 #   reality:       real | mixed | fake | parody  (required)
 #   zone:          house | block | town | destination
 #   subzone:       optional — for big places ("ocean-side / boardwalk", "stompers / midway")
+#   decor_style:   optional — references an ID from writing/house-decor-catalog.md
+#                  for households. Multiple places in one house should share the
+#                  same decor_style (e.g. the upstairs and the basement of one
+#                  family inherit one style). Sometimes the joke is that the
+#                  style is preserved but the condition is opposite.
 #   description:   |  what it looks/smells/sounds like. 2-5 lines. Sensory.
 #   layout:        |  rough layout — what's where. helps me build the Ren'Py screen.
 #   key_features:  list of bullet things players can interact with
@@ -52,9 +57,170 @@ house:
     audience: both
     notes: Where the player wakes up. The first room of the game.
 
-block: []
-  # Examples to add:
-  #   - 1437 Linden Drive (the house, exterior)
+block:
+
+  # ---- The Karras house and basement ----
+  # 5 houses down from the Mareks. Home of the Karras family.
+
+  - id: karras-house
+    name: The Karras House
+    change_name: true
+    reality: mixed
+    zone: block
+    decor_style: greek-orthodox-maximalist
+    description: |
+      Five houses down the block from the Mareks. From the street: tidy
+      split-level, flowering shrubs along the front walk, a sports car
+      glinting in the driveway (Costas "Gus"'s one indulgence). The garden out
+      back is Athena's pride — neat beds of zinnias, marigolds, and tomatoes —
+      and the daily battle line between Athena and Shadow the black lab, who
+      digs up flowers and drags dirt into the kitchen. Athena scolds him and
+      loves him in the same sentence; secretly she doesn't mind because his
+      messes give her something to clean, and cleaning is what Athena does.
+
+      The interior is "greek-orthodox-maximalist" turned up to 11:
+      crucifix in every room, floral burgundy-and-gold sofa under plastic
+      slipcovers, doilies on every surface, harvest-gold carpet, Last Supper
+      print over the dining table, frankincense ghost from Easter. Spotless.
+      Vacuumed daily. The plastic slipcovers squeak.
+
+      The garage is a different country. (See: the-dungeon.)
+    layout: |
+      Front door → foyer with crucifix and a small font of holy water.
+      Living room (where the GOOD floral sofa lives, on plastic, never sat on,
+      Costas "Gus"'s recliner the one allowed exception). Dining room (used twice
+      a year). Kitchen (Athena's lab — Magnavox TV on the counter showing Julia
+      Child, garlic in the air, something on the stove that's going to be bad).
+      Stairs UP to bedrooms. Back door off the kitchen opens onto a short
+      concrete path across the back yard to the detached garage — The Dungeon.
+      Athena does not walk that path.
+    key_features:
+      - Costas "Gus"'s recliner (he's in it most evenings, beer in hand, TV on)
+      - Athena's kitchen (whatever's cooking is bad; you must say it's good)
+      - The plastic-slipcovered living-room couch (NEVER sit here)
+      - Athena's garden (Shadow digs it up; she scolds him; nothing changes)
+      - The sports car in the driveway (Demi tries to borrow it; rarely succeeds)
+      - Detached garage out back (Athena does not go in there)
+    inhabitants: [gus-karras, athena-karras, dimitri-karras, mickey-karras]
+    related_places: [the-dungeon]
+    hours: always
+    danger_level: safe
+    tags: [neighborhood, family-home, two-cultures, mediterranean-catholic]
+    audience: both
+    notes: |
+      Shadow the black lab is the household's third character. Mostly outdoor
+      dog, frequent indoor visitor with muddy paws. Friendly. Loves the kids.
+      Has never been into the Dungeon.
+    depth: sketch
+
+  - id: the-dungeon
+    name: The Dungeon
+    change_name: false   # the nickname IS the joke; keep it
+    reality: mixed
+    zone: block
+    subzone: karras-house
+    decor_style: greek-orthodox-maximalist   # SAME stereotype — that's the joke. See notes.
+    description: |
+      The detached single-car garage behind the Karras house, rechristened
+      by the kids who actually live in it. Costas "Gus" parked here exactly
+      once, in 1968. The car has lived in the driveway ever since.
+
+      Concrete floor, oil-stained from the Olds that used to live here.
+      Bare studs and pink-fiberglass insulation on the long walls; the
+      back wall is finished in cheap wood paneling Demi and Mickey nailed
+      up themselves one weekend. A single bare bulb on a pull-chain in
+      the center of the ceiling. Two small high windows on the side wall,
+      taped over with cardboard that says "STUDIO." A clip-on fan that
+      makes everything louder without making anything cooler.
+
+      The "stage" fills the back wall: Mickey's BOMBARD Mark IV amp
+      stacks tower floor-to-ceiling like cathedral organ pipes — they're
+      why the kids could never have set up in the basement; the ceiling
+      down there was too low. Demi's drum kit faces the amps, a Ludwig
+      knockoff with a kick head Demi sharpie'd "KARRAS" across in capital
+      letters. A bass amp Mickey isn't allowed to touch. A wall of milk
+      crates stuffed with records (Zeppelin, Sabbath, AC/DC, plus their
+      parody equivalents).
+
+      The furniture is the SAME furniture you'd find upstairs in 1965 —
+      the original Karras living-room set, the burgundy-and-gold floral
+      couch and its matching wingback chair, the marble-top end tables,
+      the crocheted antimacassars. Athena exiled the whole set out here
+      ten years ago when she redecorated. It has been the canvas for a
+      decade of teenagers ever since: cigarette burns shaped like
+      constellations across the cushions, beer rings on the marble, an
+      unreadable stain on the antimacassar that nobody will discuss, a
+      Theotokos prayer candle on the end table burning beside a Slurpee
+      cup of warm beer.
+
+      The Saint Nicholas icon Athena hung when they moved the couch out
+      here? Still on the wall. Now with a Sabbath poster taped over half
+      of it.
+
+      Smell: Marlboro Reds, spilled beer, weed, sweat, motor oil ghost
+      from the concrete, and — faintly, in one corner — used condoms.
+      Beer cans pyramid-stacked against the wall. The indoor-outdoor
+      carpet remnant Demi dragged in from someone's curb is so destroyed
+      it has its own ecology.
+
+      Athena believes this is where her boys "practice their music." She
+      has not personally crossed the back yard to the garage in years.
+    layout: |
+      Single-car detached garage. Roll-up garage door on the south wall —
+      faces the side yard / alley and is the primary in/out for the band
+      and any visitor who knows the score. A standard side door on the
+      west wall — faces the back yard and the Karras kitchen window;
+      this is the door Athena could see, so nobody uses it. The "stage"
+      (amp wall, Demi's kit, bass amp) fills the north wall. The floral
+      couch and wingback face it from the south, near the garage door.
+      The condom corner is the northeast, behind a stack of broken
+      speakers no one will move.
+
+      IMPORTANT: the roll-up garage door means people can come and go
+      from the alley without ever crossing the Karras back yard or being
+      visible from any window in the house. This is the player's main
+      ingress/egress.
+    key_features:
+      - The BOMBARD Mark IV amp wall (parody Marshall; Gus's money, Mickey's altar)
+      - Demi's drum kit (Ludwig knockoff, "KARRAS" sharpied on the kick)
+      - The 1965 Karras living-room set, defiled (couch, wingback, end tables, antimacassars)
+      - The record crate (Zeppelin, Sabbath, AC/DC + parody equivalents)
+      - The pyramid of beer cans (height tells time)
+      - The defaced Saint Nicholas icon (Sabbath poster overlay)
+      - The condom corner (do not investigate)
+      - The roll-up garage door / alley escape route (key for player ingress/egress)
+      - The "STUDIO" cardboard window-covers
+      - The destroyed indoor-outdoor carpet
+    inhabitants: [mickey-karras]   # Mickey is location-locked here
+    related_places: [karras-house]
+    hours: "afternoons through late night when Mickey's home from school"
+    danger_level: mild
+    tags: [hangout, music, contraband, location-locked-character, recurring-scene, decor-defiled, garage-band]
+    audience: both
+    notes: |
+      DESIGN NOTE 1 — Same stereotype, opposite condition: The Dungeon is
+      decor_style: greek-orthodox-maximalist on purpose. The
+      furniture IS the upstairs set, ten years and a thousand cigarettes
+      later. This is the central visual joke of the location. Do NOT
+      redecorate it as some other style.
+
+      DESIGN NOTE 2 — Mickey is location-locked to The Dungeon. All Mickey
+      scenes happen here. The alley-facing garage door means the player
+      doesn't need Athena-clearance to enter.
+
+      DESIGN NOTE 3 — Garage band, not basement band. The relocation is
+      thematic: garage bands are the staple. The Dungeon nickname predates
+      the move; the kids kept calling it that after the couch came out
+      here. The joke is now "this is a garage that thinks it's a basement."
+
+      Candidate for puzzle ingredients: records, BOMBARD amp gear
+      (electronics ~ machine parts?), contraband supply chain, older-kid
+      gossip about the Catholic-school world Danny doesn't know.
+      Possible long-con favor location.
+    depth: sketch
+
+  # ---- Future entries to consider ----
+  #   - 1437 Linden Drive (the Marek house, exterior)
   #   - The alley behind Linden
   #   - The creek at the end of the cul-de-sac
   #   - The Kowalski house (the bully's)

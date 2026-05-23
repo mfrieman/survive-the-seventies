@@ -1,9 +1,9 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint
 # people.yaml — humans who shaped the 1976 world
 #
 # SCHEMA (per entry under `people:`)
 #   id:            kebab-case, unique. Used for cross-refs. (required)
 #   name:          their name as used in the game (required)
-#   real_name:     optional — only if change_name: true and you want to remember who it was based on
 #   change_name:   true | false  — should I rename them in the game canon?
 #   reality:       real | mixed | fake | parody  (required)
 #   role:          one-line role tag — "mom", "best friend", "the bully", "weird neighbor", "shop teacher"
@@ -73,8 +73,125 @@ friends:
     notes: |
       Currently a placeholder name. Pick the real friend this should be based on (or invent).
 
-neighborhood: []
-  # Examples to add:
+neighborhood:
+
+  # ---- The Karras family (lived 5 houses down from the Mareks) ----
+
+  - id: gus-karras
+    name: Costas "Gus" Karras
+    change_name: true
+    reality: mixed
+    role: working dad, Mickey's father
+    age_1976: 48
+    relation: neighbor dad (5 houses down)
+    sketch: |
+      Suit-and-tie professional. Works long hours, makes decent money — enough
+      that Mickey has expensive guitar gear and there's a sports car in the driveway.
+      When he's home he's on the couch with a beer and the TV on. Not cool, but
+      very nice. Devoted to Athena. Knows vaguely that something happens in the
+      basement and has made a quiet decision not to find out what.
+    role_in_game: |
+      Background authority figure for the Karras house. Off-screen most of the
+      time. The unwitting funder of the Dungeon's amp wall (price tags can be
+      noticed).
+    tags: [neighborhood, dad, authority, off-screen, money]
+    audience: both
+    depth: sketch
+
+  - id: athena-karras
+    name: Athena Karras
+    change_name: true
+    reality: mixed
+    role: religious Italian mom
+    age_1976: 45
+    relation: neighbor mom (5 houses down)
+    sketch: |
+      The sweetest woman in Old Bay County. Devout Catholic, Italian, watches
+      cooking shows constantly — yet somehow an awful cook, which her family
+      conceals with heroic acting. Keeps the upstairs spotless and decorates
+      with aggressively flowery upholstery. Everyone loves her. She has no idea
+      what happens in the basement of her own house. The boys' "rock band," in
+      her telling, is wholesome.
+    role_in_game: |
+      Comic-relief obstacle to anything the kids try to bring in the front door.
+      Possible quest-giver: deliver baked goods (inedible) to neighbors. Her
+      sincere kindness makes lying to her feel awful — a small moral check
+      on the player.
+    tags: [neighborhood, mom, religious, kind, oblivious]
+    audience: both
+    depth: sketch
+
+  - id: dimitri-karras
+    name: Dimitri "Demi" Karras
+    change_name: true
+    reality: mixed
+    role: drummer in the band; party guy
+    age_1976: 18
+    relation: Mickey's older brother
+    sketch: |
+      Named Dimitri after Gus's father back in Thessaloniki — Greek tradition,
+      first son after the paternal grandfather. (When Tony was supposed to
+      arrive, he didn't; Demi got the name instead. Athena considers this a
+      sign. Demi considers it a hassle when teachers can't pronounce it.)
+
+      Plays drums. Loud, sweaty, and visible — exactly the things Demi wants
+      to be. Joined the band to get girls and it worked. Big arms, bigger
+      kit, a snare he tunes obsessively and toms he doesn't. Decent enough
+      to keep time, not interested in being any better. Drinks beer
+      (legally — beer/wine age is 18 in MD in '76), races cars, throws
+      parties. Doesn't hang out with Mickey's crew and isn't a reliable
+      beer-runner for the underage kids. Tolerates Mickey because telling
+      girls he's "in a rock band" is the whole point — and because Mickey
+      is the only one who can actually play.
+    role_in_game: |
+      Conditional ally. Will sometimes do things for the player (rides, info,
+      the occasional beer run) but only if it serves Demi's image. Unreliable.
+      Sometimes turns up in the Dungeon (he LIVES in the Dungeon when there's
+      a girl to impress), sometimes vanishes for days. The drums anchor the
+      garage as a band space even when Demi isn't there — they're his
+      signature presence.
+    tags: [neighborhood, sibling, party, band, unreliable, drummer]
+    audience: both
+    depth: sketch
+
+  - id: mickey-karras
+    name: Mickey Karras
+    change_name: true
+    reality: mixed
+    role: guitar virtuoso; Danny's close friend; location-locked to the Dungeon
+    age_1976: 16
+    relation: Danny's close friend from childhood; lives 5 houses down
+    sketch: |
+      Costas "Gus" named him Michael after Mickey Mantle, his hero the year Mickey
+      was born ('60) — and called him Mickey from day one. Mickey grew up to
+      hate sports and live for the guitar. The name landed sideways.
+
+      Two years older than Danny. Plays guitar — seriously, with talent. Drives,
+      but not legally drinking age. Has a girlfriend most weeks, none for long;
+      they always lose to the guitar and they know it. Cool by default, cooler
+      when he doesn't try. Catholic-school kid, so his main world is his band
+      and his basement. Loyal to Danny in the easy way of two kids who've known
+      each other their whole lives. Doesn't know Danny isn't Danny.
+    role_in_game: |
+      LOCATION-LOCKED. Mickey is only ever found in the Dungeon. He doesn't roam
+      the block; the Dungeon is his world and the player goes to him. This makes
+      the Dungeon a recurring scene location with a self-contained sandbox of
+      interactions (jam sessions, listening to records, smoking, gossip about
+      Catholic-school kids the player doesn't know).
+
+      Second-highest cover-blowing risk after Tommy (Mickey has known Danny too
+      long). The Dungeon's culture (loud music, low focus, lots of haze) gives
+      the player ample cover.
+    tags: [neighborhood, peer, friend, band, location-locked, cover-risk]
+    audience: both
+    notes: |
+      Mickey is a candidate for several puzzle/story threads: source of contraband,
+      knower of older-kid gossip, possible electronics-tinkering ally (amp gear ~
+      machine parts?), and an emotional anchor for Danny's old life that the
+      future-kid has to navigate without blowing his cover.
+    depth: sketch
+
+  # ---- Future entries to consider ----
   #   - the mean lady who keeps any ball that lands in her yard
   #   - the cool older brother across the street with the Camaro
   #   - the dad who works on cars every weekend and lets kids hang around
