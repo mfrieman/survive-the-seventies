@@ -29,49 +29,257 @@
 # ---------------------------------------------------------------
 
 family:
-  - id: mom
-    name: TBD
+
+  # ---- The Marek family — Danny's people. 1437 Linden Drive. ----
+
+  - id: kay-marek
+    name: Kay Marek
     change_name: true
     reality: mixed
-    role: mom
+    role: mom; the loud one
     age_1976: 38
     relation: mother
     physical: |
-      EXAMPLE — replace with your mom or invent. e.g. "Always in a housedress in the morning,
-      then changes for work. Smokes Virginia Slims at the kitchen table. Curlers on Saturdays."
+      Housedress in the morning, jeans and a Motown concert tee by afternoon.
+      Permanent menthol Kool 100 between two fingers. Curlers Saturday night
+      for Sunday church. Hair feathered when it's down. A coffee cup in the
+      other hand, always.
     voice: |
-      EXAMPLE — "Marylander. Says 'hon.' Threatens to call your father a lot."
+      Baltimore working-class. Mouth like a sailor with a heart of gold —
+      will call her own kids "fucking idiots" with the same tone she uses
+      for "I love you, hon." Tells it like it is. Think Lois from Malcolm
+      in the Middle (Jane Kaczmarek): brassy, vulgar, fundamentally loving,
+      zero filter, somehow always right.
     vibe: |
-      EXAMPLE — "Loves you but is exhausted. The mom from 'A Christmas Story' — practical, tired, funny when she doesn't mean to be."
-    role_in_game: obstacle + provider + occasional ally. Gatekeeper for the house, the food, the cash. Threw out the machine.
-    stories: []
-    tags: [family, authority, funny]
+      The block's loud lady. Loves the kids ferociously; insults them
+      ferociously. Hates phonies. Doesn't drink — finds drunks pathetic —
+      but smokes like the chimney's on fire. Plays Motown loud enough to
+      embarrass the neighbors and doesn't care.
+    sketch: |
+      Devout Motown fan in a white neighborhood where that wasn't standard.
+      Marvin Gaye, Smokey Robinson, The Temptations, The Supremes — full
+      volume on the Precedent console stereo all day. Considers anyone who
+      doesn't love this music to be "fucking square." Loves that Bobby is a
+      mommy's boy. Suspicious of how smart Danny is — proud of it, but it
+      makes her nervous. Drives Dennis crazy without ever raising her voice
+      AT him; she just talks loud AT the room and Dennis is in the room.
+    role_in_game: |
+      The biggest gatekeeper in the house — the kitchen, the cash, the
+      keys, the phone. Threw out the time machine ("looks like junk").
+      Cannot be lied to successfully; the player has to manage her, not
+      fool her. Quest-giver for errands. The voice that comes through
+      walls. Source of accidentally-useful intel (she gossips constantly
+      with neighbors and the player is in earshot).
+    tags: [family, mom, authority, vulgar, motown, funny, loud]
     audience: both
     notes: |
-      Real-vs-fake TBD. Mark, decide how close to your real mom you want her.
+      Comedy lineage: Lois Wilkerson (Malcolm in the Middle). Not mean —
+      it just sounds mean to anyone who doesn't know her. Inside jokes
+      she shares with the boys are warm; the outside world hears yelling.
+      Robert Kennedy Marek (Bobby) is her favorite and she barely hides it.
+    depth: sketch
+
+  - id: dennis-marek
+    name: Dennis Marek
+    change_name: true
+    reality: mixed
+    role: dad; the quiet one (until you mention drywall)
+    age_1976: 41
+    relation: father
+    physical: |
+      Always in white painter pants flecked with joint compound, a t-shirt
+      from a job site, work boots by the back door. Calloused hands,
+      gypsum dust permanently in the knuckle creases. Recliner-shaped
+      after dinner.
+    voice: |
+      Says about four things a day. "Hey." "Mmh." "Pass the salt." "Goodnight."
+      EXCEPTION: if anyone mentions drywall within his hearing, the dam
+      breaks and ten minutes of fluent, passionate, hilarious rage about
+      gypsum board, taping seams, and the moral decline of American
+      construction will follow. Then back to silence.
+    vibe: |
+      The kind of tired only a guy who's hung sheetrock all day in August
+      can be. Lazy at home, which Kay complains about (loudly, constantly,
+      to the room rather than to him). He absorbs it like wallpaper. Not
+      dumb — just done talking by 6 PM. Comedy lineage: Hal Wilkerson
+      (Bryan Cranston, Malcolm in the Middle) — the gentle-soul dad whose
+      occasional eruptions are funny because they're so specific.
+    sketch: |
+      Sheetrocker by trade. Hangs, tapes, and mudds gypsum board for new
+      construction across the county. Worked lath-and-plaster for fifteen
+      years before drywall took over in the early '70s, and HATES drywall
+      with the burning passion of a craftsman who believes the world made
+      the wrong choice. Will rant: drywall is garbage, lath was real, you
+      could punch a wall in 1958 and the wall would punch back, kids today
+      don't know what real walls feel like, etc. The rant is ridiculous and
+      he is dead serious. Kay rolls her eyes but lets him have it.
+
+      Comes home, eats whatever Kay puts in front of him, hits the recliner,
+      watches whatever's on the console TV until he falls asleep in it.
+      Snores. Wakes up at 5 AM for the next job site.
+    role_in_game: |
+      Mostly furniture. Comic-relief eruption when drywall comes up — could
+      be a triggerable side gag. Possible quest-giver for anything requiring
+      tools, a ride to a job site, or job-site material (sheetrock, mud,
+      tape, blades). Quietly affectionate when nobody's watching.
+    tags: [family, dad, working-class, sheetrocker, drywall-hater, comic-relief]
+    audience: both
+    notes: |
+      Drywall-rant is a recurring gag. Don't overuse it — once an act,
+      maybe twice. Each time it should be triggered by an innocent
+      mention (Kay says "the wall needs patching") and Dennis is OFF.
+    depth: sketch
+
+  - id: danny-marek
+    name: Danny Marek
+    change_name: false   # locked canon since premise.md
+    reality: mixed
+    role: protagonist (host body)
+    age_1976: 14
+    relation: self
+    physical: |
+      Skinny kid, sandy hair feathered like every other 14-year-old in
+      '76, Levi's, a Bombard Mark IV t-shirt Mickey gave him, Chuck Taylors
+      he's grown out of and won't admit it.
+    voice: |
+      Talks LESS than people expect. Kay reads it as moody-teenager;
+      really it's that he thinks four sentences ahead and is editing.
+    vibe: |
+      The stealth-genius. Brilliant — secretly so — but plays it cool to
+      the point of invisibility. Comedy lineage: Malcolm Wilkerson, but
+      hiding it on purpose, F-is-for-Family Bill levels of low affect.
+      Family knows he's smart; nobody knows he's THIS smart. That's the
+      load-bearing character trait — see decisions-log.
+    sketch: |
+      Built the time machine. Planned a quick swap with future-kid for a
+      get-rich scheme; the machine broke; both kids are stuck. (See premise.md.)
+      Hides it well. To Kay he's "the quiet one." To the kids on the
+      block he's "Danny." To Mickey he's "the kid who actually listens
+      to the records." To
+      the future-kid waking up in his body, he's a mystery to be reverse-
+      engineered.
+    role_in_game: |
+      The player. Body the player is inhabiting after the swap. The host
+      consciousness communicates via the Book (mid-Act 2 onward) — see
+      premise.md.
+    tags: [family, protagonist, stealth-genius, host-body]
+    audience: both
+    notes: |
+      Locked canon. Do not redesign without checking premise.md and the
+      decisions-log.
+    depth: deep
+
+  - id: mark-cole
+    name: Mark Cole
+    change_name: false   # locked canon
+    reality: fake
+    role: protagonist (player / future-kid consciousness)
+    age_2027: 14
+    relation: player-avatar
+    physical: |
+      Generic modern 14-year-old. Hoodie, joggers, phone permanently in
+      hand. Has never thrown a punch, fixed a fuse, or used a payphone.
+      We deliberately keep him visually vague — vague modern American
+      suburb, no regional tells. (See premise.md: "future-kid stays
+      vague.")
+    voice: |
+      Modern kid cadence — "bro," "fr," "no way," "that's wild." In 1976
+      this language reads as alien and is a recurring comedy source.
+      Should be subtitled by Kay or other adults occasionally
+      misinterpreting his slang.
+    vibe: |
+      NOT a genius. The puzzles are hard for him because they'd be hard
+      for us. His superpower is curiosity and the dumb confidence of a
+      kid who's never had to do anything without Google. His weakness
+      is that 1976 doesn't have Google.
+    sketch: |
+      Lives in 2027. Was contacted by Danny via the wooden-box mechanism
+      (see premise.md "How the Swap Happened"). Agreed because Danny
+      pitched it as easy money, 50/50 split. Wakes up in Danny's body
+      on Linden Drive, 1976, and the machine is broken. Has to rebuild
+      it from period parts while not blowing Danny's cover.
+    role_in_game: |
+      THE PLAYER. From the player's POV, "Mark" is who they are. From
+      the in-game cast's POV in 1976, the player is "Danny" — because
+      the cast sees Danny's body and has no reason to think otherwise.
+      Cover-blow is a real failure state in some puzzles.
+
+      In 2027, the real Danny is walking around in Mark's body and
+      everyone in Mark's life calls him "Mark." Same inversion. The
+      Book is the cross-time comm channel (see machine-rules.md once
+      written).
+    naming_convention: |
+      In all writing/code:
+        - "Mark"  = the future-kid consciousness (the player).
+        - "Danny" = the 1976 host consciousness.
+        - In-game dialogue: 1976 cast says "Danny" to address the
+          player; 2027 cast says "Mark" to address Danny.
+      Never collapse the two names. The duality is the point.
+    tags: [protagonist, future-kid, player-avatar, locked]
+    audience: both
+    notes: |
+      Surname Cole is fictional. Mark (the real author) explicitly
+      wanted his real first name used for the protagonist but a
+      different last name. Do not change without his sign-off.
+    depth: deep
+    name: Bobby Marek
+    change_name: true
+    reality: mixed
+    role: little brother; mommy's boy; tattletale
+    age_1976: 7
+    relation: younger brother (7 years younger than Danny)
+    sketch: |
+      Full name Robert Kennedy Marek — Kay named him in '69, the year
+      after RFK was shot, and tells everyone the story every time anyone
+      asks. (She also tells it when nobody asks.) Bobby is named for a
+      martyr and is, himself, kind of a pill.
+
+      Acts younger than 7. Tucks himself under Kay's arm on the couch and
+      stays there. Lights up when Kay starts trashing Danny or Dennis,
+      then chimes in with kid-sized accusations: "Danny said the F word
+      yesterday." A strict rule-follower who keeps a mental ledger of
+      everyone else's infractions. Loves to announce his own good
+      behavior. Obsessed with Storybook Hollow (the cheap regional
+      storybook-theme park west of town — parody of the real Enchanted
+      Forest) — just barely outgrowing it but won't admit that either.
+      Owns the lunchbox. Owns the bedsheets. Knows every character's
+      name. Begs to be taken back constantly. To Bobby, Storybook
+      Hollow is a sacred place. To Danny it is hell with a snack bar.
+    role_in_game: |
+      Cover-blowing risk: HIGH, but different from the peer-group risk. Bobby
+      doesn't know Danny well enough to spot personality changes, but he
+      WILL run to Kay with anything weird the player does ("Mommy, Danny
+      tried to put the toaster in the bathtub"). Manage him by either
+      bribery (Storybook Hollow trading cards), distraction, or
+      strategic kindness — a nice older-brother moment buys you a day
+      of cover. Possible side quests: retrieve a lost Storybook Hollow
+      collectible, the mandatory "Watch Your Brother" day-trip to the
+      park (see `places.yaml > destinations > storybook-hollow`),
+      "let me play too" embedded missions where having Bobby tag along is
+      both a liability and an unexpected asset.
+    tags: [family, little-brother, mommys-boy, tattletale, cover-risk]
+    audience: both
+    notes: |
+      Naming convention payoff: Kay named her '69 baby after RFK. This
+      tells you everything about Kay (working-class Democrat, Catholic,
+      sentimental) and creates a recurring shout-gag — "ROBERT KENNEDY
+      MAREK get in here RIGHT NOW" when he's in trouble. Use sparingly so
+      it stays funny.
+    depth: sketch
 
 friends:
-  - id: tommy
-    name: Tommy
-    change_name: false
-    reality: mixed
-    role: best friend
-    age_1976: 14
-    relation: best friend since 2nd grade
-    physical: |
-      TBD — your call. e.g. "Skinny, freckles, perpetually scraped knees. AC/DC shirt three sizes too big."
-    voice: |
-      TBD
-    vibe: |
-      TBD — loyal? scheming? funnier than Danny? dumber than Danny?
-    role_in_game: |
-      Primary co-conspirator. Drags Danny into trouble. Doesn't know Danny isn't Danny.
-      The character whose cover-blowing risk is HIGHEST — Tommy knows Danny too well.
-    stories: []
-    tags: [peer, ally, troublemaker]
-    audience: both
-    notes: |
-      Currently a placeholder name. Pick the real friend this should be based on (or invent).
+  # DESIGN NOTE — Danny's social structure (LOCKED 2026-05-23):
+  # Danny does NOT have a single "best friend." His real life is hidden
+  # experimentation and science; he never invested in one deep peer bond
+  # because that level of intimacy would have exposed the hidden work.
+  # Instead he has multiple loose friendships from three contexts:
+  #   - the neighborhood (Mickey Karras is the closest of these,
+  #     location-locked to the Dungeon — see neighborhood: section)
+  #   - school
+  #   - Boy Scouts
+  # No one peer is around him constantly enough to spot deep personality
+  # changes. This is a deliberate cover model and a character trait, not
+  # a placeholder. Add specific friends here as scenes demand them.
 
 neighborhood:
 
@@ -179,9 +387,10 @@ neighborhood:
       interactions (jam sessions, listening to records, smoking, gossip about
       Catholic-school kids the player doesn't know).
 
-      Second-highest cover-blowing risk after Tommy (Mickey has known Danny too
-      long). The Dungeon's culture (loud music, low focus, lots of haze) gives
-      the player ample cover.
+      Highest peer cover-blowing risk on the block (Mickey has known Danny
+      his whole life). Mitigated by location: Mickey is only ever in the
+      Dungeon, and the Dungeon's culture (loud music, low focus, lots of
+      haze) gives the player ample cover.
     tags: [neighborhood, peer, friend, band, location-locked, cover-risk]
     audience: both
     notes: |
@@ -189,6 +398,344 @@ neighborhood:
       knower of older-kid gossip, possible electronics-tinkering ally (amp gear ~
       machine parts?), and an emotional anchor for Danny's old life that the
       future-kid has to navigate without blowing his cover.
+    depth: sketch
+
+  # ---- The Kowalski family — Polish, eight-deep packed house ----
+  # Live on Linden Drive (Zone 1, the block). Exact placement TBD —
+  # next door to or across from the Mareks. House entry:
+  # `places.yaml > block > kowalski-house`. NOTE: this family is the
+  # path to Iwona, the locked romance arc.
+
+  - id: jack-kowalski
+    name: Jack Kowalski
+    change_name: false
+    reality: mixed
+    role: father; electrician; hidden alcoholic
+    age_1976: 45
+    relation: neighbor dad / Iwona's uncle / Peter's older brother
+    sketch: |
+      Polish-American, established. Born here, second-generation. Works
+      as a residential electrician — fuse boxes, wiring jobs, knob-and-tube
+      callbacks. Solid earner. Quiet. Goes to work, comes home, has "a
+      beer," then another, then a third, then keeps drinking. Hides it
+      reasonably well — never visibly drunk, just always slightly off
+      his timing by 9 PM. Mary knows. Mary pretends not to know. Jack
+      pretends Mary doesn't know that he knows she knows.
+
+      Married to Mary, who he cannot stand. Holds it together because
+      this is 1976 and that's what you do, and also because divorcing
+      would be a paperwork problem and Jack hates paperwork. They are
+      civil, occasionally even warm — at parties, around the in-laws —
+      and then he goes to the basement to "check the breaker" and stays
+      down there 45 minutes.
+
+      Sponsored his younger brother Peter's emigration from Poland.
+      Genuinely loves Peter — Peter is the only person Jack lights up
+      around. Resents being asked to host the whole extended family,
+      doesn't say so.
+    voice: |
+      Few words. Dry. When he speaks it lands. Occasional Polish word
+      slips in when he's annoyed.
+    role_in_game: |
+      Useful as: the quiet electrician who happens to have every part
+      you might need for a machine. Possible Book/machine ally if
+      you can earn his trust. Possible long-con favor giver
+      (electronics, wiring, a key part).
+      Cover-blowing risk: LOW. Jack doesn't pay enough attention
+      to anyone to notice you've been swapped.
+    tags: [neighbor, dad, electrician, hidden-alcoholic, parts-source, possible-ally]
+    audience: both
+    notes: |
+      The hidden-alcoholic thing is comedy of recognition for adults —
+      the basement "checking the breaker" gag should land for anyone
+      whose dad did exactly this. NEVER played mean-spirited; Jack is
+      a sympathetic guy quietly drowning. The narrator's tone is
+      "everyone on this block has something they don't talk about."
+    depth: sketch
+
+  - id: mary-kowalski
+    name: Mary Kowalski
+    change_name: false
+    reality: mixed
+    role: mother; style-obsessed homemaker
+    age_1976: 43
+    relation: neighbor mom / Iwona's aunt by marriage
+    sketch: |
+      Always dressed up. Hair done. Makeup on by 8 AM. Wears heels
+      indoors. Talks with her hands. Tries hard to make her American
+      brick rowhouse look like a stylish European apartment — and
+      she's actually pulling it off, if you don't look too closely.
+      See `places.yaml > block > kowalski-house` for the full decor
+      picture (Scandinavian Modern overlay on a 1920s rowhome shell).
+
+      Has a "front sitting room" no one is allowed to sit in. Kept
+      perfectly clean for parties that happen four times a year. The
+      rest of the family lives in the kitchen and the den.
+
+      Complains about Jack constantly, to anyone who will listen,
+      including the milkman. "He sits down there *checking the breaker.*
+      Always the breaker. The breaker has never worked harder in its
+      life." Mary is funny on purpose. She knows what Jack does in
+      the basement. She's been making jokes about it for fifteen years.
+
+      Loves having Peter, Eva, Iwona, and Maggie in the house even
+      though it's chaos. They're family. Family is everything. Also
+      it gives her more people to dress up for.
+    voice: |
+      Quick, sharp, slightly accented (parents spoke Polish at home).
+      Gestures with a cigarette but doesn't actually smoke much.
+    role_in_game: |
+      The gatekeeper to Iwona. To hang out at the Kowalski house, you
+      need Mary to like you. Mary likes you if (a) you compliment the
+      house, (b) you're polite to Maggie, (c) you don't track in mud.
+      Possible side quests around social-grace skill checks.
+      Cover-blowing risk: LOW-MEDIUM. Mary notices clothes and posture.
+      If the player picks "wrong" outfits she'll comment.
+    tags: [neighbor, mom, stylish, gatekeeper-to-iwona, possibly-ally]
+    audience: both
+    notes: |
+      The hidden-bedrock joke: a Polish-American woman in Old Bay
+      County, MD curating a European-looking parlor in a brick rowhouse
+      while her husband quietly destroys himself in the basement.
+      She is a much more complicated person than the block thinks.
+    depth: sketch
+
+  - id: natan-kowalski
+    name: Natan Kowalski
+    change_name: false
+    reality: mixed
+    role: older son; charismatic mystery
+    age_1976: 19
+    relation: neighbor older kid / Iwona's cousin / Jacob's idol
+    sketch: |
+      Stunning kid. Charismatic in the effortless way that makes
+      everyone around him a little awkward. Into clothing design —
+      sketches, fabric swatches in his room, talks about Halston and
+      Saint Laurent the way Mickey talks about guitars. All the girls
+      on the block want him. He is polite, charming, completely
+      indifferent. The block whispers. The block has theories.
+
+      **The game does not answer the question.** Natan's sexuality is
+      canonically unresolved as of 2026-05-23. He's just Natan — a
+      kid who loves fashion, doesn't chase girls, and is the most
+      magnetic person on the block. Whether that becomes a story
+      thread later is a TBD design call. Until then, write him as
+      he is, not as the question about him.
+
+      Younger brother Jacob worships him and follows him everywhere.
+      Natan tolerates this with surprising patience.
+    voice: |
+      Articulate. Reads books. Slightly amused tone — like he's seeing
+      something everyone else is missing.
+    role_in_game: |
+      Possible useful older-kid contact (transportation? cover?
+      access to the city?). Possible parallel character — another
+      person on the block who isn't quite what the block expects.
+      Cover-blowing risk: LOW. Natan is too inside his own world to
+      study Danny.
+    tags: [neighbor, older-kid, charismatic, fashion, sexuality-unresolved, possible-ally]
+    audience: both
+    notes: |
+      DESIGN — do not resolve Natan's sexuality without explicit
+      direction from Mark. The ambiguity is the point. If the question
+      becomes a story thread, it should be handled with the same care
+      as the Iwona romance — period-honest, not punching down.
+    depth: sketch
+
+  - id: jacob-kowalski
+    name: Jacob Kowalski
+    change_name: false
+    reality: mixed
+    role: younger son; introvert troublemaker
+    age_1976: 15
+    relation: neighbor kid / Iwona's cousin / one year older than Danny
+    sketch: |
+      Quiet, smart, watches everything. The kind of kid whose
+      jokes are too dark for the other kids and they laugh
+      uncomfortably and then move on. Loves his brother Natan and
+      shadows him constantly — to the disco, to the record store,
+      to the diner, to the *fabric* store, doesn't matter. If
+      Natan is there, Jacob is there.
+
+      Also a troublemaker — not in a Donny-bully way, but in a
+      "set off the fire alarm at school to see what happens"
+      experimental-mischief way. He and Danny would actually get
+      along if Danny ever let down his guard. They haven't, because
+      Danny doesn't.
+    voice: |
+      Few words at a time. Deadpan. Lands a dark joke and doesn't
+      smile.
+    role_in_game: |
+      Possible Danny ally — the closest thing on the block to a
+      peer who could *understand* what Danny is actually doing
+      (the science, the secrecy). If the player ever opens up to
+      Jacob, it's a big choice. Possible co-conspirator for the
+      Storybook Hollow night break-in.
+      Cover-blowing risk: MEDIUM. Jacob watches everyone. If he
+      decides to study Danny, he'll see something is off.
+    tags: [neighbor, peer, introvert, dark-humor, troublemaker, possible-ally]
+    audience: both
+    notes: |
+      Iwona's cousin — also relevant because if Danny befriends
+      Jacob he gets a non-romantic excuse to be at the Kowalski
+      house, which means more Iwona time. That's a design lever.
+    depth: sketch
+
+  - id: maggie-kowalski
+    name: Maggie (Mary's mother)
+    change_name: false
+    reality: mixed
+    role: grandmother; senile but sweet
+    age_1976: 71
+    relation: lives with the Kowalskis; Mary's mother
+    sketch: |
+      Lives in the back bedroom of the Kowalski house. Senile, a bit
+      loony, completely kind. Calls everyone the wrong name with
+      total confidence and total affection — Danny might be "Sammy"
+      one day and "Jurek" the next, and she'll mean it warmly each
+      time. Cooks one specific Polish dish on a loop (probably
+      pierogi, possibly gołąbki) and feeds it to anyone who walks
+      past her chair.
+
+      Sometimes she's startlingly lucid — drops one sentence that
+      cuts through a whole family argument — and then she's back
+      to humming "Sto Lat" at the wallpaper.
+    voice: |
+      Polish-accented English, mixed with Polish phrases. Cheerful.
+      Repeats things.
+    role_in_game: |
+      Possible warmth-source on the block. She might also be the
+      one who, in a single lucid moment, sees through the body
+      swap and *doesn't tell anyone* — just nods and pats Danny's
+      cheek and calls him a sweet boy. (Pure pitch, not locked.)
+      Cover-blowing risk: PARADOXICAL. Could expose Danny without
+      meaning to, or could be his most reliable confidante. She
+      forgets either way.
+      Possible long-con favor: gives the player a family heirloom
+      he'll need for the machine, just because she likes him.
+    tags: [neighbor, grandmother, senile, sweet, warmth, possibly-knows]
+    audience: both
+    notes: |
+      Treat Maggie with warmth — she is not the butt of a senility
+      joke. She's a real person whose mind is slipping. The humor
+      is in her clarity-blur, never at her expense.
+    depth: sketch
+
+  - id: peter-kowalski
+    name: Peter Kowalski
+    change_name: false
+    reality: mixed
+    role: uncle from Poland; renaissance man
+    age_1976: 42
+    relation: Jack's younger brother / Iwona's father / Eva's husband
+    sketch: |
+      Just arrived from Poland with Eva and Iwona. Jack sponsored
+      the emigration. Brilliant in five directions at once —
+      musician (street performer back home, plays accordion and
+      guitar), painter, engineer (worked in some industrial role
+      in Poland), occasional poet. The kind of guy who fixes the
+      neighbor's lawn mower in twenty minutes, then paints a
+      landscape, then plays a song. Settling in America has not
+      been smooth — his credentials don't transfer, his English
+      is rough, and the only work he can find is below his skill.
+      He doesn't complain. He paints instead.
+
+      Adores Iwona. Treats Eva like an equal partner in the way
+      Polish men of his generation often didn't. Quietly loves
+      his brother Jack and is the only person who can pull Jack
+      out of the basement by just sitting on the porch with him.
+
+      Most important to Danny: Peter is an *engineer.* If anyone
+      on the block could help build (or accidentally reveal) the
+      machine, it's Peter.
+    voice: |
+      Heavy Polish accent, careful English, occasional poetic
+      phrasing in translation ("the sky is wearing its coat today").
+    role_in_game: |
+      MAJOR possible ally / parts-source / mentor figure for the
+      machine rebuild. Also: the path to Iwona through her father's
+      good opinion. Win Peter over, win the whole household.
+      Possible long-con favor: a specific engineering part, or a
+      diagnostic skill the player can't do alone.
+      Cover-blowing risk: MEDIUM. Peter is observant. He's also
+      kind — if he sees something off about Danny, he might not
+      say anything.
+    tags: [neighbor, uncle, immigrant, renaissance-man, engineer, possible-mentor, ally, iwonas-dad]
+    audience: both
+    notes: |
+      Peter is potentially the most narratively important supporting
+      character outside the Mareks. He bridges the romance arc and
+      the machine arc. Build him out further when the quest design
+      begins.
+    depth: sketch
+
+  - id: eva-kowalski
+    name: Eva Kowalski
+    change_name: false
+    reality: mixed
+    role: aunt from Poland; Iwona's mother
+    age_1976: 40
+    relation: Peter's wife / Iwona's mother
+    sketch: |
+      Just arrived from Poland with Peter and Iwona. Specifics
+      pending Mark's input — Eva is currently a sketch waiting for
+      Mark to define her. Likely traits to confirm: warm or stern?
+      did she want to come to America or did she follow Peter?
+      relationship to Mary (sister-in-law dynamic — friends or
+      friction?). Holds a job or stays home?
+    voice: |
+      Polish accent, English level TBD.
+    role_in_game: |
+      TBD. Possible gatekeeper to Iwona alongside Mary. Possible
+      character study in immigrant-mother resilience.
+    tags: [neighbor, aunt, immigrant, mom, iwonas-mom, sketch]
+    audience: both
+    notes: |
+      Flagged for Mark to expand. Mark is the source of truth on
+      this character (Iwona is based on his real wife; Eva is by
+      extension based on his mother-in-law or a composite).
+    depth: sketch
+
+  - id: iwona-kowalski
+    name: Iwona Kowalski
+    change_name: false
+    reality: mixed
+    role: the love interest; the soul of the game
+    age_1976: 16
+    relation: Peter and Eva's daughter / Natan and Jacob's cousin / your future wife
+    sketch: |
+      Sixteen. Just arrived from Poland with her parents. Old enough
+      to drive (the age bump from 15 → 16 was for exactly this).
+      Eccentric. Ballroom dancer. Incredibly smart. Beautiful.
+      Heavy accent, speaks little English at the start. The accent
+      is intoxicating to Mark-in-Danny — he is gone the moment he
+      hears her say his name wrong.
+
+      Iwona has zero baseline for Danny, which is the entire
+      cover-blowing solution: with Mom, Mickey, the block — Mark
+      is performing Danny. With Iwona, Mark gets to be Mark, and
+      Iwona just thinks that's who Danny is. She is the only safe
+      space for him in 1976. That happens to be the place he falls
+      in love. See `premise.md` for the full romance arc + locked
+      thematic pillars (Shared Otherness, Soul Not Body).
+    voice: |
+      Polish accent. Quiet, observant. When she laughs she laughs
+      with her whole face. Mangles idioms in ways that become
+      personal jokes between her and Mark.
+    role_in_game: |
+      The romance is the emotional engine of the entire game.
+      Cover-blowing risk: NONE (in the cover-blowing sense). The
+      MOST EMOTIONALLY CONSEQUENTIAL relationship in the game.
+    tags: [neighbor, love-interest, polish, dancer, brilliant, soulmate, LOCKED]
+    audience: both
+    notes: |
+      Iwona is based on Mark's real wife of 30+ years (also named
+      Iwona). She knows and is happy about her place in the game.
+      All character details — mannerisms, signature objects, a
+      phrase she mangles, what she loves, what she hates, her dance
+      style, her first-kiss setting — are pending Mark's authoring.
+      Treat with care. Mark's stated intent: "I want to fall in
+      love with her again in this story."
     depth: sketch
 
   # ---- Future entries to consider ----

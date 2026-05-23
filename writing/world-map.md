@@ -27,8 +27,8 @@ Your home turf. Most of the demo lives here.
 |---|---|
 | **Linden Drive** | Your street. Cul-de-sac at the end. Working title for street name — open to change. |
 | **The House** | Split-level. TBD: color, year built, what's in the basement. |
-| **Tommy's house** | Best friend. TBD. |
-| **The crush's house** | TBD name + house. |
+| **The Karras house** | Mickey Karras lives here — guitarist, location-locked to The Dungeon (the garage out back). Full entry: `places.yaml > block > karras-house`. |
+| **The crush's house** | TBD — likely the Kowalski house once Iwona arrives. |
 | **Mrs. Linkletter's** | The mean lady. Calls cops if you cut her yard. Birdbath, pristine grass, lace curtains twitch. |
 | **The Abandoned House** | Family moved out two years ago. The kids treat it as a haunted dare. |
 | **The Creek** | Behind the houses, 6 feet wide where you try to jump it, 8 feet deep where you land if you don't. |
@@ -48,7 +48,7 @@ The next ring out. Older stuff happens here.
 | **The Cemetery** | Dare territory. |
 | **The Tracks** | The railroad. Penny on the tracks. Bottle rockets from the bridge. |
 | **The Water Tower** | The ultimate dare. The graffiti on it is from 1968. |
-| **The Pool / Swim Club** | Members only. Tommy's family is members; you're a guest. Chlorine, hot vinyl loungers, a snack bar that sells Whackos (Wacky Packs). |
+| **The Pool / Swim Club** | Members only. Some neighborhood family is members; you go as a guest. Chlorine, hot vinyl loungers, a snack bar that sells Whackos (Wacky Packs). |
 | **Bilbo's Liquors** *(fake bottle shop)* | Where you find the buy-us-beer guy. Donny in the Members Only jacket leaning on the Bandit. |
 | **The Drive-In** | **The Starview** — still operating, double features, you sneak in via the back fence. |
 
@@ -57,7 +57,7 @@ Once-in-a-while special places. Each is its own potential scene.
 
 | Place | Notes |
 |---|---|
-| **The Cursed Forest** | Fake **Enchanted Forest** (Howard County). Kiddie storybook theme park that was *not* as safe as it looked. Rotting plywood castle, animatronics with one eye out, bathrooms you wouldn't wish on a Soviet. Stuck taking your **little brother** here. You're 14 and the rage is unreal. |
+| **Storybook Hollow** | Parody of the real **Enchanted Forest** (Howard County, MD). Cheap regional storybook theme park, still very much OPEN in 1976 — fully operational and full of safety hazards in broad daylight. Plywood castle, Willie the Whale you climb into, antique cars with no center barrier, tugboat with no life jackets, a metal slide the temperature of a skillet. Two modes in-game: **DAY** — stuck taking Bobby here, you're 14 and the rage is unreal; **NIGHT** — break in with the block, sneak past the rent-a-cop, dare each other onto the rides in the dark. Full entry: `places.yaml > destinations > storybook-hollow`. |
 | **Ocean Side, MD** | Fake **Ocean City**. The boardwalk. Trimper's stand-in (**"Stomper's Rides"** — see below). Smasher's Fries with vinegar. Iron-on t-shirt shop. The candle store. The Himalaya equivalent **The Avalanche** blasting Donna Summer upside down at golden hour. Inflatable rafts to ride the waves. Cheap-souvenir shops you could spend hours in. Raw, cool, slightly dangerous. Family stays at a motel or rented apartment. |
 | **Chocolatetown, PA** *(fake Hersheypark)* | The once-a-summer pilgrimage. 90-minute drive in the wood-paneled Galaxy Cruiser. Roller coasters, the chocolate smell hanging in the air. |
 | **Glen Hollow** *(fake Glen Echo)* | Closed-down amusement park you can sneak into. Rusted carousel, the haunted bumper-car building. |
@@ -85,8 +85,8 @@ will ever happen to you.
 **Other rides:**
 - **The Wild Mouse** — wooden coaster, all jolts, no grace
 - **The Tilt-O-Hurl** — what it sounds like
-- **The Tunnel of Love** — for the older kids; you and Tommy ride it
-  ironically and immediately regret it
+- **The Tunnel of Love** — for the older kids; you ride it ironically
+  with whoever you dragged along and immediately regret it
 - **Bumper Cars** — duh
 - **Whack-A-Crab** — fake whack-a-mole with crabs (Old Bay County joke)
 
@@ -103,7 +103,7 @@ plastic comb.
 | **Smasher's Fries** | Paper cup, vinegar, no ketchup. The line is always 40 minutes. Worth it. |
 | **Fisherman's Caramel Crunch** | Carameled popcorn in tins, ships home to relatives. |
 | **The Candle Hut** | You make your own candle by dipping a wick into colored wax. Smells like every birthday you ever had. |
-| **Iron-On Heaven** | T-shirt shop. Pick a shirt, pick an iron-on (eagle, Trans Am, *Super Star Adventures* logo, BLAZE logo, "Disco Sucks"), they press it on while you wait. Tommy gets one that says "World's Greatest Lover" because he is 14 and a moron. |
+| **Iron-On Heaven** | T-shirt shop. Pick a shirt, pick an iron-on (eagle, Trans Am, *Super Star Adventures* logo, BLAZE logo, "Disco Sucks"), they press it on while you wait. Somebody in the group gets one that says "World's Greatest Lover" because he is 14 and a moron. |
 | **Souvenir Shack** | Conch shells with "OCEAN SIDE MD" painted on. Shark teeth on a string. A hermit crab in a painted shell that will be dead by Tuesday. |
 | **The Pinball Wizard** | Hole-in-the-wall pinball arcade. Older guy at the counter who's seen things. |
 | **Bayside Motel** | (where your family probably stays) Two beds, a cot, dad on the cot because he lost the coin toss. |
@@ -119,7 +119,7 @@ plastic comb.
                      ▲
                      | (90 min drive)
                      |
-   [Cursed Forest] ◄─┼──► [Glen Hollow]
+   [Storybook Hollow] ◄─┼──► [Glen Hollow]
                      |
               [OLD BAY COUNTY]
               ┌──────┴──────┐

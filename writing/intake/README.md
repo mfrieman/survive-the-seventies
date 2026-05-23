@@ -7,7 +7,7 @@ Mark's structured memory dump for *Survive the 70s*. One file per entity type, Y
 | File | What goes here |
 |---|---|
 | `people.yaml` | Family, friends, neighbors, teachers, bullies, crushes, famous-locals |
-| `places.yaml` | The house, the block, the town, destinations (Cursed Forest, Ocean Side, Chocolatetown, etc.) |
+| `places.yaml` | The house, the block, the town, destinations (Storybook Hollow, Ocean Side, Chocolatetown, etc.) |
 | `things.yaml` | Toys, gadgets, foods, candy, contraband, gear |
 | `media.yaml` | TV, movies, music, magazines, comics, books, games |
 | `customs.yaml` | Weird normal stuff — latchkey life, hose water, smoking sections, riding in the truck bed |
@@ -58,5 +58,5 @@ description: |
 
 - **You don't have to fill every field.** Leave out what you don't have.
 - **Bias toward writing it down crooked over not writing it down.** I can clean up later.
-- **Cross-reference loosely** in `notes` — say "Tommy's older brother" and I'll resolve it.
+- **Cross-reference loosely** in `notes` — say "Mickey's older brother" and I'll resolve it.
 - **Use parody names if you've got 'em, real names if not.** I'll parody-swap during processing.

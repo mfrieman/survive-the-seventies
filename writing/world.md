@@ -31,7 +31,7 @@ Geography is compressed — places that were a real-life 90-minute drive
 can be a short ride in the game.
 
 See `world-map.md` for the full geography (the three zones, the
-destination places like Ocean Side and the Cursed Forest, the
+destination places like Ocean Side and Storybook Hollow, the
 boardwalk shops, etc.).
 
 ---
@@ -54,7 +54,7 @@ boardwalk shops, etc.).
 ### Music
 | Real | Fake |
 |---|---|
-| KISS | **BLAZE** — four guys in greasepaint and platform boots. Personas: The Beast, The Astronaut, The Cat, The Comet. The Comet spits sparks. Tommy's older brother has the double live album. |
+| KISS | **BLAZE** — four guys in greasepaint and platform boots. Personas: The Beast, The Astronaut, The Cat, The Comet. The Comet spits sparks. Demi Karras has the double live album. |
 | Led Zeppelin | **Iron Dirigible** |
 | The Bee Gees | **The Bug Brothers** |
 | Pink Floyd | **The Mauve Cumulus** |
@@ -185,11 +185,10 @@ Because they're generic, descriptive, or in the public domain:
 ---
 
 ## TODO as we write
-- [ ] Name the protagonist (placeholder: **"the Kid"** in scripts;
-      proposed names: Mike, Bobby, Jimmy, Danny, Tommy — but Tommy is
-      best friend, so not Tommy)
-- [ ] Name Tommy's older brother (the guy with the Camaro/Cougar and
-      the joints): proposed **Dale** or **Mitch**
+- [x] Protagonist named: **Danny Marek**.
+- [ ] Name an older kid on the block with a Camaro/Cougar and the
+      joints: proposed **Dale** or **Mitch** (Demi Karras fills part
+      of this slot but isn't quite the same archetype).
 - [ ] Name Karen-at-the-7-Eleven — or rename her if "Karen" reads
       too 2026
 - [ ] Name the buy-us-beer guy (proposed: **Donny**, no last name,

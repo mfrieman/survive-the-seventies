@@ -9,13 +9,32 @@
 
 ---
 
+## 2026-05-23 (afternoon)
+
+### `[LOCKED]` Future-kid name — Mark Cole
+
+Mark wants his real first name used for the protagonist (the future-kid consciousness who wakes up in Danny's body). Surname is **Cole** — explicitly NOT Mark's real surname (Frieman), to keep the character one degree removed from the author. Options pitched: Walsh, Doyle, Reilly, Sutton, Halloran, Pemberton, Vance, Day, Cole, or leave TBD. Mark picked Cole.
+
+**Naming convention going forward (do not collapse):**
+- **Mark** = the future-kid consciousness (the player).
+- **Danny** = the 1976 host consciousness.
+- 1976 cast says "Danny" to the player (they see Danny's body).
+- 2027 cast says "Mark" to the real Danny (they see Mark's body).
+- Narrative voice, UI, and design docs should always distinguish them.
+
+The duality is load-bearing for the body-swap premise and the Soul-Not-Body thematic pillar.
+
+**Canon:** `writing/premise.md` → "The Future-Kid" section; `writing/intake/people.yaml > mark-cole`.
+
+---
+
 ## 2026-05-22 (evening)
 
-### `[LOCKED]` Romance Arc — Iwona Gorski
+### `[LOCKED]` Romance Arc — Iwona Kowalski
 
 Mark introduced a love-story arc layered onto the body-swap premise. **Iwona is based on Mark's real wife of 30+ years (a Polish immigrant, also named Iwona).** Mark's explicit intent: *"I want to fall in love with her again in this story."* Iwona-the-real-person is aware of and happy about the project.
 
-The Gorski family is a Polish family on the block (Zone 1). Members: Jack (father), Mary (mother), Michael (19, older son with a car), Jacob (14, same age as Mark/Danny — possible friend/rival), Maggie (Polish grandmother), Peter (Jack's brother, just arrived from Poland), Eva (Peter's wife), and **Iwona (15)** — the love interest.
+The Kowalski family is a Polish family on the block (Zone 1). Members: Jack (father, electrician, hidden alcoholic), Mary (mother, stylish "European" homemaker), Natan (19, charismatic, into clothing design — sexuality canonically ambiguous), Jacob (15, intelligent introvert with dark humor, troublemaker, looks up to Natan), Maggie (Mary's senile-but-nice mother), Peter (Jack's brother, just arrived from Poland — musician/painter/engineer renaissance man), Eva (Peter's wife), and **Iwona (16)** — the love interest. (Renamed Gorski → Kowalski 2026-05-23 to avoid using a real friend's name.)
 
 **Why this works structurally:**
 1. Iwona arrives DURING the game (moving van, Option B). She has no prior relationship with Danny → Mark can be fully himself with her because she has no Danny baseline. Solves the cover-blowing problem.
@@ -114,7 +133,7 @@ Chosen for: easiest concept-game tooling for Mark's first game project, Python-f
 
 Fictional Maryland county, Baltimore-shaped. Lets Mark mine real Baltimore County childhood material without legal/literal constraints. Name is the joke (Old Bay seasoning = Baltimore).
 
-Three zones: Zone 1 (the block / Linden Drive), Zone 2 (town / Old Bay), Zone 3 (destinations: Cursed Forest, Ocean Side, Chocolatetown, Glen Hollow).
+Three zones: Zone 1 (the block / Linden Drive), Zone 2 (town / Old Bay), Zone 3 (destinations: Storybook Hollow, Ocean Side, Chocolatetown, Glen Hollow).
 
 **Canon:** `writing/world-map.md`.
 

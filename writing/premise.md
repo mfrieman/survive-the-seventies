@@ -18,7 +18,7 @@ A modern teenager wakes up in 1976 in the body of Danny Marek — a 14-year-old 
 - **The load-bearing trait: Danny is a stealth genius.** Reads college physics books hidden inside *Mad Magazine*. Could be skipping grades but deliberately doesn't. Maintains C-minus average on purpose.
 - Why hide it? *"If they know what I can do, they'll watch me. I can't build what I need to build if they're watching."* Danny figured out at age 9 that being smart in 1976 means adults make decisions FOR you. Being average means they leave you alone.
 - Friends and family think Danny is **a quiet, slightly weird kid who's okay at school and likes to tinker in the garage.** They have no idea he built a working body-swap machine in a garage workshop hidden behind the lawnmower.
-- This is the load-bearing trait because **it's why future-kid can fumble through Danny's life without immediately blowing his cover.** Tommy, Mom, the bully — they all expect Danny to occasionally say weird stuff and not know things. *"Danny being Danny."*
+- This is the load-bearing trait because **it's why future-kid can fumble through Danny's life without immediately blowing his cover.** Mom, the kids on the block, the bully — they all expect Danny to occasionally say weird stuff and not know things. *"Danny being Danny."* (Reinforcing this: Danny never had a single "best friend." His real life was hidden science; he kept peer bonds loose on purpose. See `people.yaml > friends:` design note.)
 - Danny is also a **planner**. He thinks four moves ahead. He's been preparing the Book for months. He's hidden notes everywhere. He thought of (almost) everything. The comedy comes from the few things he *didn't* anticipate.
 
 ### Future-Kid (the player)
@@ -27,7 +27,7 @@ A modern teenager wakes up in 1976 in the body of Danny Marek — a 14-year-old 
 - Knows the year 1976 happened in broad strokes (Bicentennial, *Rocky*, *Star Wars* drops in '77, Carter wins in November). Knows zero local Maryland trivia. Has never been to the Mid-Atlantic.
 - Was contacted by Danny via [TBD — see "How the Swap Happened" below]. Agreed to a swap because **Danny pitched it as easy money.** They split the haul 50/50.
 - He is **NOT a genius.** He's a regular kid. The puzzles are hard for him because they're hard for *us*. He has to figure out things like "how do you make a phone call without a cell phone" and "what's a fuse box."
-- He has a **name the player picks at game start** (default suggestion: maybe just don't bother, refer to him as "the kid" in dialogue). TBD.
+- **His name is Mark Cole.** Locked canon — uses the author's real first name on purpose; surname Cole is fictional. After the swap, in-game characters call them by the body they're in: the player (Mark inhabiting Danny's body) is called "Danny" by everyone in 1976; the real Danny (inhabiting Mark's body in 2027) is called "Mark" by everyone in the future. The narrative/UI distinguishes them as **Mark (the future-kid)** and **Danny (the 1976 host)**.
 
 ---
 
@@ -60,7 +60,7 @@ Brief opening sequence, ~5 minutes of gameplay:
 ### Act 1 — "Be Danny" (~45-60 min)
 
 - Wake up. Read the Book. Realize the situation.
-- Survive a day in Danny's life without blowing cover: breakfast with Mom & Dad, the walk to school with Tommy, sit through math class, lunch, walk home.
+- Survive a day in Danny's life without blowing cover: breakfast with Mom & Dad, the walk to school, sit through math class, lunch, walk home.
 - Discover the machine is GONE.
 - Find more of the Book's hidden pages around the house.
 - Get the parts list. Realize the scope of the problem.
@@ -106,31 +106,31 @@ These will get refined. Some may swap out as Mark researches what was actually a
 
 > Iwona is based on Mark's real wife, also named Iwona — a Polish immigrant he has been with for over 30 years. Mark's explicit intent for this thread: *"I want to fall in love with her again in this story."* Iwona is aware of and happy about her place in the game. Write her with that knowledge. The romance is not a side plot — it is the **emotional engine** of the game. The machine-rebuild is the body; the love story is the soul.
 
-### The Gorski Family
+### The Kowalski Family
 
-Polish immigrants on Linden Drive (Zone 1, the block). Live next door to / across from the Mareks. TBD exact placement.
+Polish family on Linden Drive (Zone 1, the block). Live next door to / across from the Mareks. TBD exact placement. **Packed house** — eight people under one roof — set up for future "crazy Polish family party" jokes.
 
 | Member | Role | Age | Notes |
 |---|---|---|---|
-| **Jack Gorski** | Father | 40s | Established American, sponsored his brother's family from Poland |
-| **Mary Gorski** | Mother | 40s | Jack's wife |
-| **Michael Gorski** | Older son | 19 | Has a car. Useful plot device — transportation, gatekeeper for Iwona's outings |
-| **Jacob Gorski** | Younger son | 14 | Same age as Mark/Danny. Friend? Rival? Possible parallel-puzzle relationship |
-| **Maggie** | Mary's mother | 60s/70s | The Polish grandmother. Wildcard — old country instincts, sees through everyone |
-| **Peter Gorski** | Jack's brother | 40s | Just arrived from Poland. Iwona's father |
-| **Eva Gorski** | Peter's wife | 40s | Iwona's mother |
-| **Iwona Gorski** | The girl | 15 | **The future-kid's incredible love of a lifetime** |
+| **Jack Kowalski** | Father | 40s | Established American (Polish-American). Electrician. Hidden alcoholic. Can't stand Mary, but holds it together. |
+| **Mary Kowalski** | Mother | 40s | Jack's wife. Stylish, always dressed up — wants the house to look European. Complains constantly about Jack. |
+| **Natan Kowalski** | Older son | 19 | Charismatic, into clothing design. All the girls want him; he's indifferent. **Sexuality canonically unresolved** — the block whispers, the game doesn't answer (yet). |
+| **Jacob Kowalski** | Younger son | 15 | Intelligent introvert. Grim/dark sense of humor. Troublemaker. Worships Natan, follows him everywhere. |
+| **Maggie** | Mary's mother | 60s/70s | The grandmother. Senile and a bit loony but very nice. |
+| **Peter Kowalski** | Jack's brother | 40s | Just arrived from Poland. Renaissance man — musician, street performer, painter, engineer. Iwona's father. |
+| **Eva Kowalski** | Peter's wife | 40s | Iwona's mother. (Details TBD — Mark to define.) |
+| **Iwona Kowalski** | The girl | 16 | **Mark's (the future-kid's) incredible love of a lifetime.** Old enough to drive. |
 
 ### Iwona
 
-- 15, just arrived from Poland with her parents.
+- 16, just arrived from Poland with her parents (Peter and Eva). Old enough to drive.
 - Eccentric. Ballroom dancer. Incredibly smart. Beautiful. Heavy accent, speaks little English at the start.
 - The accent is intoxicating to Mark. He's instantly hooked. He's also shy and convinced she's out of his league (she's older, she's beautiful, she's brilliant).
-- **Specifics (Mark to provide):** personal mannerisms, signature objects, a phrase she mangles, a thing she loves, a thing she hates, her dance style. Mark is the source of truth.
+- **Specifics (Mark to provide):** personal mannerisms, signature objects, a phrase she mangles, a thing she loves, a thing she hates, her dance style. Mark is the source of truth. *Iwona is based on Mark's real wife (also Iwona), and Mark is writing toward falling in love with her again. Honor that.*
 
 ### Why This Solves the Cover-Blowing Problem
 
-Mark-in-Danny's-body can be fully himself around Iwona because **Iwona has no baseline for Danny.** She just got off the boat. She doesn't know how Danny laughs, what his voice cadence is, what he likes. With every other character (Tommy, Mom, Donny), Mark is performing Danny. With Iwona, he gets to be **Mark.** She's the only safe space for him in 1976 — and that happens to be the place he falls in love. That's not just romance. That's catharsis.
+Mark-in-Danny's-body can be fully himself around Iwona because **Iwona has no baseline for Danny.** She just got off the boat. She doesn't know how Danny laughs, what his voice cadence is, what he likes. With every other character (Mom, Mickey, Donny), Mark is performing Danny. With Iwona, he gets to be **Mark.** She's the only safe space for him in 1976 — and that happens to be the place he falls in love. That's not just romance. That's catharsis.
 
 ### Arrival (LOCKED — Option B)
 
@@ -140,8 +140,8 @@ This means Danny had no prior relationship with her. The romance is genuinely ne
 
 ### Arc Through the Three Acts
 
-- **Act 1 / Early Act 2:** Arrival. First sightings. Mark watches from a distance. Tommy teases him. Mark is hooked but does nothing — too shy, too convinced she's out of his league.
-- **Mid Act 2:** They start to spend time together. He hangs out at the Gorski house. The block teases him relentlessly — *"out of your league, Marek."* Iwona is patient with his terrible attempts. She is the only person in 1976 he can be honest with — because she's not from here either (see Fish-Out-of-Water Pillar below).
+- **Act 1 / Early Act 2:** Arrival. First sightings. Mark watches from a distance. The block notices him noticing. Mark is hooked but does nothing — too shy, too convinced she's out of his league.
+- **Mid Act 2:** They start to spend time together. He hangs out at the Kowalski house. The block teases him relentlessly — *"out of your league, Marek."* Iwona is patient with his terrible attempts. She is the only person in 1976 he can be honest with — because she's not from here either (see Fish-Out-of-Water Pillar below).
 - **Late Act 2 / Act 3:** Real intimacy. They get closer. She teaches him things (Polish words, dance steps). He teaches her things (American slang — some of which is wrong because it's 2027 slang, not 1976).
 - **Act 3:** The first kiss. (TBD — five staged options.) Mark realizes he's in love and doesn't want to go back to the future. But he has to. Tension at the activation moment: does he refuse?
 - **Confession (TBD — see Iwona's Knowledge below):** Recommended hybrid A2 + A3 — she suspects something is off throughout, Mark finally confesses on the eve of the activation. Heavy emotional beat. She believes him. Helps justify the bootstrap paradox at the ending.
@@ -152,7 +152,7 @@ Five options staged. Leaning hybrid A2 + A3: she suspects all through Act 2-3, M
 
 ### First Kiss Location (PENDING)
 
-Five options staged. Leaning B2: the Gorski grandmother's basement, during a dance lesson — she's teaching Mark to waltz, he's terrible, they laugh, then they stop laughing. **Final pick pending Mark's review.** Trump card: if Mark's real first kiss with Iwona happened in a specific setting, honor that one.
+Five options staged. Leaning B2: the Kowalski grandmother's basement, during a dance lesson — she's teaching Mark to waltz, he's terrible, they laugh, then they stop laughing. **Final pick pending Mark's review.** Trump card: if Mark's real first kiss with Iwona happened in a specific setting, honor that one.
 
 ### Ending Twist — The Iwona-in-Sylvia Swap
 
@@ -193,7 +193,7 @@ This is the *Cyrano / Lake House / Your Name* button. Earned through the entire 
 **Both lovers are fish-out-of-water.** Mark from 2027. Iwona from Poland. Shared otherness is the foundation of their intimacy.
 
 - Mark can't tell anyone he's from 2027. Iwona can't fully *be understood* even when she tries. Both are translating constantly. Both are lonely in a crowd.
-- Comedy from the same wellspring, opposite ends: Mark doesn't know what a fuse box is because he's from the future. Iwona doesn't know what a fuse box is because she's from Poland. They figure it out together. Tommy thinks they're both idiots.
+- Comedy from the same wellspring, opposite ends: Mark doesn't know what a fuse box is because he's from the future. Iwona doesn't know what a fuse box is because she's from Poland. They figure it out together. The block thinks they're both idiots.
 - They recognize each other before they have words for it. Iwona watches "Danny" mess up something Danny should know and her face flickers — *"I know that face. I've made that face."* That's the moment, long before the kiss.
 - The language thing becomes intimacy currency. She teaches him Polish words. He teaches her American slang — some of which is 2027 slang, not 1976, and lands wrong. They build a shared vocabulary nobody else on the block speaks. Their relationship is literally its own dialect.
 
@@ -234,7 +234,7 @@ Each tier escalation Danny writes a snarkier note. No mechanical penalty. Pure s
 
 **LOCKED:**
 - One timeline, no multiverse.
-- Body swap, future-kid wakes up as Danny.
+- Body swap, future-kid (**Mark**) wakes up as Danny in 1976. Danny wakes up as Mark in 2027.
 - Future-kid is from a vague modern American suburb, no specifics.
 - Danny is a stealth genius who hides his intelligence.
 - Danny planned a quick swap; machine broke; both stuck.
@@ -245,13 +245,12 @@ Each tier escalation Danny writes a snarkier note. No mechanical penalty. Pure s
 - Hint system: diegetic, 4 tiers, no penalty.
 - 4-5 hour playtime, 7 machine parts, 3 acts.
 - Ending: billionaire Danny in a Lambo, payout, emotional friendship beat.
-- **Romance arc with Iwona Gorski** (Polish immigrant, 15, arrives during Act 1/2 via moving van). Based on Mark's real wife.
+- **Romance arc with Iwona Kowalski** (Polish immigrant, 16, arrives during Act 1/2 via moving van). Based on Mark's real wife.
 - **Iwona-in-Sylvia ending twist** — Iwona's mind arrives in 2027 in her granddaughter Sylvia's body. Bootstrap paradox waved off.
 - **Thematic Pillar 1: Soul Not Body.** Both lovers reunite in different bodies than they started.
 - **Thematic Pillar 2: Shared Otherness.** Both Mark and Iwona are fish-out-of-water. Their intimacy is built on that. Endgame inverts: Iwona becomes the fish in 2027, Mark is home.
 
 **OPEN (TBD as we go):**
-- Future-kid's name.
 - Exact 7 machine parts.
 - Exact final activation moment (which 1976 broadcast).
 - Exact 4-5 long-con favors (current list is draft).
@@ -271,4 +270,4 @@ Each tier escalation Danny writes a snarkier note. No mechanical penalty. Pure s
 ## Change Log
 
 - **2026-05-22 (afternoon):** Initial premise locked — body swap, stealth-genius Danny, one timeline, 7 parts, mid-Act 2 Book comms, Lou Dorchen ending.
-- **2026-05-22 (evening):** Added Romance Arc (Iwona / Gorski family / based on Mark's real wife). Added Thematic Pillars (Soul Not Body / Shared Otherness). Added Iwona-in-Sylvia ending twist with bootstrap paradox punchline.
+- **2026-05-22 (evening):** Added Romance Arc (Iwona / Kowalski family / based on Mark's real wife). Added Thematic Pillars (Soul Not Body / Shared Otherness). Added Iwona-in-Sylvia ending twist with bootstrap paradox punchline.

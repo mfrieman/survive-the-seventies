@@ -31,31 +31,169 @@
 #   house:         the Marek house (rooms)
 #   block:         Linden Drive and immediately adjacent
 #   town:          Old Bay County core — downtown, the strip, the school, etc.
-#   destinations:  trips — Cursed Forest, Ocean Side, Chocolatetown, Glen Hollow
+#   destinations:  trips — Storybook Hollow, Ocean Side, Chocolatetown, Glen Hollow
 #
 # ---------------------------------------------------------------
 
 house:
   - id: dannys-bedroom
     name: Danny's Bedroom
-    reality: fake
+    change_name: false
+    reality: mixed
     zone: house
+    subzone: marek-house
+    decor_style: bedroom-rocker   # kid-bedroom override; house bones still show through
     description: |
-      Wood-paneled walls. Shag carpet (orange-brown). KISS BLAZE poster over the bed.
-      Twin bed with brown plaid bedspread. Clock radio on the nightstand permanently set to WBAY-FM.
-      A dresser with a fish tank on top that hasn't had fish in it for a year — Danny uses it for parts.
+      The wood-paneling-and-shag-carpet bones of the Marek house show
+      through wherever the posters don't reach — same harvest-gold shag
+      as the upstairs hall, same dark-walnut paneling. But the walls are
+      Danny's. KISS BLAZE poster over the bed (parody Kiss; foil
+      lettering catching the lamp light). An Aerosmith Rocks album cover
+      thumbtacked to the closet door. A folded-out Creem magazine
+      centerfold of Mickey's guitar hero. A peace sign in Sharpie on
+      the back of the door from when Danny was eleven and thought it
+      was deep.
+
+      Twin bed with a brown plaid bedspread that has been worn smooth
+      and is two washes from being a rag. Clock radio on the nightstand
+      permanently set to WBAY-FM. A dresser with a fish tank on top —
+      hasn't held fish in a year; Danny uses it for electronics parts
+      that don't fit in the basement workbench. A guitar in the corner
+      he doesn't really play (he tells Mickey he does).
+
+      The room smells like Old Spice he started wearing six months ago,
+      sneakers, and a damp towel he forgot to hang up. The clock radio
+      is on at all hours.
     layout: |
-      Door (east) to hallway. Window (north) to backyard. Bed against west wall.
-      Desk under window with the Book, an open issue of MAD, and a partially disassembled clock radio.
-      Closet (south) — guitar Danny doesn't really play, board games, hidden notebook.
+      Door (east) to upstairs hallway. Window (north) to backyard —
+      overlooks Kay's fenced garden and the alley gate. Bed against
+      west wall, head under the KISS BLAZE poster. Desk under the
+      window with the Book, an open issue of MAD, and a partially
+      disassembled clock radio. Dresser on the east wall with the fish
+      tank (parts) on top. Closet (south) — the guitar, board games,
+      hidden notebook taped under the top shelf.
     key_features:
-      - The Book (always on desk)
-      - Closet — hidden notebook taped under shelf
-      - Fish tank — parts storage
+      - The Book (always on the desk; primary mid-Act-2 communication channel)
+      - The closet — hidden notebook taped under the top shelf
+      - The fish tank — parts storage, real puzzle inventory
       - Under the bed — wooden box (the swap crystal lives here in 2027 too)
-    inhabitants: []
+      - The KISS BLAZE poster (recurring scene-set; foil catches lamp light)
+      - The clock radio (always on; WBAY-FM scene-set)
+      - The guitar (lie maintenance — Mickey thinks Danny plays it)
+      - The window to the backyard / alley (visual line on the alley gate)
+    inhabitants: [danny-marek]
+    related_places: [marek-house]
+    hours: always
+    danger_level: safe
+    tags: [bedroom, protagonist-room, rocker, kid-sovereign-territory]
     audience: both
-    notes: Where the player wakes up. The first room of the game.
+    notes: |
+      DESIGN NOTE — Where the player wakes up. The first room of the game.
+      Danny's bedroom is a `bedroom-rocker` per the kid-bedroom rule in
+      the decor catalog. The Marek house's colonial-american-bicentennial
+      bones (wood paneling, shag carpet) still show through, but the
+      walls, the music, and the air belong to Danny.
+
+  # ---- The Marek house — 1437 Linden Drive ----
+  # Danny's home. Where the swap happened. Where the player wakes up.
+
+  - id: marek-house
+    name: The Marek House
+    change_name: true
+    reality: mixed
+    zone: house
+    decor_style: colonial-american-bicentennial
+    description: |
+      A modest two-story rowhouse-style place on Linden Drive. Aluminum
+      siding, a small front porch with a wrought-iron railing Kay made
+      Dennis paint white in '74, two concrete steps to the sidewalk. A
+      fenced backyard with a gate to the alley — you can park a car back
+      there, and Dennis sometimes does when he's brought home job-site
+      scraps.
+
+      Inside, the house commits all the way to its bit: COLONIAL AMERICAN
+      BICENTENNIAL, 1976 edition. Eagle on the wall. Wagon-wheel chandelier
+      in the dining room. The big floral-and-plaid wingback "parlor set"
+      anchors the living room — exposed maple frame, knotty-pine accents,
+      harvest-gold and burnt-orange palette, the kind of couch you can
+      hear sit down. A framed cross-stitch of the Liberty Bell. A bald
+      eagle decanter on top of the console TV that hasn't held a drop in
+      a decade (Kay doesn't drink, Dennis drinks beer not bourbon).
+
+      The living room is dominated by two pieces of furniture-grade
+      electronics. First: the console TV, a 1968 Magnavox monster with
+      vacuum tubes and a click-wheel dial — UHF and VHF, five channels
+      that come in clear, two more that come in if it's foggy. It takes
+      45 seconds to warm up and another 30 to cool down. Second: the
+      Precedent Stereophonic Recordergram — a high-gloss maple cabinet
+      from the early '60s with a four-speed Garrard turntable, a valve
+      amplifier with AM radio, and a BSR three-speed reel-to-reel. Gold
+      thread speaker fabric. Kay's altar. The Motown lives here. Loud.
+
+      The kitchen has one of those 1970s Harvest Gold refrigerators that
+      weighs eight hundred pounds and could survive a direct artillery
+      hit, and a matching gas stove that looks like an APC. Linoleum
+      floor in a fake-brick pattern. A Formica dinette set under the
+      window. A wall-mounted black rotary phone with a cord that reaches
+      the basement.
+
+      Smell: Kool 100s, brewed coffee, joint compound (Dennis's clothes
+      live here), and whatever Kay's cooking — which, unlike Athena
+      Karras, Kay actually does cook, and pretty well.
+
+      Sound: the stereo (Motown), the TV (something Dennis put on),
+      Kay's voice cutting through both.
+    layout: |
+      Front door → small foyer → living room (left) with the parlor set
+      facing the console TV and the Precedent stereo against the long
+      wall. Dining room (straight ahead) with the wagon-wheel chandelier,
+      heavy maple table that seats six, hutch full of Bicentennial
+      commemorative plates Kay actually uses. Kitchen (off the dining
+      room) with the tank fridge, the tank stove, the dinette, the
+      back door to the yard. Upstairs: three bedrooms (Kay & Dennis,
+      Danny, Bobby) and one bathroom shared by everyone, which is its
+      own running headache. Basement: Dennis's tool corner, a chest
+      freezer, the washer/dryer, and the long workbench where Danny
+      built the machine and where the broken pieces still sit under a
+      tarp.
+    key_features:
+      - The Precedent Stereophonic Recordergram (Kay's altar; the Motown lives here)
+      - The console Magnavox TV (warm-up gag; click-wheel dial; "fix the rabbit ears")
+      - Dennis's recliner (the throne; do not sit in it when Dennis is home)
+      - The wagon-wheel chandelier in the dining room (era-perfect; great visual)
+      - The harvest-gold tank fridge (puzzle potential — what's in the freezer)
+      - The Bicentennial wall display (eagle, Liberty Bell cross-stitch, commemorative plates)
+      - The wall phone in the kitchen (one of the household's main player tools)
+      - Danny's bedroom (see: dannys-bedroom — separate entry)
+      - The basement workbench (where the time machine was built and broken)
+      - The fenced backyard with alley gate (can park a car; main stealth route)
+    inhabitants: [kay-marek, dennis-marek, danny-marek, bobby-marek]
+    related_places: [dannys-bedroom]
+    hours: always
+    danger_level: safe
+    tags: [protagonist-home, family-home, bicentennial, motown-loud]
+    audience: both
+    notes: |
+      DESIGN NOTE 1 — Stereo importance: The Precedent is a character.
+      Kay has the Motown on most of the day; the player can hear what's
+      playing as a scene-setter and Kay's mood barometer. A specific
+      song queued can foreshadow scenes.
+
+      DESIGN NOTE 2 — TV warm-up gag: The 45-second warm-up is a real
+      thing about 1968 tube TVs and a useful comedy beat — Dennis turns
+      it on, sits down, the screen finally appears just as he's said
+      something Kay can yell at him about.
+
+      DESIGN NOTE 3 — Basement is a workshop, not a hangout. Counterpoint
+      to the Karras Dungeon: the Marek basement is utilitarian, Dennis's
+      domain, where the broken time machine lives. It is NOT a party
+      space. (Future split into its own entry when needed.)
+
+      DESIGN NOTE 4 — The alley gate is the player's friend. Stealth
+      ingress/egress that bypasses Kay in the kitchen. Mirrors the
+      Karras Dungeon's roll-up door — both important homes have an
+      alley-side back-door route.
+    depth: sketch
 
 block:
 
@@ -219,11 +357,122 @@ block:
       Possible long-con favor location.
     depth: sketch
 
+  # ---- The Kowalski house — packed Polish household ----
+  # Home of the Kowalski family. Eight people under one roof:
+  # Jack, Mary, Natan, Jacob, Maggie, Peter, Eva, Iwona. Brick
+  # rowhouse shell, Scandinavian Modern interior, European front
+  # garden. Possible placement: next door to or across from the
+  # Mareks (TBD). All Kowalski entries: `people.yaml > neighborhood`.
+
+  - id: kowalski-house
+    name: The Kowalski House
+    change_name: false
+    reality: mixed
+    zone: block
+    decor_style: scandinavian-modern-european-overlay
+    description: |
+      A brick rowhouse on Linden Drive — identical bones to every
+      other house on the block, completely different inside. From
+      the street: tidy, *too* tidy. The front yard is a small
+      European-style garden — boxwood hedges instead of azaleas,
+      a stone planter with geraniums, and a tiny gravel path
+      bordered by white-painted bricks half-buried at an angle.
+      It looks like someone transplanted a corner of Kraków onto
+      a Maryland sidewalk. The neighbors think it's "interesting."
+
+      Smells like wood polish, fresh bread, instant coffee, and
+      faintly of pierogi from Maggie's eternal pot. There is always
+      music somewhere in the house — Peter playing accordion in
+      the back room, Natan's record player in the upstairs bedroom,
+      the kitchen radio tuned to a Polish-language AM station only
+      Mary listens to. Loud voices. Polish phrases threaded through
+      English sentences. Eight people, one bathroom upstairs, one
+      half-bath downstairs — it is always a little chaotic.
+    layout: |
+      ENTRY: small foyer with a tiled floor, a coat rack stacked
+      with too many coats, and a console table holding mail Mary
+      hasn't gotten to.
+
+      LEFT: the FRONT SITTING ROOM — kept perfectly clean, off-
+      limits to children, used four times a year for parties.
+      Marimekko-print curtains, a low Danish-teak coffee table, a
+      pristine white sofa with linen throws no one is allowed to
+      move. A framed cross-stitched landscape of the Tatra Mountains
+      on the wall. The room smells like furniture polish. It is
+      the cleanest room on the block.
+
+      RIGHT: the LIVING ROOM where the family actually lives.
+      Television. Recliner (Jack's). Pile of National Geographics.
+      Peter's accordion case leaning against the wall. Maggie's
+      armchair angled toward the front window so she can watch
+      the street.
+
+      BACK: the KITCHEN — the heart of the house. Tile floor,
+      formica table for eight (when chairs are dragged in from
+      other rooms). One pot of something always on the stove.
+      Mary's recipe books open on the counter, half of them in
+      Polish, half in English. The Polish-language AM radio lives
+      on top of the fridge.
+
+      UPSTAIRS: four bedrooms. Jack & Mary's. Natan's (clothes
+      racks, fabric swatches, a sewing machine, a record player).
+      Jacob's (books, a chemistry set, dark posters). Iwona's
+      (TBD — Mark to detail; reference `bedroom-girl-disco` or
+      her own custom variant). Maggie has the small back bedroom
+      downstairs (couldn't manage the stairs anymore).
+
+      BASEMENT: half-finished. Workshop area with Peter's tools
+      and easel + Jack's electrician supplies in metal cabinets.
+      The other half is open — possibly the dance-lesson space
+      from the locked-pending first-kiss scene (see `premise.md`).
+
+      BACKYARD: small, fenced. Eva has started a vegetable garden.
+      A clothesline. An alley behind.
+    key_features:
+      - "The front sitting room — off-limits, perfect, four parties a year. Comedy of restraint."
+      - "Maggie's chair angled at the front window — she watches everyone on the block, names them all wrong, loves them all."
+      - "Peter's accordion case — leans on the living-room wall; he picks it up without warning."
+      - "The Polish-language AM radio on top of the fridge — Mary's morning ritual."
+      - "Eight coats on a four-coat rack in the foyer — always in danger of collapse."
+      - "The basement workshop — Peter's easel and Jack's electrician supplies. Possible parts source for Danny's machine."
+      - "The basement dance space (the other half) — possible first-kiss location (see premise.md)."
+      - "European front garden — boxwoods, geraniums, gravel path. Visually distinct from every other house on Linden."
+      - "Iwona's bedroom window — visible from a specific spot on Linden, possibly from the Marek house roof."
+    inhabitants:
+      - jack-kowalski
+      - mary-kowalski
+      - natan-kowalski
+      - jacob-kowalski
+      - maggie-kowalski
+      - peter-kowalski
+      - eva-kowalski
+      - iwona-kowalski
+    hours: always open (it's a home)
+    danger_level: safe
+    tags: [house, neighbor, polish, romance-arc, packed-household, party-house-potential]
+    audience: both
+    notes: |
+      DESIGN — this house is the gateway to Iwona. The mechanics
+      of "getting invited in" matter: it's not Mickey's garage where
+      you walk through the side door. The Kowalski house has rules.
+      Mary's rules. Take your shoes off. Compliment the kitchen.
+      Say hello to Maggie. Don't run.
+
+      FUTURE — the packed-household setup is deliberate. When we
+      get to scene design, the "crazy Polish family party" scene
+      lives here: eight people plus extended family plus neighbors,
+      accordion, vodka, food on every flat surface, Maggie calling
+      everyone the wrong name with affection.
+
+      OPEN — exact placement on Linden (next door / across from /
+      two doors down from the Mareks) is TBD.
+    depth: deep
+
   # ---- Future entries to consider ----
   #   - 1437 Linden Drive (the Marek house, exterior)
   #   - The alley behind Linden
   #   - The creek at the end of the cul-de-sac
-  #   - The Kowalski house (the bully's)
+  #   - The bully's house (Donny — last name TBD)
   #   - The cool older brother's driveway with the Camaro on blocks
 
 town: []
@@ -239,9 +488,115 @@ town: []
   #   - The record store
   #   - The pool
 
-destinations: []
-  # Examples (already in world-map.md draft):
-  #   - The Cursed Forest (fake Enchanted Forest)
+destinations:
+  - id: storybook-hollow
+    name: Storybook Hollow
+    change_name: false
+    reality: parody
+    zone: destination
+    decor_style: cheap-regional-amusement-park-1976
+    hours: |
+      Daytime — open Memorial Day through Labor Day, weekends + select
+      weekdays, gates close at dusk. After dusk it is locked but very
+      lockable-from-outside, not lockable-from-inside, if you know what
+      I mean.
+    danger_level: dangerous
+    description: |
+      The cheap regional storybook-theme park forty-five minutes west of
+      Old Bay County, off Route 40. Parody of Maryland's real Enchanted
+      Forest. Sun-faded plywood castle gate painted that specific 1956
+      shade of "we used whatever was on sale." Smells like hot tar,
+      popcorn, pond water, and the kind of warm rubber that only old
+      amusement parks smell like. Cicadas at all times. A loudspeaker
+      pole near the snack bar plays scratchy nursery-rhyme music on a
+      loop that has been on a loop since 1961.
+
+      Two completely different places depending on the hour:
+
+      DAYTIME: screaming kids, popcorn, the antique cars smashing into
+      each other, mothers smoking on benches. The horror is the
+      safety-failures-in-broad-daylight comedy.
+
+      NIGHTTIME (after the gates close): pitch dark except for one
+      service light by the snack bar. The painted dwarves and Willie
+      the Whale and the dead-eyed deer in the petting zoo become
+      genuinely uncanny. The block knows three ways in through the
+      back fence.
+    layout: |
+      Front gate is the white plywood castle wall with two crenellated
+      towers. Inside, a curving asphalt path wanders past the storybook
+      cottages (Snow Princess, Cinder Girl, Old Woman in the Shoe, Red
+      Cape, Goldie & the Bears, Hickory Dock, Miss Muffet, Boy Blue,
+      Easter Bunny House, Robin the Sailor's island, the giant teapot).
+      Path opens onto the central pond (tugboat dock + manmade
+      slide-mountain). Rides are scattered on the perimeter: the
+      Antique Cars, the Mother Goose Pumpkin Coach, the Teacup Train,
+      Jungle Land tram, the moon bounce, the petting zoo. Willie the
+      Whale sits at the far north end of the pond — climb in through
+      his mouth.
+
+      Back fence runs along a strip of woods. Three known hop-spots,
+      one with a known cut. Service road on the far side loops to a
+      gravel maintenance yard.
+    key_features:
+      # Daytime rides + exhibits — every one is a vignette
+      - "The Front Gate Castle: white plywood, two flag poles, one with a flag, one without"
+      - "Antique Car Ride: real gas-powered, no center barrier, kids smash into walls and each other, no seatbelts"
+      - "Little Teapot Tugboat: open boat, no life jackets, slow circle of the pond, docks at the slide-mountain"
+      - "The Slide Mountain: long metal slide painted to look like rock — temperature of a frying pan in July"
+      - "Mother Goose Pumpkin Coach: front car shaped like a team of mice pulling a pumpkin carriage, runs fast through a concrete trough with shallow water, ends at the castle interior with the famous bars"
+      - "The Castle Interior (end of Mother Goose ride): concrete-block walls, metal bars for windows. Kids regularly get stuck in the bars. AUTOBIOGRAPHICAL — Mark got stuck here as a kid."
+      - "Jungle Land Tram: truck pulling two open trailers, fast over hills, cement-cast jungle animals"
+      - "The Teacup Train: train of teacups on tracks, with plain benches between them, no bars, no belts, surprisingly fast"
+      - "The Moon Bounce: filthy, a black sheen on every surface, never cleaned"
+      - "Petting Zoo: includes deer. Deer are bad petting-zoo animals."
+      - "Playgrounds: scattered 1970s 'death metal' playgrounds — bare metal slides, see-saws over concrete, the kind of monkey bars that punished you"
+      - "Willie the Whale: massive painted plaster whale with a mouth you climb into. Famously a stuck-kid hotspot. The most iconic thing in the park."
+      - "The Storybook Cottages: tiny plywood houses for each fairy tale. Half the figures are missing eyes. The dwarves' paint job has aged into something disturbing."
+      - "The Snack Bar: cotton candy, snow cones, hot dogs that have been on the roller since June"
+      # Night-mode features
+      - "Back Fence Cut (NIGHT): chain-link with a slit at knee height, well-known to the block kids"
+      - "The Maintenance Yard (NIGHT): gravel lot behind the petting zoo where the rent-a-cop parks his Pinto"
+      - "The Rent-a-Cop's Patrol Loop (NIGHT): slow walk around the perimeter with a flashlight, takes ~12 minutes per circuit"
+      - "The Tugboat Pond (NIGHT): unsupervised; ladders to the tugboat are still down; the manmade mountain catches moonlight"
+      - "The Mother Goose Pumpkin (NIGHT): still parked in its bay, climbable, perfect for a stupid photo or a stupid first kiss"
+    inhabitants:
+      # Daytime
+      - "bobby-marek (daytime, mandatory)"
+      - "kay-marek (daytime, drop-off only — she goes to the car to smoke and read Reader's Digest)"
+      # Night
+      - "block kids TBD (night)"
+      - "the rent-a-cop (named TBD)"
+    audience: both
+    tags: [destination, period-piece, two-modes, kids-and-teens, set-piece, parody]
+    notes: |
+      DESIGN — TWO MODES:
+      1. Daytime "Watch Your Brother" mode. Mom dumps Danny + Bobby at
+         the front gate with $5 and a 4 PM pickup. Bobby is in heaven.
+         Danny is suffering. Possible structure: each ride is a
+         vignette / micro-encounter with its own skill check. Centerpiece
+         bit is Bobby getting stuck in the castle bars at the end of
+         the Mother Goose ride — the autobiographical beat.
+      2. Nighttime "Break-In" mode. Park is locked. Block kids know the
+         fence cut. Sneak past the rent-a-cop's flashlight loop, dare
+         each other onto the tugboat / into Willie's mouth / down the
+         metal slide. Endgame: get spotted, scatter through the back
+         woods, regroup at the creek. (Danny's choice to go vs. stay
+         home with the Book is meaningful — quest mechanics TBD when
+         we design quests proper.)
+
+      Bobby's pull as a recurring driver: he wants to go BACK. Repeat
+      visits unlock new ride disasters.
+
+      PARODY / IP NOTE: every storybook character is just slightly off
+      the licensed property. Snow Princess (not Snow White) and her
+      seven generic short men. Cinder Girl (not Cinderella). The
+      narrator lampshades it. ("Whoever painted the dwarves was sued
+      by a major studio in 1958 and lost.")
+
+    depth: deep
+
+  # Future destination entries to consider:
   #   - Ocean Side (fake Ocean City MD)
   #     - Stomper's Rides midway (fake Trimper's)
   #     - The boardwalk

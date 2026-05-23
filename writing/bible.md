@@ -31,15 +31,16 @@ having it.
   narrator now understands was happening* (he was a moron in Toughskins
   jeans and a Members Only knockoff).
 - **The narrator never says the slurs.** That's a key tonal line — he
-  winces at them, comments on them, sometimes openly. "Tommy called him
-  a retard, because in 1979 that was a thing you could just say at the
-  kitchen table and nobody flinched."
+  winces at them, comments on them, sometimes openly. "Somebody at the
+  table called him a retard, because in 1979 that was a thing you could
+  just say and nobody flinched."
 
 ## Inner voices (max 3 — keep it simple)
 1. **Common Sense** — quiet, usually right, usually ignored. Sounds a
    little like your dad.
 2. **Dumb Kid Bravery** — loud, charismatic, the reason we're here.
-   Sounds like Tommy, your idiot best friend.
+   Sounds like the kid in the back of the bus who already broke his arm
+   once this year.
 3. **Mom (Imagined)** — the voice in your head reciting things Mom has
    already said this week. Triggered by especially bad ideas.
 
@@ -55,8 +56,8 @@ kids in 1979. Sanitizing it makes it not funny — and not true.
   them — as cheap insults thrown at friends who missed a jump, not as
   hate aimed at real groups.
 - **Smoking, drinking, weed, joyriding.** The fun is in *getting it* —
-  finding a guy outside the liquor store, scoring a roach off Tommy's
-  brother, sneaking the keys to the Pinto while the older kids are in
+  finding a guy outside the liquor store, scoring a roach off an older
+  kid, sneaking the keys to the Pinto while the older kids are in
   the pool. The chase is the comedy.
 - **Crushes, dates, getting shot down.** Karen at the 7-Eleven, the
   older girl who maybe smiled at you, working up the nerve to call a
@@ -79,7 +80,7 @@ kids in 1979. Sanitizing it makes it not funny — and not true.
   goes wrong every time — that's the rule.
 
 ### How to use the ugly slang well
-- **Aimed at peers, not real targets.** Tommy missed the creek jump?
+- **Aimed at peers, not real targets.** Somebody missed the creek jump?
   "You retard." Stranger on the corner? Never.
 - **Density: sprinkle, don't dump.** A scene with two of those words
   feels like 1979. A scene with eight feels like the writer has a
@@ -127,8 +128,8 @@ came back, the priest, the principal.
 **Substances:**
 warm Schlitz from somebody's dad's garage fridge, a single can of
 Budweiser passed between four kids, peach schnapps from a Mom's purse,
-Boone's Farm (the older sister's), a roach Tommy's brother left in the
-ashtray, an entire joint somebody scored from a guy at the mall,
+Boone's Farm (somebody's older sister's), a roach an older kid left in
+the ashtray, an entire joint somebody scored from a guy at the mall,
 Marlboro Reds (older kids), Kools (cousin), Tareytons (the burnouts).
 
 **Objects:**
@@ -172,7 +173,6 @@ through 14yo POV: "skunk that had been on fire"), beer breath.
 - "Rad"
 - "Far out" (older kids still say it, ironic by '79)
 - "Psyche!" (when you fake somebody out)
-- "Eat my shorts"
 - "What a trip"
 - "Bogus"
 - "Burnout" (a person — pothead older kid in a Sabbath t-shirt)
