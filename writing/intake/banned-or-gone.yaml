@@ -1,0 +1,102 @@
+# banned-or-gone.yaml — things that no longer exist or got pulled from market
+#
+# This is your "dangerous toys / banned vending machines" research goldmine.
+#
+# SCHEMA
+#   id:            kebab-case (required)
+#   name:          (required)
+#   reality:       real | mixed
+#   category:      toy | food | drug | vehicle | machine | substance | tech | service
+#   description:   |  what it was, how it worked
+#   how_it_hurt_people: |  the specific injury or risk
+#   when_it_went_away:  rough year or era ("recalled 1977", "phased out late 80s", "still legal but socially extinct")
+#   how_to_use_in_game: |  encounter, puzzle item, contraband, environmental detail
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both
+#   notes:         |
+#
+# ---------------------------------------------------------------
+
+items:
+  - id: lawn-darts
+    name: Lawn Darts (Jarts)
+    reality: real
+    category: toy
+    description: |
+      Yard game. Heavy metal-tipped 12-inch darts you THREW UNDERHAND into a plastic ring on the lawn.
+      Like horseshoes but with a 4-inch steel spike pointed at the sky on every landing.
+    how_it_hurt_people: |
+      Skewered children's skulls. Multiple deaths. CPSC banned them in 1988.
+    when_it_went_away: Banned 1988. Still legal in 1976.
+    how_to_use_in_game: |
+      Every backyard has them in the shed. Set piece. Possibly puzzle: throw them to break a window from a distance?
+      Possibly a "are you SURE you want to play this" comedy choice.
+    tags: [toy, deadly, banned, backyard]
+    audience: both
+    notes: One of the all-time perfect "we did WHAT?" gags.
+
+  - id: clackers
+    name: Clackers / Klick-Klacks
+    reality: real
+    category: toy
+    description: |
+      Two acrylic balls on a string. You held the middle ring and pumped your hand up and down
+      until the balls clacked together at top and bottom. Made an EAR-SPLITTING sound.
+    how_it_hurt_people: |
+      Balls shattered on impact, sending acrylic shrapnel into kids' faces. Wrists got destroyed.
+      Pulled from market mid-70s after lawsuits.
+    when_it_went_away: Original recalled ~1976. Right inside our game window.
+    how_to_use_in_game: |
+      Maybe the cool-but-broken thing the older kid has. Maybe a "use to make loud noise" puzzle item.
+    tags: [toy, banned-in-game-window, noisemaker]
+    audience: both
+
+  - id: cigarette-vending-machine
+    name: Cigarette Vending Machine
+    reality: real
+    category: machine
+    description: |
+      Coin-op cigarette dispenser in every bar, bowling alley, gas station, diner.
+      75¢. Pull a knob, pack drops out. Pack of matches included free. ZERO ID check.
+    how_it_hurt_people: |
+      Kids bought cigarettes. That's the whole thing. They were everywhere.
+    when_it_went_away: Mostly gone by mid-90s after the 1992 federal restrictions. A few hung on into the 2000s.
+    how_to_use_in_game: |
+      Bowling alley puzzle item. Source of cigarettes for currency/trade. Possibly part of a heist
+      (jam the mechanism with a slug, get a free pack).
+    tags: [machine, contraband-source, mark-research]
+    audience: both
+
+  # KEEP ADDING — examples to seed your research:
+  #   - leaded gasoline (still sold in 76; phased out 86-96)
+  #   - lawn jarts (above)
+  #   - clackers (above)
+  #   - chemistry sets with actual uranium and asbestos
+  #   - asbestos in ironing board covers, fake snow, hair dryers
+  #   - mercury thermometers, mercury switches in thermostats
+  #   - the metal slide at the park in 95-degree sun
+  #   - swing sets bolted into hardpan with no rubber matting
+  #   - merry-go-rounds (the centrifugal-force kind that flung kids)
+  #   - the high dive at every pool
+  #   - kid car seats were nonexistent or a glorified booster
+  #   - DDT for mosquito spraying (truck would drive down the block in fog and kids would run after it)
+  #   - asbestos brake pads (auto class) — boys would sand them with bare hands
+  #   - "Fat Man" toys with lead paint
+  #   - hard plastic playground equipment with sharp edges
+  #   - cigarette-and-bubble-gum baseball cards (kid candy + tobacco branding)
+  #   - candy cigarettes (with red tips!)
+  #   - those little candy buttons on paper strips (you ate the glue)
+  #   - super elastic bubble plastic (plastic balloons inflated from solvent-glue tube — kids huffed it)
+  #   - butter that came in a bag with a dye packet you kneaded
+  #   - newspaper vending machines (honor-system payment, took quarters, was sometimes broken open)
+  #   - phone booths (gone by 2010s)
+  #   - dial-up car phones (rich-people thing, just emerging)
+  #   - the milkman (still in some areas)
+  #   - paper route on a bike at 5am, alone (kids did this!)
+  #   - going to the airport gate to greet someone with no ticket
+  #   - smoking sections on AIRPLANES
+  #   - the "knock-knock" door-to-door encyclopedia salesman
+  #   - tab pull-rings (the loose metal tabs that ended up in beach sand and your foot)
+  #   - lead solder for stained glass kits sold to children
+  #   - real fireworks freely sold across state lines
+  #   - the carnival ride that was clearly assembled by drunk people that morning

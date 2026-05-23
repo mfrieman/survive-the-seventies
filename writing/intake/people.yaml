@@ -1,0 +1,100 @@
+# people.yaml — humans who shaped the 1976 world
+#
+# SCHEMA (per entry under `people:`)
+#   id:            kebab-case, unique. Used for cross-refs. (required)
+#   name:          their name as used in the game (required)
+#   real_name:     optional — only if change_name: true and you want to remember who it was based on
+#   change_name:   true | false  — should I rename them in the game canon?
+#   reality:       real | mixed | fake | parody  (required)
+#   role:          one-line role tag — "mom", "best friend", "the bully", "weird neighbor", "shop teacher"
+#   age_1976:      number or range like "40s"
+#   relation:      relation to Danny (the player character)  — "mother", "schoolmate", "older kid on the block"
+#   physical:      |  short physical sketch. hair, clothes, signature object. one or two lines.
+#   voice:         |  how they talk. accent, catchphrases, vocabulary. one or two lines.
+#   vibe:          |  the feel. funny, scary, sad, predatory, oblivious. one or two lines.
+#   role_in_game:  how they function for the player — "gatekeeper for X", "ally", "obstacle", "comic relief", "vendor"
+#   stories:       list of story IDs (from stories.yaml) they appear in
+#   tags:          free-form list — ["family","authority","kind","dangerous-adult","kid"]
+#   audience:      gen_x | gen_z | both
+#   notes:         |  anything else. real-vs-fake notes, sensitivities, ideas for puzzles tied to them
+#
+# CATEGORIES — put entries under the right top-level key for browsing
+#   family:        immediate family
+#   friends:       Danny's peer group
+#   neighborhood:  adults and kids on the block
+#   school:        teachers, principals, fellow students
+#   famous_local:  local-celebrity types — the cop everybody knows, the mean store owner
+#   strangers:     one-off NPCs (the guy outside the liquor store, the carnie at Stomper's)
+#
+# ---------------------------------------------------------------
+
+family:
+  - id: mom
+    name: TBD
+    change_name: true
+    reality: mixed
+    role: mom
+    age_1976: 38
+    relation: mother
+    physical: |
+      EXAMPLE — replace with your mom or invent. e.g. "Always in a housedress in the morning,
+      then changes for work. Smokes Virginia Slims at the kitchen table. Curlers on Saturdays."
+    voice: |
+      EXAMPLE — "Marylander. Says 'hon.' Threatens to call your father a lot."
+    vibe: |
+      EXAMPLE — "Loves you but is exhausted. The mom from 'A Christmas Story' — practical, tired, funny when she doesn't mean to be."
+    role_in_game: obstacle + provider + occasional ally. Gatekeeper for the house, the food, the cash. Threw out the machine.
+    stories: []
+    tags: [family, authority, funny]
+    audience: both
+    notes: |
+      Real-vs-fake TBD. Mark, decide how close to your real mom you want her.
+
+friends:
+  - id: tommy
+    name: Tommy
+    change_name: false
+    reality: mixed
+    role: best friend
+    age_1976: 14
+    relation: best friend since 2nd grade
+    physical: |
+      TBD — your call. e.g. "Skinny, freckles, perpetually scraped knees. AC/DC shirt three sizes too big."
+    voice: |
+      TBD
+    vibe: |
+      TBD — loyal? scheming? funnier than Danny? dumber than Danny?
+    role_in_game: |
+      Primary co-conspirator. Drags Danny into trouble. Doesn't know Danny isn't Danny.
+      The character whose cover-blowing risk is HIGHEST — Tommy knows Danny too well.
+    stories: []
+    tags: [peer, ally, troublemaker]
+    audience: both
+    notes: |
+      Currently a placeholder name. Pick the real friend this should be based on (or invent).
+
+neighborhood: []
+  # Examples to add:
+  #   - the mean lady who keeps any ball that lands in her yard
+  #   - the cool older brother across the street with the Camaro
+  #   - the dad who works on cars every weekend and lets kids hang around
+  #   - the weird kid two doors down nobody plays with
+  #   - Donny the bully
+
+school: []
+  # Examples:
+  #   - shop teacher who's missing fingers
+  #   - the cool young English teacher all the kids have a crush on
+  #   - the principal who paddles kids
+  #   - the kid who eats glue
+  #   - the rich kid
+
+famous_local: []
+  # Examples:
+  #   - the cop everyone knows by first name
+  #   - the guy who runs the arcade and is rumored to be in the mob
+  #   - the lifeguard at the public pool everyone fears
+  #   - the mean owner of the corner store
+
+strangers: []
+  # One-offs you might never name. Used for color.

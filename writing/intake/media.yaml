@@ -1,0 +1,106 @@
+# media.yaml — TV shows, movies, music, books, magazines, comics, games
+#
+# SCHEMA
+#   id:            kebab-case (required)
+#   name:          in-game (parody) name (required)
+#   real_name:     IRL name
+#   change_name:   true | false
+#   reality:       parody | real (real only if it's something we can legally reference — public-domain or generic)
+#   medium:        tv | movie | song | album | band | book | magazine | comic | game | radio_show
+#   year:          when it dropped IRL (or our parody version)
+#   description:   |  what it is, why it mattered, the joke if any
+#   in_world_use: |  how the player encounters it — poster on wall, song on radio, item to acquire, conversation topic
+#   currency_value: optional — if it's tradeable
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both
+#   notes:         |
+#
+# CATEGORIES
+#   tv
+#   movies
+#   music_bands
+#   music_songs
+#   magazines
+#   comics
+#   books
+#   games
+#   radio
+#
+# ---------------------------------------------------------------
+
+tv: []
+  # Examples (some already in world.md):
+  #   - Six Million Dollar Man → "The Bionic Guy" (TBD)
+  #   - Charlie's Angels → "Charlie's Cherubs"
+  #   - Happy Days → "Glory Days"
+  #   - All in the Family → "Family Roof"
+  #   - Sanford and Son → ?
+  #   - The Brady Bunch (technically 70-74 but reruns dominated)
+  #   - Saturday morning cartoons: Scooby Doo, Looney Tunes, Schoolhouse Rock
+
+movies: []
+  # Examples:
+  #   - Star Wars → Super Star Adventures (in world.md)
+  #   - Jaws → "Chomp"
+  #   - Rocky → "Bruiser"
+  #   - The Bad News Bears
+  #   - Smokey and the Bandit
+  #   - Bicentennial historical TV movies
+
+music_bands: []
+  # Examples:
+  #   - KISS → BLAZE (in world.md)
+  #   - Led Zeppelin → ?
+  #   - Pink Floyd → ?
+  #   - Bee Gees → ?
+  #   - Donna Summer → ?
+  #   - Aerosmith → ?
+  #   - Lynyrd Skynyrd → ?
+  #   - Black Sabbath → ?
+  #   - Eagles → ?
+
+music_songs: []
+  # Songs we want playing on the radio in scenes.
+  # Examples:
+  #   - "Afternoon Delight" → ?
+  #   - "Stairway to Heaven" → ?
+  #   - "Hotel California" → ?
+  #   - "Bohemian Rhapsody" → ?
+  #   - any disco track playing upside-down on the Avalanche
+
+magazines: []
+  # Examples:
+  #   - Playboy → "Playmate"? "Centerfold"? (in world.md)
+  #   - MAD Magazine → "ANGRY"
+  #   - Boys' Life
+  #   - Hot Rod
+  #   - Tiger Beat
+  #   - National Lampoon
+  #   - Reader's Digest
+
+comics: []
+  # Examples:
+  #   - Marvel/DC books on spinner racks
+  #   - Archie comics
+  #   - Cracked Magazine
+
+books: []
+  # Examples:
+  #   - the encyclopedia set on the shelf
+  #   - The Hardy Boys
+  #   - Choose Your Own Adventure (started 79 — just in range for game-end)
+  #   - school textbooks
+
+games: []
+  # Examples:
+  #   - Atari (Pong launched home 75, 2600 in 77)
+  #   - pinball machines at the arcade
+  #   - board games: Operation, Battleship, Stratego, Risk
+  #   - D&D (first edition 74 — Danny might be the only kid playing)
+
+radio: []
+  # Examples:
+  #   - WBAY-FM (parody — local rock)
+  #   - the AM oldies station
+  #   - the religious station
+  #   - the DJ giveaway puzzle

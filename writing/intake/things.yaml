@@ -1,0 +1,142 @@
+# things.yaml — objects, toys, gadgets, food, candy, contraband, gear
+#
+# SCHEMA
+#   id:            kebab-case (required)
+#   name:          in-game name (required)
+#   real_name:     IRL name if renamed
+#   change_name:   true | false
+#   reality:       real | mixed | fake | parody  (required)
+#   category:      toy | gadget | food | candy | drink | contraband | clothing | tool | currency | misc
+#   description:   |  what it is, how it works
+#   why_it_matters: |  why it's in the game — comedy beat, puzzle component, currency, status symbol
+#   puzzle_use:    optional — what puzzle this could solve ("dog distraction", "tv repair", "phone-booth callback")
+#   currency_value: optional — barter value tier  (junk | useful | valuable | gold)
+#   danger:        none | mild | injury | hospitalization | banned
+#   where_found:   list of place IDs
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both
+#   notes:         |
+#
+# CATEGORIES (top-level keys)
+#   toys
+#   gadgets
+#   food_drink
+#   candy
+#   contraband
+#   tools
+#   clothing
+#   currency           — anything that gets traded
+#   media_objects      — physical media: 8-tracks, vinyl, Polaroids (overlaps with media.yaml — put the OBJECT here, the TITLE there)
+#
+# ---------------------------------------------------------------
+
+toys:
+  - id: evel-knievel-stunt-cycle
+    name: Stunt Cycle  # or parody name — TBD
+    real_name: Evel Knievel Stunt Cycle
+    change_name: true   # rename for parody universe — suggest "Slick McGreasy Stunt Cycle"?
+    reality: parody
+    category: toy
+    description: |
+      Plastic motorcycle with a rider figure. Crank the gyro spinner on the side and let it rip —
+      it rolls under its own power and crashes spectacularly. Rider goes flying.
+    why_it_matters: |
+      Mark's idea: tie a Slim Jim to the back and run it past dogs to clear a path during a B&E.
+    puzzle_use: dog-distraction
+    danger: mild
+    where_found: [dannys-bedroom-closet]
+    tags: [toy, puzzle-tool, mark-idea]
+    audience: both
+    notes: |
+      Real Evel Knievel toy → parody name. Discuss whether the fake universe still has an
+      Evel-Knievel-equivalent daredevil. Suggest: "Brick Knuckles" or "Buzz Danger."
+
+gadgets:
+  - id: ez-bake-oven
+    name: EZ-Bake Oven  # parody name TBD
+    real_name: Easy-Bake Oven
+    change_name: true
+    reality: parody
+    category: gadget
+    description: |
+      Little kid's oven powered by a 100W lightbulb. Comes with cake mix packets. Slow as hell.
+      Burns you if you grab the rack wrong.
+    why_it_matters: |
+      Mark's idea: use it to make hash brownies as a puzzle item.
+    puzzle_use: hash-brownies
+    danger: mild
+    where_found: []  # whose house has one? little brother's? a friend's sister's?
+    tags: [toy, puzzle-tool, kid-tech, mark-idea]
+    audience: both
+    notes: |
+      Suggest parody name: "Lil Chef" or "Bake-Aroni."
+
+food_drink: []
+  # Examples to add:
+  #   - tang
+  #   - tab
+  #   - quisp/quake cereal
+  #   - hi-c ecto cooler (wait — that's 80s. skip.)
+  #   - pop rocks (and the "pop rocks + coke = death" myth)
+  #   - jiffy pop on the stove
+  #   - swanson tv dinners with the brownie compartment
+
+candy: []
+  # Examples:
+  #   - candy cigarettes
+  #   - bubble tape
+  #   - wax lips
+  #   - razzles
+  #   - those long paper strips with candy dots
+  #   - bottle caps
+
+contraband: []
+  # The valuable stuff. Already drafted by Mark:
+  #   - playboy magazines
+  #   - beer (and beer cans for collectors like Eric)
+  #   - chrome caps stolen from trucks
+  #   - pot
+  #   - cigarettes
+  #   - fireworks (m-80s, bottle rockets, jumping jacks)
+  #   - arcade tokens
+  #   - movie theater passes
+  #   - batteries for boom box
+  #   - camera film rolls
+
+tools: []
+  # Examples:
+  #   - slim jim (auto entry)
+  #   - phillips head screwdriver (for TV repair)
+  #   - siphon hose
+  #   - lock pick? probably too much
+  #   - the universal house key trick
+  #   - lawn mower (engine donor for go-cart)
+
+clothing: []
+  # Examples:
+  #   - tube socks with stripes
+  #   - garanimals
+  #   - corduroy
+  #   - the windbreaker
+  #   - iron-on t-shirts from the boardwalk
+  #   - tough-skin jeans from Sears
+  #   - the toughskin denim leisure suit moment
+
+currency: []
+  # Stuff that gets traded. Many overlap with contraband. Tier examples:
+  #   junk    — bottle caps, gum cards
+  #   useful  — arcade tokens, cigarettes
+  #   valuable — beer cans (for collectors), Playboys
+  #   gold    — uncut M-80s, full fireworks brick
+
+media_objects: []
+  # The physical artifacts. Titles live in media.yaml.
+  # Examples:
+  #   - 8-track tape
+  #   - vinyl LP (with worn needle problem)
+  #   - polaroid SX-70
+  #   - super 8 camera
+  #   - boombox (the BIG one)
+  #   - transistor radio
+  #   - walkman (wait — 1979. just in range. include if game extends.)
+  #   - cb radio

@@ -1,0 +1,85 @@
+# places.yaml — locations in the 1976 world
+#
+# SCHEMA (per entry under each category)
+#   id:            kebab-case, unique. (required)
+#   name:          in-game name (required)
+#   real_name:     optional — what it was IRL if renamed
+#   change_name:   true | false
+#   reality:       real | mixed | fake | parody  (required)
+#   zone:          house | block | town | destination
+#   subzone:       optional — for big places ("ocean-side / boardwalk", "stompers / midway")
+#   description:   |  what it looks/smells/sounds like. 2-5 lines. Sensory.
+#   layout:        |  rough layout — what's where. helps me build the Ren'Py screen.
+#   key_features:  list of bullet things players can interact with
+#     - rusted ice machine outside (drop chrome cap to unlock)
+#     - pay phone next to bathrooms (one of three working phones in town)
+#   inhabitants:   list of people IDs you'd find there
+#   tied_to_part:  optional — if a machine part lives here, name it ("flyback transformer")
+#   tied_to_favor: optional — if a long-con favor happens here
+#   hours:         "always open" | "weekends only" | "after dark" | specific
+#   danger_level:  safe | mild | sketchy | dangerous | will-get-you-killed
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both
+#   notes:         |  anything else
+#
+# CATEGORIES
+#   house:         the Marek house (rooms)
+#   block:         Linden Drive and immediately adjacent
+#   town:          Old Bay County core — downtown, the strip, the school, etc.
+#   destinations:  trips — Cursed Forest, Ocean Side, Chocolatetown, Glen Hollow
+#
+# ---------------------------------------------------------------
+
+house:
+  - id: dannys-bedroom
+    name: Danny's Bedroom
+    reality: fake
+    zone: house
+    description: |
+      Wood-paneled walls. Shag carpet (orange-brown). KISS BLAZE poster over the bed.
+      Twin bed with brown plaid bedspread. Clock radio on the nightstand permanently set to WBAY-FM.
+      A dresser with a fish tank on top that hasn't had fish in it for a year — Danny uses it for parts.
+    layout: |
+      Door (east) to hallway. Window (north) to backyard. Bed against west wall.
+      Desk under window with the Book, an open issue of MAD, and a partially disassembled clock radio.
+      Closet (south) — guitar Danny doesn't really play, board games, hidden notebook.
+    key_features:
+      - The Book (always on desk)
+      - Closet — hidden notebook taped under shelf
+      - Fish tank — parts storage
+      - Under the bed — wooden box (the swap crystal lives here in 2027 too)
+    inhabitants: []
+    audience: both
+    notes: Where the player wakes up. The first room of the game.
+
+block: []
+  # Examples to add:
+  #   - 1437 Linden Drive (the house, exterior)
+  #   - The alley behind Linden
+  #   - The creek at the end of the cul-de-sac
+  #   - The Kowalski house (the bully's)
+  #   - The cool older brother's driveway with the Camaro on blocks
+
+town: []
+  # Examples:
+  #   - The school
+  #   - The mall (with arcade)
+  #   - Quik-9 (parody 7-Eleven)
+  #   - The bowling alley (with the still-legal cigarette machine)
+  #   - The hobby shop
+  #   - Buckmeister's Truck Stop
+  #   - The movie theater (Bayview Cinema)
+  #   - The hardware store
+  #   - The record store
+  #   - The pool
+
+destinations: []
+  # Examples (already in world-map.md draft):
+  #   - The Cursed Forest (fake Enchanted Forest)
+  #   - Ocean Side (fake Ocean City MD)
+  #     - Stomper's Rides midway (fake Trimper's)
+  #     - The boardwalk
+  #     - The candle shop
+  #     - The iron-on t-shirt shop
+  #   - Chocolatetown (fake Hersheypark)
+  #   - Glen Hollow (TBD)

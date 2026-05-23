@@ -1,0 +1,82 @@
+# stories.yaml — actual or quasi-actual events from Mark's childhood
+#
+# These become scene anchors. A great childhood story = a great game beat.
+#
+# SCHEMA
+#   id:            kebab-case (required)
+#   title:         short title — "The Time We Set the Field on Fire" (required)
+#   reality:       real | mixed | fake
+#   one_liner:     a single sentence summary
+#   summary:       |  what happened, in 1-2 paragraphs. real voice. doesn't have to be polished.
+#   age_when:      how old you were
+#   characters:    list of people IDs involved
+#   places:        list of place IDs involved
+#   items:         list of thing IDs involved
+#   comedy_beat:   |  what's the funny part. why this works as a game scene.
+#   stakes:        |  what was at stake — getting caught, getting hurt, mom finding out
+#   how_to_use_in_game: |  proposed scene or sequence. is this a quest? a flashback? a side gag?
+#   sensitive:     true | false — anything we'd want to handle carefully (someone got hurt, etc.)
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both
+#   notes:         |
+#
+# ---------------------------------------------------------------
+
+stories: []
+  # Seed prompts — Mark, here are buckets to mine. You don't need all of these.
+  #
+  # WORST INJURY YOU REMEMBER
+  #   — broken bone, stitches, lost tooth, near-miss with a car, bike wreck
+  #
+  # DUMBEST THING YOU DID
+  #   — set something on fire, jumped off something stupid, ate something dared
+  #
+  # FIRST TIME YOU GOT IN REAL TROUBLE
+  #   — caught by cops, principal called your parents, store owner banned you
+  #
+  # FIRST DRINK / FIRST DRUG / FIRST CIGARETTE
+  #   — how it happened, who supplied, how you felt, how you got caught (or didn't)
+  #
+  # THE TIME YOU ALMOST DIED
+  #   — and you didn't tell anyone for years
+  #
+  # SOMETHING WITH AN ADULT YOU REALIZE NOW WAS SKETCHY
+  #   — the guy who hung around the playground, the teacher who gave you weird gifts,
+  #     the family friend you avoided. (Handle: we'll mark `sensitive: true`.)
+  #
+  # SOMETHING WITH A SIBLING / LITTLE BROTHER
+  #   — the trick you played, the time you ditched him, the time he saved your ass
+  #
+  # THE BULLY STORY
+  #   — fight, humiliation, eventual revenge
+  #
+  # THE CRUSH STORY
+  #   — who she was, how she shut you down, what you did about it
+  #
+  # THE FRIEND WHO MOVED AWAY
+  #   — your best friend before he wasn't
+  #
+  # THE OCEAN CITY STORY
+  #   — the boardwalk, the rides, the inflatable raft, getting separated from parents
+  #
+  # THE COP STORY
+  #   — local cop who knew you by name, the time you got let off, the time you didn't
+  #
+  # THE PARENT'S-PARTY STORY
+  #   — adults' party at the house, you and the other kids in the basement watching
+  #     what the adults thought you weren't seeing
+  #
+  # THE WORST FOOD YOU HAD TO EAT
+  #   — at a friend's house, at school, that one casserole
+  #
+  # THE TIME MONEY DROVE EVERYTHING
+  #   — saving for something, getting ripped off, losing a wad of cash, finding cash
+  #
+  # THE BAND / MUSIC MOMENT
+  #   — first album bought, first concert, first record you broke
+  #
+  # THE SCHOOL MOMENT
+  #   — the test you cheated on, the teacher who saw through you, the assembly that
+  #     went sideways
+  #
+  # Use as many or as few as land. Feel free to fold multiple buckets into one story.

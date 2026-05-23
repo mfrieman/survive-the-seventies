@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/options.rpy", line 32, in script
+    define preferences.text_cps = 35
+Exception: The define statement can not be used with the preferences namespace.
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/options.rpy", line 32, in script
+    define preferences.text_cps = 35
+  File "renpy/ast.py", line 2473, in execute
+    self.set()
+    ~~~~~~~~^^
+  File "renpy/ast.py", line 2489, in set
+    ns.set(self.varname, value)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/000namespaces.rpy", line 84, in set
+    raise Exception("The define statement can not be used with the preferences namespace.")
+Exception: The define statement can not be used with the preferences namespace.
+
+Windows-11-10.0.26200-SP0 AMD64
+Ren'Py 8.5.3.26051504
+Survive the 70s 0.1.0
+Fri May 22 00:25:06 2026

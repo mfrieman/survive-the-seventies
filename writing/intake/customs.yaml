@@ -1,0 +1,93 @@
+# customs.yaml — weird normal stuff. The things that were UNREMARKABLE in 1976 and unthinkable now.
+#
+# THIS IS WHERE THE TWO-AUDIENCE COMEDY LIVES. Gen X says "oh god I forgot." Gen Z says "WHAT."
+#
+# SCHEMA
+#   id:            kebab-case (required)
+#   name:          short label (required)
+#   reality:       real | mixed
+#   description:   |  what it was. one paragraph.
+#   why_unthinkable_now: |  what changed. why this is funny in 2026.
+#   how_to_use_in_game: |  scene beat, puzzle, throwaway gag, environmental detail
+#   tags:          free-form
+#   audience:      gen_x | gen_z | both  (default both — that's the whole point)
+#   notes:         |
+#
+# ---------------------------------------------------------------
+
+customs:
+  - id: hose-water
+    name: Drinking out of the garden hose
+    reality: real
+    description: |
+      All afternoon outside, you got thirsty, you walked over to the side of the house,
+      turned on the spigot, drank straight from the rubber hose. Tasted like rubber and metal.
+      Nobody died. Maybe.
+    why_unthinkable_now: |
+      Lead in the hose. BPA. Bacteria. Today's parents would call poison control.
+    how_to_use_in_game: |
+      Environmental detail. Maybe a stamina restore at any house with a spigot.
+      Modern-kid narrator: "Wait, is this water FROM A HOSE? Am I gonna die?"
+    tags: [outdoor, kid-life, gross-now]
+    audience: both
+    notes: |
+      Classic opener — easy beat for the player's first day in 1976.
+
+  - id: riding-in-truck-bed
+    name: Riding in the back of a pickup truck
+    reality: real
+    description: |
+      Adult drives, kids sit/stand in the open truck bed at 50mph on the highway.
+      Bonus points for standing up holding the cab rail. No seat belts, no helmets, no nothing.
+    why_unthinkable_now: |
+      Illegal almost everywhere. Would be CPS-level outrageous.
+    how_to_use_in_game: |
+      Travel scene from the block to a destination (Ocean Side trip?). Player choice:
+      ride in cab (safe, slow scene) vs ride in bed (fast scene, +cool, -1 bone if you bounce).
+    tags: [transportation, outdoor, illegal-now]
+    audience: both
+
+  - id: smoking-everywhere
+    name: Smoking indoors, everywhere
+    reality: real
+    description: |
+      Smoking section in McDonald's. In hospitals. On airplanes. In your dentist's waiting room.
+      Teachers smoked in the teachers' lounge. Mom smoked at the kitchen table during dinner.
+    why_unthinkable_now: |
+      Bans started rolling in the 80s. By 2010s, even outdoor smoking banned in many places.
+    how_to_use_in_game: |
+      Ambient. Every interior background has an ashtray. Every NPC adult might be smoking.
+      Comedy beat: future-kid asks if there's a non-smoking section at a restaurant and the
+      hostess looks at him like he's speaking Martian.
+    tags: [adult-life, ambient, lung-cancer]
+    audience: both
+
+  # KEEP ADDING — examples to seed your thinking:
+  #   - latchkey kid (you got home from school, let yourself in, mom got home at 6)
+  #   - corporal punishment in schools (paddling)
+  #   - 'go outside, come home when the streetlights come on'
+  #   - calling friends meant calling their parents' landline and asking for them
+  #   - checking pay phone coin returns for forgotten quarters
+  #   - tin foil on TV antennas
+  #   - hitting the side of the TV to fix it
+  #   - getting up to change the channel (no remote)
+  #   - the 4-channel universe (NBC, CBS, ABC, PBS)
+  #   - newspaper delivery on a bike at 5am
+  #   - paying for things with EXACT change because nobody wants to count
+  #   - "what's your favorite color?" was an actual personality test
+  #   - sucking helium from balloons at every party
+  #   - mercury thermometers — broken ones meant playing with the mercury
+  #   - swallowing watermelon seeds = watermelon grows in your stomach (universal kid myth)
+  #   - rabbit ears + adjusting them by hand for 10 minutes
+  #   - the OPERATOR. You could just call 0 and a human answered.
+  #   - asking the operator for a phone number
+  #   - kid sees R-rated movie because nobody's checking
+  #   - bicycle without a helmet (the helmet didn't exist for kids yet)
+  #   - back-of-station-wagon seating (the rear-facing way-back seat)
+  #   - your dad's lap as your car seat
+  #   - finishing dinner = sitting at the table until you ate the brussels sprouts
+  #   - schoolyard fights — teachers broke them up but rarely anyone in trouble
+  #   - the "duck and cover" drill was still being run in some schools
+  #   - door-to-door selling magazine subscriptions, candy bars, Christmas wrap
+  #   - free admission to the pool if you brought 3 bottle caps from the right soda brand
+  #   - movie theater double feature for $1
