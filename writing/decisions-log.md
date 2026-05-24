@@ -9,6 +9,49 @@
 
 ---
 
+## 2026-05-23 (late evening)
+
+### `[LOCKED]` Scope targets — tight and fun, people will complete
+
+Mark: *"I like a tight and fun game people will complete."* Agreed and locked.
+
+- **Target core playtime:** ~5 hours. Skill band ~4-6 hours. Completionists with optional side content: ~6-7.
+- **~10 machine components.** Each one a real challenge using ≥1 of FIND/TRADE/EARN/CRAFT.
+- **~15 NPCs total.** Add only when a quest needs one. No speculative casting.
+- **~8-10 locations.** Same rule. Mark has a list of ~20 candidates; we pick on-demand.
+- **No filler.** Every scene must (a) advance the machine, (b) advance the romance, or (c) teach the era. If none — cut.
+- **Comedy first.** Pacing > length. A Carlin-energy adventure has to move.
+
+This protects a first-game-ever side project from development hell and protects the comedy from dilution.
+
+### `[LOCKED]` Tone rule — pre-PC, but lines we don't cross
+
+Mark's direct words: *"I want pre-PC but there are still lines we don't want to cross."*
+
+This refines the earlier locked comedic lineage (Carlin / Pryor / Cheech / Robin Williams / *Married with Children* / *F is for Family*). We push at lines. We occasionally cross them. **We do not put hateful slurs in the player's mouth, and we do not use the protagonist's narration as a vehicle for cruelty.**
+
+**Working principles:**
+
+1. **The era is the source of the edge, not us.** Period-accurate adult/teen cruelty — racial, ableist, homophobic, misogynist — *existed.* The game can witness it. It doesn't celebrate it.
+2. **Mark from 2026 is our conscience.** He's the audience proxy. He hears 1976 talk, and his Mark VO reaction is the comedy *and* the moral signal. The joke is usually his recoil.
+3. **NPCs can say things Mark won't say.** Hard-edge NPCs (Mickey-type, older kids, certain adults) carry the period-accurate language. Mark notes it. Mark doesn't join in.
+4. **No slurs in player choices.** The dialog wheel never asks the player to *pick* the slur. We never give the player that line.
+5. **No punching down at fixed targets.** Casual cruelty in 1976 was directed at specific real groups. We can show it happened; we don't make any of those groups the *recurring* butt of the joke. The butt of the joke is almost always *the 1970s itself.*
+6. **Edge for substance, not shock.** Every hard moment should *teach something true* about the era. If it doesn't, cut it.
+7. **Mark (the author) is the final tone arbiter.** When in doubt, Clawpilot flags the beat and asks before writing it. Default = ask, don't assume.
+
+**What this means in practice:**
+- The "short bus" beat (quest-seeds.md SEED 8) follows this rule: Mickey says it casually, Mark recoils, scene moves on. No slurs in Mark's narration. One scene, not a recurring bit.
+- Smoking, drinking, pot, sex jokes, body-comedy, religious humor, casual property crime, parental neglect, adult incompetence — all in bounds. These are *the era,* not punching down.
+- Any slur that ends in "-ist" today gets flagged before drafting. Clawpilot asks before writing.
+
+**Cross-references:**
+- `quest-seeds.md` SEED 8 (short-bus tone call)
+- `decisions-log.md` earlier entry on comedic lineage (Carlin/Pryor/Williams etc.)
+- All future scene drafting
+
+---
+
 ## 2026-05-23 (afternoon)
 
 ### `[LOCKED]` Future-kid name — Mark Cole

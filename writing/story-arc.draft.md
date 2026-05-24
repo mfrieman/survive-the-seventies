@@ -406,17 +406,358 @@ Mark hasn't fixed anything. He's just decided to trust Danny enough to keep movi
 
 ---
 
-## ACT 3 — *(awaiting Mark's draft dump)*
+## ACT 3 — v0.1 draft (2026-05-23)
 
-*Mark will provide.*
+> **Tempo:** Fastest act. ~3–4 hours of play. Opens immediately after Act 2's window/beer button. Closes when Mark pulls the swap switch in the dunes behind the Ocean Side boardwalk on July 4, 1976.
 
-**Known emotional anchor:** Mark realizes he MUST go back. Finishes the machine. Climax at the July 4th 1976 Bicentennial beach concert at Ocean Side.
+### Structural overview
+
+| Beat | What happens | Mode |
+|---|---|---|
+| 1 | Day after window/beer — Iwona's family invites Mark to Ocean Side | Playable, ~30 min |
+| 2 | Comms 1 — Danny cocky-genius demands return; Tear escalation begins (subtle) | Cinematic + ambient |
+| 3 | Pre-trip prep — uranium ore quest, packing, goodbye-Mareks-without-knowing-it | Playable |
+| 4 | Drive to Ocean Side with Kowalskis | Cinematic (montage) |
+| 5 | Day 1 Ocean Side — boardwalk, Gilbert U-238 quest, Iwona's "you are so different" line | Playable |
+| 6 | Comms 2 — Danny drops the mask: *"I'm scared. I want to come home. Please."* | Cinematic |
+| 7 | Day 2 Ocean Side — Mark accepts. Builds the rebuilt machine in the rental basement. Tear escalation severe. | Playable |
+| 8 | July 4 night — boardwalk Bicentennial concert. Fake-Skynyrd parody band. The kiss in the eye of the storm. | Cinematic + light input |
+| 9 | Mark slips away from chaos. Walks to the dunes. Pulls the swap switch. | Playable — the leap |
+| 10 | Act 3 button: Mark opens his eyes in his 2026 bedroom. | Cinematic |
+
+### Beat 1 — The invitation (playable, ~30 min)
+
+Morning after the window/beer scene. Mark wakes up alone, hungover-not-hungover, the notebook still under the mattress. Walks the block. Finds Iwona on the Kowalski porch peeling potatoes (Mary's task, foisted onto her).
+
+The conversation drifts to summer plans. Iwona, casually, in her direct Polish-English way:
+
+> **Iwona:** *"In Poland we had a real beach. The Baltic. Cold but real. Here you have what — this? Linden Drive sprinkler? Pfffft."*
+> **Mark:** *"There's Ocean Side."*
+> **Iwona:** *"Ocean Side. *(rolls the words like she's testing them)* It is the ocean, yes?"*
+> **Mark:** *"Yeah."*
+> **Iwona:** *"...show me."*
+
+She doesn't say it like a joke. She says it like a small dare.
+
+Mark, who in 2026 would have nothing to offer, suddenly remembers: the Mareks aren't going to Ocean Side this year. But the Kowalskis *might.* Eight people piled into one rented station wagon, one rented row house on a side street near the boardwalk — peak 1976 Polish-immigrant beach vacation.
+
+Player navigates the social puzzle of getting Iwona's father Jack to invite Mark + one buddy. Possible solves: Mark offers to help pay (1976 cash money from saved comic-buyback quest in Act 2), Mark offers to help carry / babysit Eva, Iwona herself pushes. Plus one of Mark's neighborhood friends — the player chooses which friend to invite *(open: needs locking with Mark)*.
+
+By end of beat: trip is on. Leaving in two days. Mark has to prep.
+
+### Beat 2 — Comms 1 + Tear begins (cinematic + ambient)
+
+Notebook glows that night. Danny is *furious.*
+
+> **Danny:** *"Beach. You're going to the BEACH. The machine is sitting in pieces in OUR bedroom and you're going to the BEACH."*
+> **Mark:** *"There's a part I need at Ocean Side. Antique store on the boardwalk. Gilbert U-238."*
+> **Danny:** *"...how do you even know what that —"*
+> **Mark:** *"I read your notebook."*
+> **Danny:** *(long pause)* *"Fine. Get the U-238. Don't get caught with the U-238. Be back by July 5. We're running out of —"* *(page glitches; sentence cuts; word appears, then unappears)* *"...time."*
+
+After comms closes, the bedroom is silent. Then, for one frame, the player sees a **modern silver sedan** parked across Linden Drive where no car should be. Then it's gone. PAL's voice from nowhere: *"Mark, I'm having trouble locati—"* Cut.
+
+**The Tear has started leaking.**
+
+### Beat 3 — Pre-trip prep (playable)
+
+Standard quest beats: pack, get cash, say goodbye to Kay (who hugs him weird-long because *she* doesn't know it's goodbye but the player does), tell Bobby he can play with anything in the closet, slip the notebook into the suitcase.
+
+**Tear escalation beats player will catch (3–4 across this beat):**
+- A modern car horn from a street that isn't there
+- The Marek kitchen radio briefly plays a song that hasn't been written yet, then snaps back to AM-1976
+- Bobby asks, *"Where's PAL?"* — then looks confused at his own question and goes back to coloring
+
+### Beat 4 — Drive to Ocean Side (cinematic montage)
+
+Mark + chosen friend wedged in the back of the Kowalski station wagon with Eva on someone's lap, three kids on the bench, Mary and Jack up front, eight-track playing Polish disco. AM radio fades in and out. Mark looks out the window. Iwona, across the seat from him, catches his eye in the side mirror.
+
+Stops: gas station with a vending machine that takes wrong-decade coins for one frame. A roadside diner. A real beach-bound traffic jam. Eventually: the bridge over the bay, and the boardwalk skyline of Ocean Side rises against the late-afternoon sun.
+
+### Beat 5 — Day 1 Ocean Side (playable)
+
+Walk-the-boardwalk hub. Saltwater taffy. Skee-Ball. The smell of fried clams (Mark VO: *"...what is that smell?"* Iwona: *"That is summer."*). A Tilt-A-Whirl that legally should not be operating.
+
+**The Gilbert U-238 quest (locked exchange):**
+
+The antique toy store *Bayside Curiosities* sits at the far end of the boardwalk. In the display case: a faded yellow-and-red box labeled *Gilbert U-238 Atomic Energy Lab — Now With REAL URANIUM!* (real product, 1950, real uranium ore samples included.)
+
+Earlier comms exchange Mark and Danny had, replayed in player's head as Mark looks at it:
+
+> **Mark:** *"How do we get uranium?"*
+> **Danny:** *"In a toy store."*
+> **Mark:** *"Be serious."*
+> **Danny:** *"...I am being serious."*
+
+Player negotiates with the shopkeeper. The price is wrong-decade-expensive. Player puzzle: barter with a 1976 collectible Mark has from Act 2.
+
+**Iwona's "different" line:**
+
+That evening, on the boardwalk, away from her siblings, leaning on a railing watching the surf:
+
+> **Iwona:** *"You are so different than the other boys. They are loud and stupid. They push and they yell. You are quiet. You think first. You see things. *(she looks at him, not joking)* I don't know how a boy from this neighborhood became like this."*
+
+She means it as the best compliment she knows how to give. Mark hears it as a sentence handed down. **She has fallen for a person who does not exist.** Real Danny will return. Real Danny is not quiet, does not think first, does not see things.
+
+Mark says nothing. Iwona lets the silence be. The first Tear-glitch she *almost* notices — a modern jogger passes under the boardwalk lights in lululemon shorts for half a second — but she's looking at Mark, not the boardwalk.
+
+**End of Day 1.** Mark lies awake on a rented mattress next to the snoring friend. Stares at the ceiling.
+
+### Beat 6 — Comms 2: the mask drops (cinematic)
+
+Late that night. The notebook glows.
+
+> **Danny:** *"Mark."*
+> **Mark:** *(waits)*
+> **Danny:** *"Mark. I'm scared. I want to come home. Please."*
+
+Four sentences. No jokes. No "fuck." No engineering. The Lou Dorchen mask is on the floor.
+
+Page goes blank. Mark sits with it.
+
+### Beat 7 — Day 2: build (playable, Tear severe)
+
+Mark spends most of Day 2 in the rented row house basement, U-238 in hand, building. The friend covers for him with Mary (off "fishing"). Iwona drifts in and out — bringing him a sandwich, sitting on the basement steps watching, not asking.
+
+**Tear escalation peaks:**
+- A 2026 emergency-alert tone blares from the rental's broken transistor radio for two seconds, then dies
+- Mark looks out the basement window and sees, in the rental's driveway, *his own 2026 silver sedan*. He blinks. It's a 1976 woody station wagon. He blinks again. Still the wagon. But he saw it.
+- Iwona, on the basement steps: *"You hear that? Like a — phone. But not. Did you hear it?"* Mark: *"...no."* She frowns. Lets it go.
+- PAL's voice, from inside the basement walls, faint: *"Mark? Mark, are you —"*
+
+The machine is complete by sundown. Tested clean (no fire — the U-238 stabilized the central crystal). Ready.
+
+### Beat 8 — July 4 night: the kiss (cinematic + light input)
+
+Boardwalk. Bicentennial blowout. The crowd is thick. Red-white-blue everything. Cheap flags, cheap hats, cheap beer in cheap cups.
+
+Center stage on the boardwalk's main pavilion: **"Lynyrd Skybird"** (parody-Skynyrd) is closing the show. *(Open: real fake-band name + fake-Freebird song name still TBD with Mark.)* The lead singer has the beard. The guitarist has the hat. The bass player is drunk. The crowd loves them.
+
+Mark, Iwona, and the friend push through the crowd. Eva on Iwona's hip. Iwona hands Eva off to Mary at the back of the crowd and pulls Mark forward — *"come on, come on, I want to see"* — and the crowd swallows them. The friend is lost two rows back. It is just Mark and Iwona.
+
+The band hits the closer's long bridge. **The crowd quiets.** This is the part where the lighters come up. A thousand small flames against the dark. Iwona looks at Mark. Mark looks at Iwona.
+
+> **Iwona:** *"...this is so American."*
+> **Mark:** *"It really is."*
+
+She kisses him.
+
+The bridge ends. The guitar solo **EXPLODES.** Fireworks launch off the pier on the downbeat — perfectly timed because the band rehearsed with the fire chief. The crowd loses its mind. Mark and Iwona kiss in a pocket of quiet that has, somehow, formed around them — the noise is the loudest moment of 1976 but they are inside the eye of the storm. The kiss caused the fireworks. The kiss caused the solo. The kiss caused the year.
+
+When it ends, Iwona pulls back, grins, and says nothing.
+
+Mark says: *"I have to find my friend."*
+
+He doesn't.
+
+### Beat 9 — The dunes (playable: the leap)
+
+Mark slips out of the crowd. Walks past the pavilion. Past the last food stand. Past the boardwalk railing. Down into the dunes behind the pier where the dark is real.
+
+The case with the machine is buried under a beach blanket where he stashed it at sunset. He digs it out. Sets it on the sand. Opens it. The central crystal glows.
+
+**Player gameplay:** ONE BUTTON. The swap switch. The screen shows Mark's hand on it. The player must press. Game offers no other path. No timer, no fail-state, no encouragement, no music. Just the hand and the button and the sound of fireworks far away and the surf.
+
+If the player waits long enough, faint over the surf: *"Mark. I'm scared. I want to come home. Please."* Danny's voice from inside the case.
+
+Player presses.
+
+### Beat 10 — Act 3 button (cinematic)
+
+White flash. The sound of fireworks cuts.
+
+Mark opens his eyes.
+
+Ceiling: white. PAL notification chime: soft. Bedroom: his.
+
+**ACT 3 ENDS.**
+
+### Act 3 open items
+
+- Lock fake-band name + fake-Freebird song name + a four-line fake-Freebird lyric snippet for the kiss bridge
+- Lock the friend who goes to Ocean Side (one of Mark's two-other-friends Mark mentioned but hasn't named)
+- Approve Iwona's *"You are so different than the other boys"* wording
+- Approve Iwona's *"...this is so American"* kiss line
+- Confirm the Tear escalation beat list (sample provided; full pass coming with quest design)
+- Decide whether Iwona *almost-notices* one Tear glitch on Day 1 (basement-steps "did you hear that?" line) — currently in; can remove if it feels too on-the-nose
 
 ---
 
-## ENDING — *(awaiting Mark's draft dump)*
+## ENDING — v0.1 draft (2026-05-23)
 
-*Mark will provide.*
+> Two parts: the 2026 wake-up / Mark alone, then the Surprise. Mark spends the entire wake-up sequence — and the player spends it with him — believing it is over forever. The Surprise lands harder because of this.
+
+### Part 1 — Wake up in 2026 (cinematic + brief playable)
+
+#### Bedroom (cinematic, ~90 sec)
+
+White ceiling. PAL chime, soft.
+
+> **PAL:** *"Welcome back, Mark."*
+
+(Audience reads it as a polite morning greeting. We know it is cosmically true.)
+
+Mark sits up. His body is *wrong* — too thin, too pale, no scabs, no scars, no callouses. The body that did not get punched in the face, did not jump 7 garbage cans, did not kiss anyone on a boardwalk.
+
+He goes to the mirror.
+
+Stares at the 14-year-old he was 50 years ago. Touches his own face. *No scar above the eyebrow.* (The one The Jump gave him.)
+
+> **Mark (VO):** *"It didn't happen to this body."*
+
+His mom (offscreen, distant, through the smart-home speaker): *"Honey, breakfast in ten."* The voice is warmer than 2026-Mom was at the opening — not by much. Just enough that the player notices and can't tell why.
+
+Mark looks at PAL's interface glowing on his nightstand. Reaches over. Quietly:
+
+> **Mark:** *"PAL. Shut up."*
+
+> **PAL:** *"...Mark? Are you f—"*
+> **Mark:** *"Shut. Up."*
+
+PAL goes dark. First time in Mark's 14-year life he has silenced it.
+
+#### Walk to the park (playable, ~5 min)
+
+Player walks Mark out the front door. Down Linden Drive in 2026.
+
+The block is empty. Manicured. Drone delivery hovering. No kids. No bikes. No streetlight-at-dusk. No anything.
+
+> **Mark (VO):** *"...where are all the kids?"*
+
+(Sonic inverse of Act 1's *"where are all the parents?"*)
+
+Player walks Mark to the small neighborhood park. Sits him on a bench. The bench is plastic.
+
+Mark pulls something from his pocket — his PAL earpiece. Looks at it for a long beat. Drops it on the concrete in front of the bench. Steps on it.
+
+The earpiece crunches. He does not look at it.
+
+> **Mark (VO):** *"...I left her."*
+
+A car engine — low, smooth, expensive — cuts in over the surf-distant sound of fireworks already practicing for July 4 somewhere across the county.
+
+**Camera pulls back from the bench. Bright orange Lamborghini rolling slowly up the park driveway.**
+
+### Part 2 — The Lamborghini (cinematic, ~6–8 min)
+
+> **NAMING CONVENTION EXTENSION (locked 2026-05-23):**
+> - **Older Danny** = Danny Marek's consciousness, in his own 64-year-old body. Lou Dorchen energy. Rich. Tan. Cynical heart of gold.
+> - **Older Sylvia** = *Iwona's* consciousness, in the now-66-year-old body of Sylvia Kowalski. Has lived under the name "Sylvia" since the swap. Called "Sylvia" by everyone, including Older Danny, including the player on first meet.
+> - **Young Iwona** = *Iwona's* consciousness reinstalled into 16-year-old Sylvia Kowalski's body. Older Danny just pulled this swap — pre-Lamborghini-step-out, the swap has *just* happened.
+> - **Sylvia Kowalski (original)** = Iwona's 16-year-old granddaughter, whose body Iwona currently inhabits, and whose 60s body Older Sylvia currently inhabits. The swap is consensual (see Older Sylvia's ten-years/eleven line below).
+
+The Lamborghini stops at the curb. Driver's door opens up-and-out. **Older Danny** steps out — silver hair, tan, ridiculous Hawaiian shirt, sandals. He looks at Mark on the bench like he's been planning this exact moment for fifty years, because he has.
+
+> **Older Danny:** *"You look terrible."*
+> **Mark:** *"...Danny?"*
+> **Older Danny:** *"Don't get up. Sit. Sit, sit, sit."*
+
+Older Danny walks over. Sits next to Mark on the bench. Stretches out his legs. Cracks his knuckles.
+
+> **Older Danny:** *"So. You're probably wondering."*
+> **Mark:** *(silence)*
+> **Older Danny:** *"You're not even gonna ask?"*
+> **Mark:** *"...you fixed the Tear."*
+> **Older Danny:** *"I fixed the Tear. Forty-eight years ago. The Tear was the easy part."*
+
+Passenger door of the Lamborghini opens.
+
+**Older Sylvia** steps out. Mid-60s. Beautiful. Polish-cheekboned. Wearing the kind of casual-expensive a person earns from being married to Older Danny for forty years. She looks at Mark.
+
+> **Older Sylvia:** *"Hello, Mark."*
+
+Mark stares. He sees a stranger.
+
+> **Mark:** *"...do I know you?"*
+> **Older Sylvia:** *(small smile)* *"You knew me when I was sixteen. We kissed in front of Lynyrd Skybird."*
+
+Mark's face does the thing.
+
+> **Older Danny:** *(to Older Sylvia)* *"I told you that was a good opener."*
+> **Older Sylvia:** *"You did."*
+> **Older Danny:** *(to Mark)* *"This is Sylvia. She is also Iwona. It's complicated. She's my wife. Has been for — what, forty-one years?"*
+> **Older Sylvia:** *"Forty-two."*
+> **Older Danny:** *"Forty-two. Right."*
+> **Mark:** *"Wait. Wait wait wait."*
+> **Older Danny:** *"I know."*
+> **Mark:** *"You — you swapped her? Into someone else's —"*
+> **Older Danny:** *"Yes."*
+> **Mark:** *"Without —"*
+> **Older Sylvia:** *(calmly)* *"I was VERY mad. For about ten years."*
+> **Older Danny:** *"Eleven."*
+> **Older Sylvia:** *"Eleven. Yes."*
+
+A beat. They look at each other like they've had this exact bit a thousand times and it still works.
+
+> **Mark:** *"...you've been — alive — for fifty years and you never —"*
+> **Older Danny:** *"You think I was gonna show up in 1985 and ruin a man's life? You needed the fifty years, kid. You needed all of it. The wife, the kids, the whole — *(waves vaguely at the air)* — the whole deal. Trust me. I checked."*
+> **Mark:** *"You checked?"*
+> **Older Danny:** *"I'm rich. I check things."*
+
+The back door of the Lamborghini opens.
+
+> **Older Danny:** *(casual)* *"Oh. Right. Other thing."*
+
+**Young Iwona** — sixteen, in Sylvia Kowalski's 16-year-old body — steps out of the back of the Lamborghini. She is wearing 2026 jeans she does not recognize. She is wearing them well.
+
+She walks toward the bench. Twirls — the basement-dance twirl — and lands in Mark's arms.
+
+> **Young Iwona:** *"...did you miss me?"*
+
+Mark cannot speak.
+
+> **Older Danny:** *"I made improvements over the years. Tear-free swap. Took a while. The dog helped."*
+
+A small bark from inside the Lamborghini. **Buster** — a brown shaggy mutt, very alive, hops out of the driver's footwell.
+
+> **Older Danny:** *"He earned it. Buried the notebook for fifty years."*
+
+Mark and Young Iwona — still in the half-embrace — look at each other.
+
+> **Young Iwona:** *"I am told I have a granddaughter now."*
+> **Older Sylvia:** *"You do. She is a wonderful girl. She let me have her body for a few hours."*
+> **Young Iwona:** *"For a few HOURS?"*
+> **Older Sylvia:** *"...we'll talk."*
+
+#### The sequel hook trio (in-scene)
+
+> **Older Danny:** *(stretching, looking at the sky)* *"God. I hate being old."*
+> **Older Sylvia:** *"He's always working on it."*
+> **Older Danny:** *"...I'm working on it."*
+> **Mark:** *(looking at all three of them, deadpan)* *"Hey. Last time you were 'working on it' you got fifty years of beach summers and a Lamborghini."*
+> **Older Danny:** *(big grin)* *"Damn right I did."*
+
+#### Button (locked)
+
+Older Danny tosses Mark the Lamborghini keys.
+
+> **Older Danny:** *"Go. Drive. Be fourteen. Be sixteen. Whatever."*
+> **Mark:** *(looks at keys, looks at Young Iwona)* *"When are you coming back?"*
+> **Older Danny:** *(opening the passenger door for Older Sylvia)* *"I'll get back when I fucking feel like getting back."*
+
+Doors close on the Lamborghini. It pulls away. Mark and Young Iwona stand in the empty park. Buster sits at Mark's feet.
+
+Hard cut to credits.
+
+#### Post-credits stinger (LOCKED, exact line)
+
+Black screen. Just Older Danny's voice, casual:
+
+> *"...also. Quick thing. Don't get too attached to the old bodies."*
+
+Cut.
+
+### Ending open items
+
+- Approve Older Sylvia's *"VERY mad for about ten years / eleven"* exchange
+- Approve Older Danny's *"I'm rich. I check things"* line
+- Approve sequel-hook trio wording
+- Decide whether Buster gets dialogue / VO subtitles (lean: no, dogs don't talk)
+- Approve 2026 wake-up scene specifics (mirror moment, *"PAL, shut up,"* earpiece crush, park bench)
+- Sequel parking lot: Real-Danny-returns-to-Iwona gap — handled with Older Sylvia line *"I knew something was off after that summer"* somewhere? Or saved for sequel opener?
+- Older Danny / Older Sylvia age math: Danny born ~1962 (14 in 1976, 64 in 2026). Iwona born ~1960 (16 in 1976, 66 in 2026). Sylvia born ~2010 (16 in 2026). Iwona's son born ~late 1970s / early 1980s. Confirm with Mark.
+
+
 
 ---
 
