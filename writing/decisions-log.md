@@ -9,6 +9,90 @@
 
 ---
 
+## 2026-05-24 (late morning)
+
+### `[LOCKED]` Day system — streetlight ends the world, bedroom is untimed sanctuary
+
+Mark's design instinct from `schedule 1`'s timing mechanic: separate the **timed daytime world** from the **untimed bedroom phase** so novice players have a sanctuary to think and act without time pressure.
+
+**The structure:**
+
+1. **Daytime (timed).** Streets, errands, Burnsville Electronics, Halloran's porch, the corner store, lawn-mowing routes, payphone scrounging, friend visits. **Each action consumes a block of time.** The world advances. Possible end-of-day triggers:
+   - **Mom yells from the porch** ("MAAAARK! DINNER!") — diegetic, period-perfect, breaks any task immediately. Required mechanic.
+   - **Streetlight comes on** — the universal 1970s "be home" rule. Overhead shot, kids in the street, sodium-vapor orange flicker as the lamp warms up, neighborhood quiets. **This is the canonical end-of-day cinematic.** Locked.
+2. **Bedroom phase (untimed).** After the streetlight beat, the player transitions to Mark's bedroom. **Time does not advance until Mark chooses to go to sleep.** In the bedroom Mark can:
+   - Work on the machine (CRAFT, install components)
+   - Read the Book / new entries from Danny
+   - Count the change jar (UI counts cash)
+   - Make Tear stabilization decisions (Tier 1 wait, Tier 2/3 if scripted)
+   - Reflective beats (the chair, the beer, journaling, Mark VO)
+   - Review inventory, plan next day
+3. **Sleep = next day.** Player chooses when to advance.
+
+**Why this works:**
+- **Novice players have breathing room.** No clock ticking in the sanctuary. Take all the time you need.
+- **The streetlight beat is golden** — period-accurate, recognizable, no UI text needed.
+- **Mom's porch yell handles interruption** comedically and accurately.
+- **Mark VO has a natural home.** Bedroom is where reflection lives. Where the beer-in-the-chair cutscene goes. Where the 2026-Mark interiority lands without disrupting daytime pacing.
+- **Tear stabilization happens at home.** Story-natural — the Book is here, the machine is here.
+
+**Time budget reality:**
+The story spans **summer 1976 → July 4 ending.** Roughly **35 in-game days** from school's-out to the Bicentennial. The day system has to fit inside this budget. Bedroom phase being untimed means we don't burn days on player indecision. Tier 1 Tear waits will be calibrated in **streetlight transitions, not 24-hour days** (see Tear system doc for detail).
+
+### `[STAGED]` Tear system (revised) — see `components/tear-system.md`
+
+Per long discussion with Mark this morning: pulled back from the original "burn an item to stabilize" Tier 1 mechanic because it would trigger hoarding anxiety in the casual / older-novice player (the Mark Test). Replaced with **time-based stabilization** for the recurring tier. Kept the **memory burn** but moved it to a SINGLE scripted moment near the climax (Mark alone in his bedroom, not at the machine with Iwona — she still does not know about the machine per locked premise).
+
+Full system in `components/tear-system.md`. Marked STAGED, not LOCKED — Mark wants to live with it before committing.
+
+### `[LOCKED]` Burnsville Electronics — the hobby shop (tribute to real-world Baynesville)
+
+Mark's hometown had **Baynesville Electronics**, a regional hobby-electronics store with real local fame that closed in 2024. The in-game equivalent is **Burnsville Electronics** — one syllable off, preserves the rhythm, and "Burn" works on three levels (solder smell, the always-too-hot iron, the rite-of-passage burned-finger). Locals from Mark's area will recognize the homage immediately; everyone else just gets a credible 1976 hobby shop name.
+
+**Canon role:**
+- Recurring location where Mark buys the **machine backbone parts** (chassis, perfboard, transformer, hookup wire, solder).
+- Has a **tube tester** at the counter (real era detail).
+- Has **salvage / surplus bins** in the back (cheap parts, sometimes the only source for an oddball component).
+- Owner is a **future named NPC** — kept generic for now (`[BURNSVILLE-OWNER]`). When we cast him, he becomes the "doesn't ask what kids are building" type with a soft spot for kids who actually solder.
+
+**Hidden VO opportunity (Act 2 or 3):** Mark leans in the doorway and thinks *"This place lasts almost fifty years. Almost. I won't tell him."* The whole game in one line.
+
+**Tone rule:** Burnsville is treated with affection, not parody-cruelty. The store is one of the *good things* about 1976 that doesn't survive. It earns the small ache when the player thinks about it later.
+
+### `[LOCKED]` Machine has a real backbone — hobby-shop chassis + 10 toy components
+
+The machine is not just 10 toys taped together. It has a real-world plausible 1970s hobbyist chassis underneath, sourced from **Burnsville Electronics**. The 10 toy components are mounted/soldered onto that backbone.
+
+**Backbone parts (cash-gated, hobby-shop sourced — NOT quest-gated like the 10 toys):**
+
+1. **Aluminum chassis project box** — the frame
+2. **Perfboard / vectorboard** — the "motherboard," toy components solder to this
+3. **Power supply guts** (transformer + rectifier + filter cap) — converts 120V wall AC to DC. Player can buy new OR salvage from a curbside broken TV (free, optional subquest)
+4. **Hookup wire + rosin-core solder** — consumables, recurring cash drip
+
+**Why this matters:**
+- Machine looks *almost-plausible* — aluminum box, perfboard, soldered toy parts, wall plug. Comedy lives in the *combination,* not the impossibility.
+- 2026-player recognizes the hobbyist form factor — feels real.
+- Burnsville becomes a recurring location with a real reason to revisit.
+- Money pressure layer is REAL now — kid-economy quests (payphone coin return, lawn mowing, can returns) funnel into Burnsville cash.
+- Teaches the era's **repair-don't-replace** ethic via the TV-salvage option.
+
+Full detail: `era-research/hobby-electronics-1976.md` + `components/backbone.md`.
+
+### `[LOCKED]` No stealing — except chrome caps off trucks
+
+Mark: *"No stealing except for Chrome caps from trucks. This needs to be a rule. If a friend has a slinky I don't just want to steal it and fulfill the quest."*
+
+**The rule:**
+
+- **Mark does not steal from people.** Not friends, not neighbors, not store owners, not strangers. No pocketing a Slinky off the Karras coffee table, no lifting candy from McCrory's, no "borrowing" a wallet.
+- **The single exception is the chrome valve-stem caps off parked trucks** — a real, near-universal 1970s kid ritual. Period-accurate, victimless-feeling at kid-scale, and culturally specific. This stays in.
+- **TRADE replaces theft as the friction mechanic.** If a friend has the Slinky, Mark *trades* for it (kid-economy: baseball cards, candy cigs, comics, favors, info). If no one will trade, Mark earns one (chores, find one buried in the alley, win one in a bet).
+- **The "easy" components are still real challenges** — they're acquired through *social negotiation*, not violence or theft. That IS the gameplay.
+- **Story consequence:** Mark from 2026 is a decent person and a future PO. The protagonist who runs the machine that saves both timelines doesn't get there by being a sneak thief. The moral throughline matters because the Tear costs are about *what kind of person* survives the swap.
+
+This locks **TRADE as the dominant Act 1 mechanic** and removes a whole category of cheap-feeling quest solutions. machine-rules.md and quests.md must reflect this: no acquisition path may be "steal it."
+
 ## 2026-05-23 (late evening)
 
 ### `[LOCKED]` Scope targets — tight and fun, people will complete

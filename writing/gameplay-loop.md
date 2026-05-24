@@ -5,6 +5,33 @@
 
 ---
 
+## DESIGN PRINCIPLE — The Mark Test
+
+> **Added 2026-05-24 after long conversation about audience.**
+
+Mark is a 57-year-old software engineer who plays a few hours a week, doesn't watch YouTube guides, won't read FAQs, and *quit* gaming after the Super NES. He's coming back to games specifically *because* this game is about his 1970s. He is **both the designer and the target audience proxy.**
+
+**Before adding any mechanic, ask:**
+
+> "Will Mark — as a 57-year-old casual narrative-game player who doesn't speedrun, doesn't optimize, won't watch guides, and might play 45 minutes at a time — get stuck, frustrated, or anxious because of this?"
+
+If yes → **redesign.** The mechanic is wrong for the audience.
+
+**Specific Mark-Test failure modes to watch for:**
+
+1. **Hoarding anxiety.** Any mechanic that asks the player to permanently destroy a collected item triggers fear of "what if I need this later." Casual players freeze up. *(This is why the Tear system uses time-cost, not item-burning, for recurring stabilization — see `components/tear-system.md`.)*
+2. **Loss aversion driving replay-shopping.** Multi-ending games where one ending is "better" drive replays where players try to *avoid* losing things rather than *enjoy* the story. Solution: all canon endings are happy, varying only in texture. *(See tear-system.md §5.)*
+3. **Invisible system limits.** Any hard cap (daily yield, action limit) must be communicated **diegetically** through Mark VO, NPC dialog, or in-world feedback. Never a popup. *(See tear-system.md §6 — "shaking head, already cleaned out" pattern.)*
+4. **Soft-locks.** No state where the player has progressed too far to recover. Never. The game always offers a way forward.
+5. **Hidden best practices.** If a casual player doesn't discover a mechanic, it should not penalize them. Critical paths are signposted by the world (the Book, NPCs, the streetlight cinematic).
+6. **Grind incentive.** If grinding one loop endlessly produces meaningful advantage, the game has failed. Loops cap. Lore explains the caps. *(See money-economy.md §1.)*
+7. **Unclear progress.** Mark must always know roughly what the next move is — even if it's just "ask someone, see what happens." The Book serves this role explicitly.
+8. **Time-of-day stress.** The bedroom phase is **untimed** so a player who needs to think doesn't have a clock ticking. *(See decisions-log Streetlight rule.)*
+
+**The Mark Test is the most important design principle in this document.** It's the difference between "a game Mark made for himself" and "a game like Disco Elysium that Mark and the wider Ren'Py / narrative-RPG community can both love."
+
+---
+
 ## The thesis in one sentence
 
 **You are a 2026 kid in a 1976 body trying to build a machine out of the most dangerous toys, household chemicals, and electronics your bicycle can reach — while the neighborhood quietly teaches you what it was like to grow up here, and a small reality-tear gets a little louder every time you use the machine.**
