@@ -1,9 +1,33 @@
 # Survive the 70s
 
-A comedic point-and-click adventure exaggerating the everyday dangers of
-being a kid in the 1970s. **Concept demo** built in Ren'Py.
+A comedic narrative adventure built in Ren'Py. **Body-swap premise** — a
+2027 teenager (Mark Cole) wakes up in 1976 in the body of stealth-genius
+Danny Marek and has to rebuild the broken time machine from era parts
+while faking being Danny convincingly enough to fool the neighborhood.
+Love story, machine puzzle, comedy of cultural distance. Summer 1976 →
+July 4 Bicentennial ending. ~5 hour target playtime.
 
-## Quick pitch
+## ⚠️ Read this first
+
+**`HANDOFF.md` in this folder is the single entry point** for any new AI
+assistant, any new chat session, or any new collaborator. It contains:
+
+- Cross-platform bootstrap prompt
+- Locked premise summary
+- The Mark Test (the #1 design principle)
+- Tone rules, hard rules, comedic DNA
+- Status of every major system (LOCKED / STAGED / OPEN)
+- Reading order for canon docs
+- Working agreement
+- Active threads
+
+The pitch text below this line is **archived / pre-pivot** and kept for
+historical reference only. Use `HANDOFF.md` and `writing/decisions-log.md`
+for current canon.
+
+---
+
+## Quick pitch (ARCHIVED — pre body-swap pivot)
 It's Saturday, July 17, 1976. You are 9 years old. Mom said "be home when
 the streetlights come on." Survive five scenes of lawn darts, metal slides,
 and questionable life choices.

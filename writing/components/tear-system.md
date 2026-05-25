@@ -1,6 +1,6 @@
 # The Tear System — Stabilization, Costs, Endings
 
-> **Status:** STAGED v0.1 (NOT LOCKED — Mark wants to live with it before committing)
+> **Status:** LOCKED v1 (2026-05-24, after Mark's review of §9 questions)
 > **Sibling to:** `components/backbone.md`, `components/money-economy.md`
 > **Purpose:** Define what the Tear is, how it escalates, how the player stabilizes it, and how it shapes the ending.
 
@@ -16,6 +16,17 @@ Danny's body-swap machine was supposed to be a quick zap and back. Instead it **
 - Iwona begins to "remember" things that haven't happened yet.
 
 **Critically: the Tear is getting worse on its own.** Even if Mark did nothing, the rip widens over time. Every install of a machine component pulls more energy through it and widens it faster. Endgame is *sealing* the Tear before it tears the world.
+
+### 1a. The compelling reason for Mark to return (paired pressure)
+
+The Tear is the **external** pressure pushing Mark home. There is also an **internal** pressure that must always be present alongside it, or the ending lands hollow:
+
+- **Danny is pleading for his life back.** Every Book entry from Act 2 onward has at least one note from Danny — getting more raw, less planned, more *"I want to go home"* — about the life Mark is living that Danny built. *"Tell Mom I love her cooking. I have not had her meatloaf in nine weeks."* *"Mickey has no idea I'm not me. Please don't ruin that."* *"Please."*
+- **Mark is torn between worlds.** By Act 3, Mark Cole has fallen in love with Iwona, knows Bobby's tells, has a bond with Dennis, and genuinely belongs on Linden Drive in a way he never belonged anywhere in 2026. **Going home means leaving the only place that ever felt like home.** This is the load-bearing emotional weight of the ending — without it, the seal sequence is just a puzzle finish.
+
+These two pressures together make the Tear meaningful. The Tear says "you cannot stay." Danny says "let me have my life." Mark says "I want both." The ending is the impossibility of having both resolving through the ending twist (Iwona-in-Sylvia in 2027 → he gets to have her after all, in a different body, in his own time).
+
+**Implication for the Tear gauge:** ink stain is not just a "this is dangerous" signal — it's also a clock counting down Mark's time in the only place he ever felt at home. *Both* readings are valid.
 
 ---
 
@@ -45,7 +56,15 @@ Already documented in `components/index.md`. Recap:
 | K | Large | Visible | Mark briefly speaks in Danny's voice mid-conversation, doesn't notice |
 | G | Large | Visible | Iwona "remembers" something that hasn't happened yet |
 | M | SEVERE | Crisis | Comms 2 mask-drop, machine catches fire |
-| A | CATASTROPHIC | Endgame | (Capstone — triggers the seal sequence) |
+| A | CATASTROPHIC | Endgame | (Capstone — see 3a below) |
+
+### 3a. The capstone symptom (Component A install)
+
+**Drafted, may be revised:** When Component A is installed, **reality near the machine starts duplicating itself for a few seconds at a time.** Mark hears his own voice from the next room. A glass on the workbench is in two places at once and Mark reaches for the wrong one. Outside, the streetlight flicks on at noon and off again. The dog stares at empty corners. The Book pages have ink running on them — words crawling.
+
+The seal sequence triggers because *the universe is no longer agreeing with itself.* The Tear has become a hole big enough that 1976 and 2026 are leaking into each other in micro-bursts. The player feels: *if I do not seal this now, the leak becomes the world.*
+
+This is the symptom we'll iterate on — the *shape* (reality duplication) is the part to keep; the specific details may shift as we draft the climax scene.
 
 ---
 
@@ -75,6 +94,8 @@ When the Tear hits a moderate threshold (after C/F, after K/G), the next install
 - Pressure is mild on players who already do side content — they don't even notice.
 - Pacing-natural: every stabilization beat is a chance to read Book entries and slow down for atmosphere.
 
+**Pacing-equalizer dual purpose (per Mark, 2026-05-24):** Tier 1 waits also serve as a soft *pacing equalizer.* High-skill players get nudged to slow down and absorb era detail without being *forced* through dialog. Low-skill players don't notice the wait because they're already exploring. Neither group is punished. We will calibrate the exact wait length when we play the prototype — *until we actually feel it in-game we will not lock the precise count.*
+
 ### Tier 2 — A SINGLE SCRIPTED RELATIONSHIP FAVOR (one time, Act 2)
 
 When the Tear hits a major threshold (after K install), Mark needs someone to **cover for him** so he can spend a critical night working on the machine without interruption.
@@ -94,14 +115,14 @@ When the Tear is catastrophic, with Component A about to install, the Book makes
 
 Mark is **alone in his bedroom** at this moment. **Iwona is not there** — per the locked premise that she does not know about the machine. The scene is intimate, quiet, between Mark and the Book.
 
-The player chooses from a menu of **4-5 memories** the game has surfaced across the playthrough (each one mentioned in Mark VO at some point in Acts 1-2):
+The player chooses from a menu of **4 memories** the game has surfaced across the playthrough (each one mentioned in Mark VO at some point in Acts 1-2):
 
-- The smell of his wife's hair *(if Iwona romance was deep — landed as a callback)*
 - His apartment number in 2026
 - The words on his grandfather's gravestone
 - The name of his cat
 - His favorite song
-- (5th slot reserved — TBD, maybe surfaces per playthrough based on what Mark talked about most)
+
+*(Iwona's hair-smell memory was considered and explicitly removed per Mark, 2026-05-24 — too cruel and too entangled with the love story spine.)*
 
 **Mechanically:**
 - Player picks one. The Book inks it in (a small page of the Book is now scribbled). Mark can no longer recall it. The ending sequence references the forgotten thing — an NPC asks about the cat in the dance scene, Mark blanks, recovers gracefully.
@@ -151,7 +172,7 @@ A small handful of cumulative choices across the game, weighted lightly so no si
 
 **Players who replay don't "fix" anything — they just see different colors of the same victory.**
 
-**Stretch goal — 4th texture:** If we have appetite later, a 4th "Echo+" with one specific dialogue tree open that reveals the machine still works AND that Mark "remembers" he visited 1976. This would be the deepest cut for completionists. Optional.
+**Stretch goal — 4th texture ("Echo+"):** **Green-lit to explore** (Mark, 2026-05-24). Concept: a deeper Echo variant unlocked only by a specific cumulative path — likely "Halloran arc fully completed + Tier 2 favor = Iwona + memory burn = song." In this texture the camera holds longer on the still-humming garage machine, and a single line of Mark VO reveals he *remembers* visiting 1976 (most endings leave this ambiguous). It is the "yes, it was real, and the door is still open" reading. We will design this after the first three are scripted and we know the cumulative weight system.
 
 ---
 
@@ -191,18 +212,20 @@ Per Mark's request — never break the vibe with explicit text. Soft signals to 
 
 ---
 
-## 9. Open questions (Mark to react to before LOCKING)
+## 9. Open questions — RESOLVED 2026-05-24
 
-1. **Is "wait 1-2 streetlight transitions" the right Tier 1 cost?** Could be shorter (just one transition) if even 2 feels too much. Could be longer if 2 feels too soft.
-2. **Tier 2 favor — three options OR more?** Three is clean. More risks dilution.
-3. **Tier 2 — is the "covers for me" framing too specific?** Could the Tier 2 cost be a different kind of relational ask (e.g., asking Mickey to *introduce* you to someone Mark wouldn't normally meet)? Lean: covers-for-me is the most natural and least complicated.
-4. **Memory burn menu — final list of 4-5 items.** Need to write the actual VO lines across Acts 1-2 that *establish* each memory so the player feels the loss when they burn one. Production task.
-5. **Should the 2026 wife memory (Iwona's hair smell) be on the menu?** Has poetic resonance (Iwona-in-1976 ↔ Iwona-in-2026) but feels cruel. Lean: yes, but flag with player — Book hints *"this one will hurt."*
-6. **The ink-stain-in-the-Book UI** — concept locked, but needs an art-direction note. The Book is the only "UI" the player sees. We should commit to that as a design principle.
-7. **Foreshadowing the memory burn — how many days in advance?** Two feels right. One is jarring. Three is melodramatic.
-8. **Should there be a single Tier-2 moment OR could there be 2-3 different scripted favors across Act 2?** Lean: one, save the moral weight.
-9. **Do alternate ending textures reveal themselves on first playthrough or only on replay?** Lean: first playthrough, with a Bookmark / "save your ending" feature so player can revisit it.
-10. **Calendar pressure check** — Are we sure Tier-1 waits eat ≤3 streetlight transitions total? Verify when wiring quests.md.
+All ten questions were reviewed by Mark in a single pass. Resolutions:
+
+1. **Tier 1 wait length (1 vs 2 streetlight transitions):** ⏳ *Deferred to prototype.* Mark: *"I want to keep the target gameplay time in mind here. I am not sure until we start rendering the actual game and I try it out."* Design intent stays "1-2 transitions" — exact number locked when we feel it in-game.
+2. **Tier 2 favor — three options:** ✅ LOCKED at three (Mickey / Bobby / Iwona).
+3. **Tier 2 framing (covers-for-me vs other relational ask):** ✅ LOCKED on covers-for-me. Most natural, least complicated.
+4. **Memory burn menu — final 4-5 items + VO production task:** ✅ LOCKED at **four** (Iwona-hair removed — see 5). Production task to write the establishing VO lines deferred until scene drafting begins. **VO lines** explained in a separate note to Mark — short concept doc to follow.
+5. **Iwona's hair smell on the menu:** ✅ REMOVED. Mark: *"I would remove this. Maybe I need to better understand when the game is more developed."* Memory list is now four items, all 2026-life touchstones with no direct entanglement with the love-story spine.
+6. **Ink-stain UI / Book-as-only-UI as design principle:** ✅ LOCKED. Mark notes his wife is a graphic designer and can help. **Working assumption:** the Book is the only persistent diegetic UI. HUD elements like inventory and cash are minimized or hidden inside Book pages. Full UI design pass deferred — gets its own doc when we begin Ren'Py vertical slice.
+7. **Foreshadowing the memory burn — days in advance:** ✅ LOCKED at **two days.** Per Mark's recommendation acceptance.
+8. **Single Tier-2 moment vs multiple:** ✅ LOCKED at **one** Tier-2 moment. Save the moral weight.
+9. **Alternate ending textures on first playthrough vs replay:** ✅ LOCKED on **first playthrough.** Plus the "Bookmark / save your ending" feature — player can revisit it after credits without replaying the whole game.
+10. **Calendar pressure check (≤3 Tier-1 waits total):** ⏳ *Verify when wiring `quests.md`.* Will explicitly budget Tier-1 waits against the 35-day summer window when locations and quest cadence are scoped.
 
 ---
 

@@ -1,7 +1,17 @@
 # Scene Outlines — Survive the 70s Concept Demo
 
-Saturday, July 14, 1979. One day. Five scenes. ~15 minutes of play.
+> ⚠️ **STALE — pre body-swap pivot.** These outlines were written for the
+> original "one day, five scenes, July 14 1979, 14-year-old narrator"
+> concept demo. The project has since pivoted to the full body-swap arc
+> (summer 1976, Mark Cole / Danny Marek, machine puzzle, romance, July 4
+> Bicentennial ending). Kept for archive only.
+>
+> Current canon: `HANDOFF.md`, `writing/story-arc.draft.md`,
+> `writing/decisions-log.md`.
 
+---
+
+Saturday, July 14, 1979. One day. Five scenes. ~15 minutes of play.
 ---
 
 ## Scene 1 — Kitchen (the briefing)

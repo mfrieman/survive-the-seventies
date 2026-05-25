@@ -14,7 +14,7 @@
 
 | # | Component | Source item | Mechanics | Act | Difficulty | Status | File |
 |---|---|---|---|---|---|---|---|
-| **L** | Soldering iron (workbench enabler) | Wood Burning Kit | FIND + cash | A1 (1st) | Easy | DRAFT | [component-L-soldering-iron.md](component-L-soldering-iron.md) |
+| **L** | Soldering iron (workbench enabler) | Wood Burning Kit | FIND + cash | A1 (1st) | Easy | DRAFT v0.1 | [component-L-soldering-iron.md](component-L-soldering-iron.md) |
 | **J** | Primary coil | Slinky | TRADE | A1 | Easy | DRAFT | [component-J-slinky.md](component-J-slinky.md) |
 | **C** | Grounding spike | Lawn Dart tip | FIND + EARN | A1 | Easy-Med | DRAFT | [component-C-lawn-dart.md](component-C-lawn-dart.md) |
 | **F** | Pendulum mass | Clackers | TRADE + CRAFT | A1 (close) | Easy | DRAFT | [component-F-clackers.md](component-F-clackers.md) |
@@ -47,7 +47,9 @@ Combos are tracked in each file's cross-reference section so we can untangle dep
 | `[BACKYARD-LAWN-DART-OWNER-DAD]` | C | When we add a yard-owner NPC | Adult — guards garage |
 | `[CLACKERS-OWNER-KID]` | F | When we draft kid-network | Probably an older sister type |
 | `[THERMOMETER-SOURCE]` | N | When we draft adult-network | Pharmacist or school nurse |
-| `[VET-AT-END-OF-BLOCK]` | B, G | **Later — Mark wants to develop this character** | The "cool" character. WWII or Vietnam (TBD by Mark). Story-listening minigame. |
+| `[BURNSVILLE-MENTOR]` = **Stan Burns** | L, plus identification of mystery parts across A1-A2 | **LOCKED 2026-05-24.** Founder, ~65-70s, handed shop to son Steve, still works floor every day, lives to teach kids. Tier 3 / honest-humility-wins. See `worldbuilding-rules.md` Rule 10. | The third father. Warmest NPC in the game. |
+| `[BURNSVILLE-OWNER]` = **Steve Burns** | background presence, comic interrupt | **LOCKED 2026-05-24.** Son, ~40s, current owner, excellent at it, proud of his dad, teases him warmly about retirement. Tier 2-3 floating. See Rule 10. | The success that frees Stan to teach. |
+| `[SURPLUS-STORE-VET]` | B, G | **Mark developing now (2026-05-24): Vietnam vet, OWNS Military Surplus Store in Zone 2 of The Oaks.** Came back, built the business, turned the war's leftovers into a livelihood. Story-listening minigame TBD. Highest-stakes adult Mark Test in the game (the one adult who could actually understand the machine). Possible Tear-registers-here late-Act beat. | The "cool" character. Vietnam-era. Sovereign in his store. |
 | `[OLDER-DEALER-KID]` | G, M | When we draft older-kid layer | The kid two grades up who has *everything* for a price |
 | `[ANTIQUE-STORE-OWNER]` | A | When we draft Ocean Side trip | Ocean Side boardwalk antique shop |
 | `[CB-DAD]` | M | When we decide Gus vs Dennis vs other | Adult with a CB rig |

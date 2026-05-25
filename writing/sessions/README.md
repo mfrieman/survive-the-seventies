@@ -49,8 +49,8 @@ The transcript is rendered as fenced code blocks so any markdown inside the conv
 
 ## Onboarding a new AI assistant
 
-Tell the new assistant:
+**Use `HANDOFF.md` at the repo root.** It contains the full bootstrap prompt and reading order for any fresh AI on any platform. The handoff doc supersedes the older one-line instruction below.
 
-> "Read `writing/premise.md` and `writing/decisions-log.md` first. Then skim the most recent file in `writing/sessions/`. The canon docs are the source of truth; the session archive is the reasoning trail."
+The older instruction (kept for reference): *"Read `writing/premise.md` and `writing/decisions-log.md` first. Then skim the most recent file in `writing/sessions/`. The canon docs are the source of truth; the session archive is the reasoning trail."*
 
-That should bring any capable LLM up to speed in about 10 minutes.
+`HANDOFF.md` extends this with: the Mark Test, the locked tone rules, the status of every major system, the working agreement, and the cross-platform survival checklist.

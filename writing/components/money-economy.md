@@ -35,6 +35,9 @@ Three big purchase moments where money is *tight* and the player feels it. Betwe
 - **Unlock:** Day 1.
 - **Era teaching:** Allowance was a *real conversation* in 1976. Dad pulled bills out of his wallet, counted them out, made a small comment. This wasn't an automated transfer.
 - **Scene beat:** Recurring Friday-night allowance moment. Sometimes Dennis adds a quarter for a chore done well. Sometimes he docks for a screwup. **Variable allowance** = light gameplay layer. Quiet relationship development with Dennis (the otherwise-quiet sheetrocker dad — see decisions-log).
+- **Mark Test guardrail (2026-05-24):** Allowance must NOT become a "set-and-forget" income source that lets players skip earning quests. Two controls:
+  1. **Soft cap:** Allowance never exceeds ~15–20% of total cash needed across the game. Math: $3/wk × ~5 wk = $15, vs ~$77–92 total need. Right inside the safe range.
+  2. **Late-game tapering:** In Act 2 Dennis says *"You're old enough to find your own way now"* and the weekly amount tapers (or stops). The $5 late-game handoff is a separate **emotional** beat, not a recurring income source.
 - **Quest hooks:** Mark's relationship with Dennis develops through this loop. Late-game beat: Dennis hands Mark a $5 bill, no explanation. *"Don't tell your mother."* Player learns Dennis has been quietly noticing.
 
 ### Loop 2 — Payphone coin-return scrounge
@@ -237,16 +240,29 @@ The Gilbert U-238 capstone. Big chunk of cash needed. Forces final money push. *
 
 ---
 
-## 8. Open questions
+## 8. Open questions — RESOLVED 2026-05-24
 
-1. **Variable allowance — keep or simplify to flat $3?** (Lean: variable. Builds Dennis arc for free.)
-2. **The wallet event — exact Tear cost calibration.** Has to be feelable but not punishing.
-3. **Couch change as one-shot or repeatable random?** (Lean: one-shot. Repeatable feels grindy.)
-4. **Burnsville prices on-screen visible** or hidden until counter? (Lean: visible — period-correct hand-written price tags on the shelves.)
-5. **Are there any cash-IN events that violate the no-stealing rule we need to police?** (Currently: no. Confirm.)
-6. **Bobby's "can I have a quarter" mechanic — keep or cut?** (Lean: keep as one comedic recurring beat, capped at 3 across game. Player can give or refuse.)
-7. **Does the player ever run out of money in a way that blocks progress?** (Lean: no. Always at least one earning loop available. Pacing pressure, not actual blocker.)
-8. **The picky-client lawn quest — assign to Mr. Caruso (existing) or a new NPC?** (Lean: Mr. Caruso. Reuses canon, gives Caruso household real screen time.)
+All 8 questions reviewed by Mark in a single pass:
+
+1. **Variable allowance:** ✅ KEEP, with two new guardrails (see Loop 1 above): soft cap + late-game tapering. Mark's concern: must not become a dependency that lets players skip earning quests. Guardrails address.
+2. **The wallet event Tear cost:** ✅ Tear penalty REMOVED entirely (already done in earlier pass). The wallet is now pure VO/relationship weight. Mark wants the wallet to potentially **introduce a new NPC** (the wallet's owner — when Mark returns it). The introduction has minimal mechanical impact so that players who keep the cash don't feel they missed a critical character.
+3. **Couch change:** ✅ KEEP, with two changes. (a) **Mark's own house only** + **Dennis's car** (front seat between cushions, under floor mats). NOT friends' houses — that would be stealing per locked rule. (b) **One-shot per location** (couch, car) — refills only when the in-game family situation justifies it (e.g., after Dennis comes home from work and dumps his pockets). Mark flagged that some players will never figure this out — that's fine; it's bonus cash, not gate cash.
+4. **Burnsville prices visible:** ✅ LOCKED VISIBLE. Hand-written period-correct price tags on the shelves. **Plus a new mechanic Mark proposed: SALES.** Burnsville runs occasional sales (a part Mark needs goes on sale for 1-2 in-game days). Functions as a player-friendly safety valve for players struggling with money. Sale timing tied to *story progression*, not random — so we can use it to help players who are pinch-pointed without breaking the economy. See "Sales-as-safety-valve" in §7 below.
+5. **No-stealing rule policing:** ⚠️ One violation flagged by Mark: **couch change at a friend's house = stealing.** Excluded above. Otherwise confirmed no other violations.
+6. **Bobby's "can I have a quarter":** ❌ CUT. Mark: *"I don't want to beg for money."* The beat is fine *reversed* (Bobby asks Mark for a quarter — kid sibling stuff, optional comedic micro-beat with no economic weight), but Mark never begs.
+7. **Run out of money blocking progress:** ✅ NO BLOCKERS. Always at least one earning loop available. Sales mechanic (Q4) is the additional safety valve. Pacing pressure only.
+8. **Picky-client lawn quest NPC:** ⏳ DEFERRED. Mark wants NPCs defined *after* quests are scoped — so each NPC has a clear story reason to exist. NOT Mr. Caruso for now. Held in `[PICKY-LAWN-CLIENT]` token until casting.
+
+### Sales-as-safety-valve (new mechanic, locked 2026-05-24)
+
+Per Mark's Q4 elaboration. Burnsville Electronics runs an occasional "WEEKEND SALE" on a single needed item (~25–40% off). The sale appears in the shop window as a hand-painted sign. Trigger logic:
+
+- **Story-progression-gated, not random.** If the player has been at a pinch point for >3 in-game days without solving it, the *next* needed item goes on sale.
+- **One-shot per item.** Player can't bank on it — the sale is the universe nudging, not a recurring discount.
+- **Diegetic-only.** No "tutorial popup." Just a sign in the shop window: *"WEEKEND SALE — POWER TRANSFORMERS $4!"* Player notices or doesn't.
+- **Mark VO can comment:** *"Burnsville's having a sale. That's never happened in my life."* (Player slowly realizes the universe is helping them.)
+
+Caps prevent abuse: max ~2 sales across the full game. Total discount budget ~$5–10 maximum. Math still requires real earning.
 
 ---
 

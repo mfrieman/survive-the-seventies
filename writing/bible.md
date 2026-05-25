@@ -1,7 +1,14 @@
 # Story Bible — Survive the 70s
 
-> The rewriting target for every AI-drafted line. If a line doesn't match
-> what's below, rewrite it.
+> ⚠️ **STALE — pre body-swap pivot.** This file was written before the
+> premise pivoted to the Mark Cole / Danny Marek body-swap. The narrator
+> voice notes and tonal anchors below still have value as reference, but
+> the premise, age, date, and structure are all superseded.
+>
+> **Current canon:** `HANDOFF.md` (repo root), `writing/decisions-log.md`,
+> `writing/premise.md`.
+>
+> When in conflict with those docs, this file loses.
 
 ## Premise
 Saturday, July 14, 1979. The narrator is a **14-year-old boy** in a

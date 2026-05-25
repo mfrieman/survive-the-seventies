@@ -9,7 +9,27 @@
 
 ---
 
-## 2026-05-24 (late morning)
+## 2026-05-24 (evening)
+
+### `[LOCKED]` The Burns Family — Burnsville Electronics canon
+
+Two-generation family business locked as the Tier 3 prototype location and the source of the warmest recurring beat in the game.
+
+- **Stan Burns** (father, ~65-70s): founded the shop, handed it to his son, still works the floor every day, **lives to teach kids who come in with parts they don't understand.** Tier 3 — knew Danny well, did not know the machine project. Honest humility wins with him. He IS the Mentor Mark didn't know he was looking for.
+- **Steve Burns** (son, ~40s): current owner, excellent at running the business, **proud** of his dad and doesn't resent the free advice. Recurring banter: *"Pop! You gonna retire today or tomorrow?" / "I'll retire when I'm damn ready."* Both laughing.
+- **The structural theme:** *Every grown child eventually surpasses their parent. This story shows the bittersweet beautiful side of that.*
+- **Stan is the "third father"** alongside Dennis Marek (Danny's quiet sheetrocker dad) and the offscreen 2026 dad. The one who has TIME. The one who TEACHES.
+- **Open:** Stan's possible immigrant background ("Stanislaw → Stan") leaning toward yes but not locked.
+
+Full canon: `worldbuilding-rules.md` Rule 10. Role tokens updated in `components/index.md`. Will star in `component-L-soldering-iron.md` v0.2 body rewrite (Stan = the Burnsville counter scene; Steve = the comic interrupt from the back).
+
+**Opens up:**
+- Every Burnsville visit (multiple components route through here) carries free Stan/Steve banter
+- Stan becomes Mark's logical source for "what is this part?" mystery-item identification — see Rule 9
+- Late-act emotional beat opportunity: Stan starts to see the kid in front of him is *different* somehow but loves him anyway
+
+---
+
 
 ### `[LOCKED]` Day system — streetlight ends the world, bedroom is untimed sanctuary
 
@@ -39,11 +59,21 @@ Mark's design instinct from `schedule 1`'s timing mechanic: separate the **timed
 **Time budget reality:**
 The story spans **summer 1976 → July 4 ending.** Roughly **35 in-game days** from school's-out to the Bicentennial. The day system has to fit inside this budget. Bedroom phase being untimed means we don't burn days on player indecision. Tier 1 Tear waits will be calibrated in **streetlight transitions, not 24-hour days** (see Tear system doc for detail).
 
-### `[STAGED]` Tear system (revised) — see `components/tear-system.md`
+### `[LOCKED]` Tear system v1 — see `components/tear-system.md`
 
-Per long discussion with Mark this morning: pulled back from the original "burn an item to stabilize" Tier 1 mechanic because it would trigger hoarding anxiety in the casual / older-novice player (the Mark Test). Replaced with **time-based stabilization** for the recurring tier. Kept the **memory burn** but moved it to a SINGLE scripted moment near the climax (Mark alone in his bedroom, not at the machine with Iwona — she still does not know about the machine per locked premise).
+Promoted from STAGED → LOCKED on 2026-05-24 after Mark reviewed all 10 §9 open questions in `components/tear-system.md` and resolved them. Key locks from this pass:
 
-Full system in `components/tear-system.md`. Marked STAGED, not LOCKED — Mark wants to live with it before committing.
+- **The compelling reason for Mark to return is paired pressure** — the Tear (external) + Danny pleading + Mark torn between worlds (internal). Tear gauge reads two ways: danger AND countdown to leaving the only place that ever felt like home.
+- **Tier 1 = TIME ONLY** — wait 1–2 streetlight transitions, no items destroyed, doubles as a pacing equalizer for skill-band differences. Exact count to be felt-out in prototype.
+- **Tier 2 = single relationship favor** (Mickey / Bobby / Iwona) — covers-for-me framing, one time, Act 2.
+- **Tier 3 = single scripted memory burn** — Mark alone in his bedroom, **four memories** on the menu (apartment number, gravestone, cat's name, favorite song — Iwona-hair memory explicitly removed as too cruel and too entangled with the love-story spine), **two-day foreshadow** in the Book.
+- **Three happy-ending textures** (Quiet Victory / Reunion / Echo) revealed on **first playthrough**, plus a Bookmark / "save your ending" feature for revisiting. **4th "Echo+" stretch texture green-lit to explore** after the first three are scripted.
+- **Capstone symptom (Component A install) = reality near the machine duplicating itself** in micro-bursts. Triggers the seal sequence.
+- **Book is the only persistent diegetic UI** — ink stain on cover page is the Tear gauge. Inventory/cash minimized or hidden inside Book pages. Full UI design pass deferred; Mark's wife (graphic designer) may help.
+
+Stale: this entry supersedes the earlier `[STAGED] Tear system (revised)` entry. Honor this one.
+
+---
 
 ### `[LOCKED]` Burnsville Electronics — the hobby shop (tribute to real-world Baynesville)
 
