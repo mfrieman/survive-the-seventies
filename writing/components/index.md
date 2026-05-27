@@ -1,5 +1,9 @@
 # Components Index
 
+> **Note (2026-05-26):** An active **v0.2 PROPOSAL** lives at [`../machine-rules-v0.2-proposal.md`](../machine-rules-v0.2-proposal.md). It proposes **12 components** (vs the 10 below), adds `O` (Foot X-Ray fluoroscope) and `Amb` (amber-with-inclusion) as full members, replaces `F` (Clackers) with a Polaroid SX-70 battery pack, and ungates `B` (vacuum) from glass-blowing. The 10-row table below is still **v0.1** and remains authoritative until the proposal is locked. Use the proposal file as the staging ground for swap ideas — including Mark's incoming new-part proposal.
+>
+> ---
+
 > Per-component journey docs for the 10-part machine spine. Each component is its own file with the full quest journey, NPCs involved (kept generic for now — names filled in later), locations, dialog flavor, Tear impact, and era-teaching surface.
 >
 > **Status legend:** `DRAFT` = first pass written, `REVIEW` = Mark has reviewed, `LOCKED` = final.
