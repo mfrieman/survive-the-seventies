@@ -14,7 +14,7 @@ Pattern: One NPC = multiple yields across multiple quests. Cap at 3 yields per N
 |---|---|---|---|---|
 | **Elga** | Old papers stack (→ Playboy magazine) | Marijuana (Vapor brew) | — | Two quests, sequential |
 | **Playboy Tony** | Lawn-chair gatekeeper (NOT a giver — barrier between player and Elga) | — | — | Time-gate NPC |
-| **Tony Caruso** (14, band kid) | 12AX7 vacuum tubes | Marshall amp transformer | — | Two ethnic-grocery trades |
+| **Tony Caruso** (14, band kid) | 12AX7 vacuum tubes (Signal Slot 7) | Marshall amp transformer (Signal Slot 4) | — | Both yield from Q-003 (band light-show favor). Band = recurring favor-faction; 2nd quest reserved (Q-IDEA-10) |
 | **Pat the Vet** (Sonny's Surplus) | Gas Mask + Hose | Surplus military battery (Good Power) | ❓ TBD secondary brew? | |
 | **Stan** (Burnsville Electronics) | Signal pathway teaching | SX-70 tip (via Danny comms) | — | Mentor, not item-source |
 | **Denise** | Amber spiritual lore | Vapor pathway teaching | — | Mentor, not item-source |
@@ -43,8 +43,8 @@ Pattern: One NPC = multiple yields across multiple quests. Cap at 3 yields per N
 |---|---|---|---|---|
 | Q-001 | Elga Paper Drive | Playboy magazine + Old papers haul | ❓ TBD top-tier machine part | TBD Signal slot |
 | Q-002 | Elga Garden Cleanup | Marijuana | Direct use (Vapor brew tier) | Vapor Slot 13 |
-| ❓ | Caruso Trade #1 | 12AX7 tubes | Direct use | Signal Slot 7 (Spirit Valve) |
-| ❓ | Caruso Trade #2 | Marshall transformer | Direct use | Signal Slot 4 |
+| Q-003 | Showtime (Caruso Band Light Show) | Dead amp → 12AX7 tubes + Marshall transformer | Direct use (both) | Signal Slot 7 (Spirit Valve) + Signal Slot 4 |
+| Q-IDEA-10 | 2nd Caruso Band quest (reserved) | ❓ TBD part or trade currency | ❓ TBD | ❓ TBD — add a part here if story needs more |
 | ❓ | Pat the Vet — Gas Mask | Gas Mask + Hose | Direct use | Vapor Slot 11 |
 | ❓ | Boy Scout Uniform Borrow | Uniform (lent, returned after Paper Drive) | Pre-req for Q-001 | None — enabler |
 

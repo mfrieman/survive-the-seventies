@@ -156,6 +156,44 @@ Concept: a **pyromaniac NPC kid** asks Mark to build him a homemade firework for
 
 **Status:** **LIKELY — strongly recommend in.** Best when paired with matchbook-collection ambient mechanic.
 
+> **⚠️ UPDATE 2026-05-29 — SAFETY REWORK:** The homemade-firework concept was REJECTED for the game (we
+> will not depict real explosives or replicable dangerous procedures). The *spirit* of this idea — a kid is
+> the neighborhood "effects guy" — was reworked into the SAFE **Q-003 Showtime** (garage-band fog/light show
+> from harmless household stagecraft). The pyromaniac-kid NPC may still survive as a character, but NOT as a
+> firework-builder. See `quests/Q-003-caruso-band-light-show.md`.
+
+---
+
+## Idea Q-IDEA-10 — Second Caruso band quest (band as recurring favor-faction)
+
+**Origin:** During Q-003 (Showtime) design, decided the Caruso garage band should be a **multi-quest hub**
+(like Elga) rather than a one-visit vending machine. Q-003 already yields the dead amp (Marshall transformer +
+12AX7 tubes, two Signal slots). This stub reserves a SECOND, story-different band quest for later — so we add
+content without an artificial "two trips to the same amp" re-fetch.
+
+**Mark's reasoning (2026-05-29):** combining the two amp parts into one salvage is realistic, but we don't
+want to lose total content (5–7 hr target). Solution: keep the realistic single salvage, and bank a *new
+situation* with the same NPCs as the extra content slot. "Good to have multiple quests from one place."
+
+**Candidate situations (pick one when promoting):**
+- **Missing bandmate** — the bassist/drummer vanished (grounded? new girlfriend? moved?); track him down before a gig.
+- **Recover "borrowed" gear** — a rival kid/older teen "borrowed" their guitar/mic and won't give it back; non-confrontational recovery (wit/trade, not combat).
+- **Get a gig/venue** — talk a location (the Hub, a backyard party, the roller rink) into letting them play.
+- **Cut a demo** — sneak/charm time at the radio station to record a demo (ties to a radio-DJ NPC = rumor/clue delivery, per the That-'70s-Show mine).
+
+**What's gold:** deepens the band as characters; reuses the established garage-HQ location; gives a *different*
+verb than Q-003 (find-a-person / recover-an-item / negotiate-access) so it doesn't feel like a repeat.
+
+**Throughline fit:**
+- Machine part: ❓ TBD — could yield a *different* Signal/Vapor component OR a trade currency. Only promote if
+  it advances a part or provides a needed trade item (per inbox promotion rule). If story needs more than parts
+  allow, this is the natural place to *add* a part (Mark: "we can always add another part if the story lacks").
+- NPC: reuses Tony Caruso + band (no new household cost); may introduce a radio-DJ or rival-kid NPC.
+- Locations: reuses Caruso garage; may add the Hub / radio station / roller rink (cross-ref That-'70s-Show mine).
+
+**Status:** **IDEA — reserved content slot.** Promote when (a) we know which machine part/trade it advances, and
+(b) Act 1–2 pacing wants another band beat. Cross-ref: `quests/Q-003-caruso-band-light-show.md`.
+
 ---
 
 ## Idea Q-IDEA-07 — Parent errands (cigarettes from vending, cashing checks)
@@ -245,3 +283,66 @@ Concept: a **pyromaniac NPC kid** asks Mark to build him a homemade firework for
 ## Process note
 
 This file exists because Mark generates raw creative material faster than we should commit it. The IDEAS-INBOX → LIKELY → PROMOTED pipeline keeps the energy without crowding the locked design space. Re-review every few sessions.
+
+## Q-IDEA-11 — The VW Bus Hippies (TRAVELING MERCHANT FACTION) ⭐ NEW 2026-05-29
+
+> **This is not a quest — it's a recurring SYSTEM and a new NPC faction.** Logged here so it
+> doesn't get lost; needs its own character/faction doc when we do the character pass.
+
+**The pitch (Mark, 2026-05-29):**
+A small group of hippies who live out of a **VW Bus** (already canon as a block vehicle — see
+`bible.md`, "Cars on the block: VW Bus (the hippies)"). They are **itinerant** — they roll into
+town **every few days**, set up, and **sell items**: flowers, herbs, and other counterculture
+goods. Then they leave. They are a *roving shop with legs*, not a fixed location.
+
+**Why this is gold (systemic, not just flavor):**
+- **Solves the "where do I buy soft/organic ingredients" problem.** They're the natural source for
+  herbs/botanicals that a 14-year-old can't get at the hardware store or grocery — feeds the
+  **Vapor pathway** (herbal censer ingredients, brew flavor) and possibly Amber-adjacent oddities.
+- **Creates scarcity/timing tension for free.** Because they only show up every few days, certain
+  goods are **time-gated** — the player learns their rough schedule and plans around it. That's a
+  soft clock that makes the world feel alive WITHOUT a hard fail timer.
+- **Pairs with DENISE for the SECOND PATH (Vapor).** Mark: "This is going to work with Denise for
+  the second path." Denise (spiritual/folklore neighbor, sourced the original amber) is the
+  *knowledge* node; the hippies are the *supply* node. Denise tells you WHAT you need and what it
+  means; the hippies are WHERE some of it comes from. Clean division: lore vs. logistics.
+- **Tone-perfect for the era and the satire.** Friendly, vague, harmless burnout energy. Comedy
+  from the gap between what they think they're selling (enlightenment, good vibes) and what Mark
+  actually needs it for (feeding a soul-transfer machine).
+
+**Throughline fit:**
+- Machine part / ingredient: **Vapor pathway** botanicals/herbs (censer + brew flavor tier);
+  possible one-off oddity that Denise identifies. NOT a Signal-pathway hard part — they're a
+  *consumable/ingredient* supplier more than a single-part source.
+- NPC: new faction (2–3 named hippies, or 1 named "face" + the bus). Low household cost because
+  they're not a fixed family — they share one location asset (the bus) and appear/disappear.
+- Locations: the bus parks somewhere recurring (the Hub / 7-Eleven lot / park edge). Mobile asset.
+
+**Open design questions (for the character pass):**
+- How does the player learn their schedule? (Denise tip? a flyer? word of mouth?)
+- Do they barter (kid-economy trade) or take cash? Barter fits the vibe and the no-money-for-kids reality.
+- Are they comic-relief only, or do they carry one quiet "the 60s ended and left these guys behind" beat?
+- One named contact vs. an ensemble.
+
+**Status:** **CANON-INTENT — needs a faction/character doc.** Mark has locked the concept; the
+*details* are open. Promote individual transactions into Vapor-pathway quests as needed.
+
+---
+
+## CHARACTER DEFINITION — OPEN WORK (flagged 2026-05-29)
+
+> Not a quest. A standing reminder that several key NPCs are named/role-locked but **not yet
+> fully written**. Do a dedicated **character pass** (own folder, e.g. `writing/characters/`).
+
+Need fuller definitions for:
+- **Denise** — spiritual/folklore neighbor; sourced the original amber; KNOWLEDGE node for the
+  Vapor/second path. Pairs with the VW Bus hippies (lore vs. supply).
+- **The Caruso family** — Tony Caruso (lazy Playboy-owning hub) + the garage band kids (Q-003).
+  Band members still unnamed (drummer is a hint-source per Q-003 open questions).
+- **The VW Bus hippies** — see Q-IDEA-11 above.
+- **Other neighborhood friends** — Mark's day-to-day peer group / the kids he runs quests with.
+  Currently undefined as a named cast.
+
+**Suggested approach next session:** stand up `writing/characters/` with one short sheet per
+NPC (name, role, what they gate, voice, asset/pack note). Cross-ref the quest tracker so every
+named NPC maps to at least one quest or system.
