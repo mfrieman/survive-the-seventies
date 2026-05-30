@@ -4,7 +4,15 @@
 >
 > ---
 
-> Per-component journey docs for the 10-part machine spine. Each component is its own file with the full quest journey, NPCs involved (kept generic for now — names filled in later), locations, dialog flavor, Tear impact, and era-teaching surface.
+> **See also (2026-05-30):** A separate **PROPOSAL** for the relationship-measurement mechanic
+> lives at [`relationship-instrument.md`](relationship-instrument.md) — **"the Note,"** Denise's
+> brass tuning fork. It is NOT a machine component (not part of the 10-slot spine); it's Denise's
+> Act 1 gift that gates social content (band debut, quest-trust, bike-jump). Listed here only for
+> discoverability.
+>
+> ---
+
+> Per-component journey docs for the 10-part machine spine.Each component is its own file with the full quest journey, NPCs involved (kept generic for now — names filled in later), locations, dialog flavor, Tear impact, and era-teaching surface.
 >
 > **Status legend:** `DRAFT` = first pass written, `REVIEW` = Mark has reviewed, `LOCKED` = final.
 >

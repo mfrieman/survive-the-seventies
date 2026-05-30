@@ -1,7 +1,8 @@
-# Machine Architecture — LOCKED 2026-05-27
+# Machine Architecture — LOCKED 2026-05-27 (Path-2 reworked 2026-05-30)
 
-**Status:** 🔒 LOCKED (architecture, slot counts, mandatory list, controlled-option pattern)
-**Supersedes:** the flat parts list in `machine-rules.md` (V0). Component files should be (re)written to fit this structure.
+**Status:** 🔒 LOCKED (architecture, slot counts, mandatory list, controlled-option pattern). **Path 2 reworked 2026-05-30** from inhaled-vapor → ritual platform; gas mask dropped; slot total now 16. See `second-pathway-ritual-platform.md`.
+**Supersedes:** the flat parts list in `machine-rules.md` (V0, 10-letter model) **and** `machine-rules-v0.2-proposal.md` (12-part staging draft) — both archived to `writing/archive/`. Component files should be (re)written to fit this structure.
+**Sibling (not superseded):** `backbone.md` = the Path-1 chassis / cash-gated money layer.
 
 ---
 
@@ -14,11 +15,23 @@ The machine is a **dual-pathway soul-displacement contraption** that converges e
 ## Four Categories
 
 1. **Signal Pathway** — electrical / electromagnetic apparatus (Edison spirit-phone DNA)
-2. **Vapor Pathway** — gas mask + inhaled chemical brew (1970s casual-toxin DNA)
+2. **Second Pathway (Ritual Platform)** — Denise's painted swap-altar: a body-sized board the subject lies on, charged by a ring of 5 stones + the center amber (metaphysical / folk-ritual DNA)
 3. **Structural & Mounting** — the frame, base, and rigging that survived Machine 1's fire
 4. **Tools & Accessories** — what Mark uses to BUILD the machine, NOT part of the machine itself
 
-The **Amber Resonance Anchor** is a single component slot at the convergence point of Signal + Vapor. It is neither pathway. Last component installed. Gates Act 3.
+The **Amber Resonance Anchor** is a single component slot at the **center of the ritual platform, resting over the subject's heart** — the convergence point of Signal + Platform. It is neither pathway. Last component installed. Gates Act 3.
+
+---
+
+## Quest-Type Taxonomy (salvaged from v0.2)
+
+Every component slot is tagged by how the player obtains it. Target mix skews toward ACQUIRE for the part-quests; box-resident parts use the lighter IDENTIFY mechanic.
+
+| Type | What the player does |
+|---|---|
+| **IDENTIFY** | The part is already in the Box of Leftovers, intact. The mini-quest is figuring out *what it is* and *where it goes* on the Blueprint (Knowledge gates + 1-2 NPC chats). |
+| **RECOVER** | The part exists nearby but is broken / missing a sub-part / needs reactivation. One trip, one trade, one CRAFT step. |
+| **ACQUIRE** | Full chain — Identify → Locate → Acquire → Verify. Multiple NPCs/beats, the "main course" puzzles. |
 
 ---
 
@@ -55,7 +68,7 @@ Organized in 4 layers (per V2 research):
 ### Mandatory Outside the 10-Slot Frame
 | Component | Notes |
 |---|---|
-| **Gilbert U-238 Atomic Energy Lab uranium core** | Mandatory, gated to Oceanside (Act 3). Sits inside the chamber alongside the amber. Not a pathway slot — it's the *fuel.* |
+| **Gilbert U-238 Atomic Energy Lab uranium core** | Mandatory, gated to Oceanside (Act 3). Sits inside the **Signal chamber** (Mason Jar, Slot 8) as the *fuel.* Not a pathway slot. (The amber now lives on the **platform center**, not in the chamber.) |
 
 ---
 
@@ -72,25 +85,33 @@ Pattern: **deterministic destination, varied flavor.** All four work. Better sou
 
 ---
 
-## Vapor Pathway (4 slots)
+## Second Pathway — Ritual Platform (5 stone slots + amber anchor)
 
+**Reworked 2026-05-30** (replaces the dropped gas-mask / inhaled-vapor model). The second pathway is a **body-sized ritual platform — "the Swap Altar"** — a large board **painted by Denise** that the swap-subject **lies down on.** Path 1 *sends* the signal; the platform is *what the signal acts upon,* aiming the swap at the body resting on it. (This answers "how is Danny/Mark the TARGET?" — he's lying on the focusing array. The same platform stages the climax return-swap.) Full design: `components/second-pathway-ritual-platform.md`.
+
+**Fire/drain canon:** the platform did **not** burn — only Path 1 did. The platform is **intact but inert**: its stones and amber were **spent** by the first soul-swap and must be replaced fresh.
+
+### The platform board (substrate — NOT a counted slot)
+Denise's painted board is Path 2's **backbone** — the parallel to Path 1's chassis/perfboard, and like that chassis it is **not** one of the numbered blueprint slots. It already exists in the basement; Mark **reactivates** it with Denise's help rather than building it. Its singular imagery is the **Denise discovery hook** (he recognizes her lawn paintings).
+
+### Stone Ring (5 slots — Act 3, Oceanside) — ACQUIRE
 | Slot | Component | Source |
 |---|---|---|
-| 1 | **Gas Mask + Hose Assembly** | Pat the Vet at Sonny's Surplus. Terminal node. |
-| 2 | **Herbal Vapor Censer** (induction device) | Modified gas mask filter. Glows dull red. FLOW knob = diegetic player control. |
-| 3 | **Chemical Brew** (controlled-option tier) | 4 deterministic ingredients. See brew table below. |
-| 4 | **Mercury Tilt Switch** | Salvaged thermostat. Ensures vapor only fires when machine is oriented correctly. |
+| P1 | **Stone 1** (fresh) | Oceanside site L1 — one of Denise's father's five rock gardens |
+| P2 | **Stone 2** (fresh) | Oceanside site L2 |
+| P3 | **Stone 3** (fresh) | Oceanside site L3 |
+| P4 | **Stone 4** (fresh) | Oceanside site L4 |
+| P5 | **Stone 5** (fresh) | Oceanside site L5 |
 
-### Chemical Brew Tier (Controlled-Option Slot)
+Mark starts the game holding the **5 spent, dull husks** from the opening and uses them as **reference samples** to recognize/match the fresh stones at the five sites (the painting→location puzzle, CP17). The husks are inert — recognition aid only, no power.
 
-Same pattern as Power Supply. Player gathers 1-2 brews. All work. Different cutscene flavor + Tear visuals.
+### Amber Resonance Anchor (1 slot — platform center) — ACQUIRE
+The fresh **amber-with-inclusion**, set over the subject's heart. Per locked love-story canon it is the one component Danny **cannot pre-stock or buy** — the saltwater/blacklight test fails at the Oceanside amber store, forcing the gift. It must ultimately be **GIVEN by Iwona** (concert kiss-and-gift). Last component installed; gates Act 3 climax.
 
-| Tier | Brew | Source | Comedy beat |
-|---|---|---|---|
-| 1 | **Solvent Fumes** (model glue, paint thinner) | Hobby shop / garage shelf | Knockout gas. "Smells like the Pinewood Derby." |
-| 2 | **Aerosol Freon** (hairspray, keyboard cleaner) | Mom's bathroom / Dad's workshop | "Cryo-breath." Chilly vapor. |
-| 3 | **Marijuana** | **ELGA'S BACKYARD GARDEN** (Three's Company homage). The teenagers next door toss joints into Elga's yard; seeds in roaches took root; she has a marijuana patch and doesn't know it. She hires the kids to weed the garden. Mark does NOT use it personally — it's a machine ingredient burned in the censer. See "Elga's Garden Quest" section below. | Clueless old lady + lazy Playboy Tony + kids who know exactly what they're harvesting. |
-| 4 | **Lab Chemicals** (chem-set leftovers, photo-developer) | Old chem set / pharmacy / Pat the Vet | "Real science." Photo-developer fumes for the Kirlian-adjacent vibe. |
+### Ritual items (atmosphere — NOT slots)
+Recast from the dropped vapor parts: **censer + incense** (smoke curling around the body — era-perfect; ties to the **VW-hippie-van** herb/incense supply), **ritual herbs**, optional candles / a personal object. Placed *around* the platform, never inhaled.
+
+**Mercury tilt switch:** **CUT** from the core slot list (its flat-platform orientation job is gone). Available as optional Path-1 flavor only.
 
 ---
 
@@ -145,7 +166,7 @@ What Mark uses to BUILD. Not machine components. Each is a meta-progression unlo
 | Ham Radio Transmitter Module | Redundant with CB crystal |
 | Gold-Leaf Electroscope | Sensing duplicate — Spirit Valve covers this |
 | Kirlian Aura Camera | Already flagged optional in dump; out of core |
-| 3 of 4 induction-device variants (coffee can, jury-rigged fogger, glow tube) | Same function. Herbal Censer wins (lowest part count, reuses gas mask). |
+| 3 of 4 induction-device variants + the Herbal Censer itself | Vapor pathway retired 2026-05-30 — none are machine parts now. The censer survives only as ritual *atmosphere* (see Second Pathway). |
 
 ---
 
@@ -154,10 +175,10 @@ What Mark uses to BUILD. Not machine components. Each is a meta-progression unlo
 | Category | Slots |
 |---|---|
 | Signal Pathway | 10 |
-| Vapor Pathway | 4 |
-| Amber Resonance Anchor | 1 |
+| Second Pathway — Ritual Platform stone ring (board = uncounted substrate) | 5 |
+| Amber Resonance Anchor (platform center) | 1 |
 | U-238 Fuel (mandatory, outside slot frame) | — |
-| **Total Blueprint UI slots** | **15** |
+| **Total Blueprint UI slots** | **16** |
 | Optional aesthetic (🅿️ PARKED) | 0 (was +2) |
 | Tools (separate UI) | 4 |
 
@@ -181,7 +202,7 @@ The Carusos become a **2-component source** (both mandatory). *Reverb spring tan
 Denise is one of two elder mentors in the game, paralleling the dual-pathway architecture:
 
 - **Stan (Burnsville Electronics)** = Signal Pathway elder. Technical, electrical, Edison lineage.
-- **Denise (across the street)** = Vapor + Amber elder. Spiritual, metaphysical, soul lore.
+- **Denise (across the street)** = Ritual-Platform + Amber elder. Spiritual, metaphysical, soul lore. **She painted the swap-altar board** and is the one who reactivates it.
 
 She is **NOT a marijuana source** — that role belongs to Elga's garden quest.
 
@@ -189,7 +210,7 @@ Denise's locked roles:
 - Danny's original folklore consultant
 - Source of the original amber that was destroyed in the fire
 - Knows the spiritual significance of amber-with-inclusion
-- Knows things about the Vapor pathway the kids can't figure out alone
+- Knows things about the **ritual platform / second pathway** the kids can't figure out alone
 
 Mark's evolving relationship with her is a key Path 2 throughline. What she taught Danny becomes what she re-teaches Mark — but Mark, knowing the future, may bring something back to her too. TBD as Mark builds out the character.
 
@@ -201,7 +222,7 @@ Mark's evolving relationship with her is a key Path 2 throughline. What she taug
 
 **Surface goal (visible to player):** Earn money. Reinforces the long-term "build the machine" goal.
 
-**Hidden reward:** Pulled "weeds" auto-added to inventory. Become available as a Vapor brew ingredient.
+**Hidden reward:** Pulled "weeds" auto-added to inventory. Become the supply item for the **VW-hippie-van marijuana quest** (Mark's separate comedic payoff — the *one and only* marijuana quest in the game).
 
 ### Three-Layer Signposting
 
@@ -214,11 +235,11 @@ Mark's evolving relationship with her is a key Path 2 throughline. What she taug
 ### Feedback Rules
 - **No failure state.** Player completes cleanup → money + weed → both delivered.
 - **Examining rewards recognition.** Players who *look* learn earlier. The third examined weed forces Mark to verbalize the realization.
-- **Late-game "a-ha" possible.** If player never realizes mid-quest, they discover the weed in inventory later at the brew step — connecting an earlier mundane quest to current machine progress.
+- **Late-game "a-ha" possible.** If player never realizes mid-quest, they discover the weed in inventory later when the **VW-hippie-van** quest opens — connecting an earlier mundane quest to the comedic payoff.
 - **Hard confirmation path:** the teenagers next door themselves. If player approaches them with a weed in inventory, one of them snorts: "Where'd you get *that?*" Confirms it explicitly without making any elder mentor the drug expert.
 
 ### Gating
-**Do NOT make Elga's garden the only marijuana source.** Add at least one secondary path (Pat the Vet's "back pain" baggie, or a dropped joint at a party scene) so a player who skips this quest isn't locked out of the brew tier.
+**RULED 2026-05-30: exactly ONE marijuana quest, source = Elga's garden only.** No secondary source. Because marijuana is no longer a machine ingredient (it now feeds the standalone VW-hippie-van quest, not the dropped Vapor brew), skipping Elga only skips that one comedic side-quest — it can never lock the player out of machine progress. Keep it single and clean.
 
 ### Connections
 - Elga is **also** the Playboy Tony TV-rebuild quest source (CRT). Two quests, one household.

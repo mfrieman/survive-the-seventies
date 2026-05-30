@@ -1,7 +1,8 @@
-# Component Backbone — The Machine Chassis
+# Component Backbone — The Machine Chassis (Path 1)
 
-> **Status:** DRAFT v0.1
-> **Sibling to:** the 10 toy components (L, J, C, F, N, B, K, G, M, A) — this is what they all mount onto.
+> **Status:** Supporting canon — the **Path-1 chassis / cash-gated money layer.** Sibling to `machine-architecture.md` (the slot model); not in conflict with it.
+> **Note:** the old "10 toy components (L, J, C, F, N, B, K, G, M, A)" letter model is **superseded** by the **Signal Pathway 10-slot** model in `machine-architecture.md`. Read the letter refs below as the Signal slots they became. **Path 2 (the ritual platform) has its own substrate — Denise's painted board — not this chassis.**
+> **This is what the Signal-pathway parts mount onto.**
 
 ---
 
@@ -187,6 +188,6 @@ EXCEPTION: First time the **power supply** is wired up and energized, even with 
 - **era-research/hobby-electronics-1976.md** — full research spine for the parts and the store
 - **components/index.md** — sibling to the 10 toy components
 - **components/money-economy.md** — to be drafted; the earning side of the equation
-- **machine-rules.md** — original 10-component spine; backbone is the substrate they all mount to
+- **machine-architecture.md** — the canon slot model (Signal / Platform / Amber); backbone is the Path-1 substrate the Signal parts mount onto
 - **quest-seeds.md** — payphone coin return, lawn mowing (the earning loops that fund backbone)
 - **story-arc.draft.md** — Acts 1-2 (backbone is acquired across these)

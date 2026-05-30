@@ -4,11 +4,11 @@
 
 - **Quest ID:** Q-002
 - **Title:** Elga's Garden Cleanup
-- **Status:** 📝 DRAFT (designed 2026-05-27, structurally locked — dialogue + signposting detail TBD)
+- **Status:** 📝 DRAFT (designed 2026-05-27; **repointed 2026-05-30** — marijuana is no longer a machine ingredient; it now feeds the standalone VW-hippie-van quest. Vapor pathway retired. Dialogue + signposting detail TBD)
 - **NPC Hub:** Elga
 - **Act:** 1 or early Act 2
 - **Gates:** Q-001 (Elga's Paper Drive) — Elga offers this quest as gratitude for the paper-drive haul. Player must accept and return.
-- **Unlocks:** Vapor brew tier (Marijuana ingredient); recurring small-cash Elga relationship
+- **Unlocks:** the standalone **VW-hippie-van quest** (marijuana payoff — Mark's separate build); recurring small-cash Elga relationship
 
 ---
 
@@ -17,16 +17,16 @@
 | Yield | Tier | Quest |
 |---|---|---|
 | Old papers stack (contains Playboy magazine) | Tier 3 | Q-001 |
-| **Marijuana** (Vapor brew) | Tier 3 | Q-002 (this) |
+| **Marijuana** (→ VW-hippie-van quest) | Tier 3 | Q-002 (this) |
 
 ---
 
 ## 2. Reward Layer
 
-- **Primary reward:** **Marijuana** (Vapor brew ingredient — direct use in machine, NOT for Mark's personal use)
+- **Primary reward:** **Marijuana** (feeds the standalone VW-hippie-van quest — NOT a machine part, NOT for Mark's personal use)
 - **Secondary reward:** Cash payment (yardwork wage, modest — $5-10)
 - **Tertiary reward:** Elga relationship deepens; possible recurring "do you need anything else, dear?" hub for future small quests
-- **Downstream use:** Marijuana fills one of the 4 Chemical Brew tier slots (Vapor Slot 13)
+- **Downstream use:** Sole input to the **VW-hippie-van comedic quest** (Mark's separate build). Not a machine part. This is the game's *one and only* marijuana quest.
 
 ---
 
@@ -58,9 +58,9 @@ Logical chain:
 5. Roaches (the ends of joints) often contain seeds
 6. The seeds took root → marijuana plants
 7. Elga is too out-of-it to know
-8. I just pull the "weeds" and pocket them. Free Vapor brew ingredient.
+8. I just pull the "weeds" and pocket them. Free contraband — no obvious use yet. (Pays off later at the hippie van.)
 
-**Casual player path:** does the yardwork, gets paid, weed auto-added to inventory, discovers it later at the brew step. No failure.
+**Casual player path:** does the yardwork, gets paid, weed auto-added to inventory, finds a use later when the **VW-hippie-van quest** opens. No failure.
 
 ---
 
@@ -90,9 +90,9 @@ Most players will get it during Q-002 — but for the player who completed clean
 | Day +1 after cleanup | Teenagers next door (ambient) | *"Yo, did you see Mrs. Tony cleaned out her garden? All our seeds, man. We gotta start tossin' them somewhere else."* | Medium — direct overhead conversation |
 | Day +2 | Friend (Mickey?) sees inventory | *"Dude. What is that in your bag? Is that what I think it is?"* | Obvious |
 | Day +3 | Mark himself (notebook UI) | When opening inventory, the weed entry now reads *"'Weeds' from Elga's garden. (Mark suspects: marijuana.)"* — text auto-updates | Bail-out — explicit |
-| Day +4 | Brew step (when player tries to make a Vapor brew) | UI labels the item as "Marijuana — known Vapor brew ingredient" | Near-explicit at point of use |
+| Day +4 | VW-hippie-van quest opens | UI labels the item "Marijuana — the hippies will want this" | Near-explicit at point of use |
 
-**Stop-condition:** Hints stop firing once Mark verbalizes "Oh" OR uses the item in a brew.
+**Stop-condition:** Hints stop firing once Mark verbalizes "Oh" OR hands the item off at the hippie van.
 
 ---
 
@@ -124,7 +124,7 @@ No "Tony must be absent" gate — Tony doesn't care about the garden.
 - **Mid-quest discovery beat (for sharp players):** Mark examines a plant. Beat. *"...Oh."* Pulls it. Pockets it.
 - **Mid-quest comedy beat (the teenagers):** As Mark works, audible from over the fence: *"Hey man, you got a light?"* / *"Yeah, hold on, lemme finish rolling this."* (Camera does NOT cut — stays on Mark hearing it while pulling another "weed.")
 - **Reward beat:** Elga, pressing a $5 bill into Mark's hand: *"You are such a good young man. I baked these cookies. Take some home to your mother. Tell her she has raised an ANGEL."* Mark VO: *"I just harvested half a pound of marijuana from her backyard. I am the opposite of an angel."*
-- **Late-game callback potential:** when Mark uses the brew during a machine cutscene, vapors swirl, and a faint memory beat of Elga's cookie kitchen could echo. Defer.
+- **Late-game callback potential:** when Mark hands the weed off at the VW-hippie-van quest, a faint memory beat of Elga's cookie kitchen could echo. Defer.
 
 ---
 
@@ -133,14 +133,14 @@ No "Tony must be absent" gate — Tony doesn't care about the garden.
 - **Characters introduced/deepened:** Elga (deepened — second yield, recurring kindness, comedy of her obliviousness); the teenagers next door (introduced as ambient stoner-coded background characters — possibly recurring); Mickey or other friend (deepened if used as confirmation hint)
 - **Locations introduced/deepened:** Elga's backyard (new); the fence-adjacent teenagers' yard (implied, not enterable)
 - **Era beats taught:** 1976 suburban marijuana culture (open, not seedy, kids of stoners, neighbors who don't recognize the plant); yardwork as kid economy
-- **Tear/money impact:** Small cash income. Tear: no violation (legitimate work). The marijuana-in-inventory does NOT raise Tear by itself — Mark is not using it personally, it's a machine ingredient. (If player ever picks "smoke it" option in a hypothetical menu, that's a Tear hit — but base design says no such option exists.)
+- **Tear/money impact:** Small cash income. Tear: no violation (legitimate work). The marijuana-in-inventory does NOT raise Tear by itself — Mark is not using it personally, it's destined for the hippie-van trade. (If player ever picks "smoke it" option in a hypothetical menu, that's a Tear hit — but base design says no such option exists.)
 
 ---
 
 ## 11. Open Questions
 
-- ❓ **Secondary marijuana source** for players who skip Q-001 → Q-002 chain. Candidates: Pat the Vet's "back pain" baggie; a dropped joint at a party scene; the teenagers next door directly (if Mark trades them something).
-- ❓ **Teenagers next door — named characters or pure ambient?** If named, they become a hub themselves (could yield other Vapor brews — solvent fumes from their model-glue habit? Aerosols from their car-tinkering?). Risk: too much weight on stoner archetype.
+- ~~**Secondary marijuana source**~~ ✅ RESOLVED 2026-05-30 — exactly ONE marijuana quest, source = Elga only. Marijuana is no longer a machine ingredient, so skipping this only skips the hippie-van side-quest; nothing is gated.
+- ❓ **Teenagers next door — named characters or pure ambient?** If named, they could become a minor trade hub. Risk: too much weight on the stoner archetype. (Note: they no longer yield "vapor brews" — that pathway is retired.)
 - ❓ **Does Tony ever discover what was in his mother's garden?** Late-game callback potential. Defer.
 - ❓ **Exact day-clock cost** of the cleanup mini-game (half day? Full day?).
 - ❓ **Whether the labor itself is a clickable mini-game** or an auto-resolve "you spend the afternoon" time-skip. Lean toward mini-game with examinable items — that's where the discovery happens.

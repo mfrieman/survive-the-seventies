@@ -17,7 +17,7 @@
 | Yield | Tier | Quest |
 |---|---|---|
 | Old papers stack (contains Playboy magazine) | Tier 3 Top Trade | Q-001 (this) |
-| Marijuana (garden cleanup) | Tier 3 Top Trade — Vapor brew | Q-002 |
+| Marijuana (garden cleanup) | Tier 3 Top Trade — → VW-hippie-van quest | Q-002 |
 
 Elga = 2-yield NPC. Within the 3-yield cap. Quests are sequential (Q-002 unlocked by Q-001 completion).
 
