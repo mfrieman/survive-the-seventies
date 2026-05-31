@@ -1,0 +1,149 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "clawpilot",
+  "elements": [
+    { "type": "text", "id": "title", "x": 40, "y": 24, "width": 1400, "height": 40, "text": "Survive the 70s — Neighborhood Map  (Zone 1 + Zone 2)", "fontSize": 30, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+    { "type": "text", "id": "subtitle", "x": 40, "y": 78, "width": 1500, "height": 28, "text": "Hub-and-spoke node map.  Solid line = walk (open).  Thick red arrow = the ONLY gates (bike, car).  Dotted = soft border (no wall).", "fontSize": 16, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "rectangle", "id": "zone1box", "x": 20, "y": 130, "width": 1180, "height": 1010, "strokeColor": "#1864ab", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "roundness": { "type": 3 } },
+    { "type": "text", "id": "zone1label", "x": 40, "y": 142, "width": 900, "height": 28, "text": "ZONE 1 — THE BLOCK + LINDEN PLAZA   (walk · open from start)", "fontSize": 18, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "rectangle", "id": "zone2box", "x": 1240, "y": 130, "width": 660, "height": 720, "strokeColor": "#0c8599", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "roundness": { "type": 3 } },
+    { "type": "text", "id": "zone2label", "x": 1260, "y": 142, "width": 600, "height": 28, "text": "ZONE 2 — THE TOWN   (bike unlock)", "fontSize": 18, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "rectangle", "id": "zone3box", "x": 1240, "y": 880, "width": 660, "height": 200, "strokeColor": "#862e9c", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "roundness": { "type": 3 } },
+    { "type": "text", "id": "zone3label", "x": 1260, "y": 892, "width": 600, "height": 28, "text": "ZONE 3 — DESTINATIONS   (car · weekends)", "fontSize": 18, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "ellipse", "id": "lindenhub", "x": 430, "y": 250, "width": 210, "height": 96, "strokeColor": "#333333", "backgroundColor": "#e8a838", "fillStyle": "solid", "strokeWidth": 2, "boundElements": [{ "type": "text", "id": "lindenhub_t" }] },
+    { "type": "text", "id": "lindenhub_t", "containerId": "lindenhub", "x": 440, "y": 270, "width": 190, "height": 56, "text": "Linden Drive\n(cul-de-sac) ★ HUB", "fontSize": 16, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "marek", "x": 150, "y": 200, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "marek_t" }] },
+    { "type": "text", "id": "marek_t", "containerId": "marek", "x": 160, "y": 212, "width": 160, "height": 40, "text": "The Marek House\n1437 Linden Dr", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "karras", "x": 150, "y": 300, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "karras_t" }] },
+    { "type": "text", "id": "karras_t", "containerId": "karras", "x": 160, "y": 312, "width": 160, "height": 40, "text": "Karras House\n+ The Dungeon", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "kowalski", "x": 150, "y": 400, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "kowalski_t" }] },
+    { "type": "text", "id": "kowalski_t", "containerId": "kowalski", "x": 160, "y": 412, "width": 160, "height": 40, "text": "Kowalski House\n(the crush · Iwona)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "linkletter", "x": 740, "y": 200, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "linkletter_t" }] },
+    { "type": "text", "id": "linkletter_t", "containerId": "linkletter", "x": 750, "y": 212, "width": 160, "height": 40, "text": "Mrs. Linkletter's\n(the mean lady)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "abandoned", "x": 740, "y": 300, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "abandoned_t" }] },
+    { "type": "text", "id": "abandoned_t", "containerId": "abandoned", "x": 750, "y": 312, "width": 160, "height": 40, "text": "The Abandoned\nHouse (haunted dare)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "busstop", "x": 740, "y": 400, "width": 180, "height": 64, "strokeColor": "#1864ab", "backgroundColor": "#a5d8ff", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "busstop_t" }] },
+    { "type": "text", "id": "busstop_t", "containerId": "busstop", "x": 750, "y": 412, "width": 160, "height": 40, "text": "The Bus Stop", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "diamond", "id": "woods", "x": 455, "y": 150, "width": 160, "height": 72, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "solid", "strokeWidth": 1, "boundElements": [{ "type": "text", "id": "woods_t" }] },
+    { "type": "text", "id": "woods_t", "containerId": "woods", "x": 465, "y": 175, "width": 140, "height": 22, "text": "The Woods", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "diamond", "id": "creek", "x": 170, "y": 510, "width": 160, "height": 72, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "solid", "strokeWidth": 1, "boundElements": [{ "type": "text", "id": "creek_t" }] },
+    { "type": "text", "id": "creek_t", "containerId": "creek", "x": 180, "y": 535, "width": 140, "height": 22, "text": "The Creek", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "park", "x": 410, "y": 514, "width": 180, "height": 64, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "park_t" }] },
+    { "type": "text", "id": "park_t", "containerId": "park", "x": 420, "y": 526, "width": 160, "height": 40, "text": "The Park\n(ballfield · swings)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "petcem", "x": 640, "y": 514, "width": 180, "height": 64, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "petcem_t" }] },
+    { "type": "text", "id": "petcem_t", "containerId": "petcem", "x": 650, "y": 526, "width": 160, "height": 40, "text": "Pet Cemetery", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "ellipse", "id": "plazahub", "x": 420, "y": 700, "width": 240, "height": 100, "strokeColor": "#333333", "backgroundColor": "#e8a838", "fillStyle": "solid", "strokeWidth": 2, "boundElements": [{ "type": "text", "id": "plazahub_t" }] },
+    { "type": "text", "id": "plazahub_t", "containerId": "plazahub", "x": 430, "y": 722, "width": 220, "height": 56, "text": "Linden Plaza\n(parking lot) ★ sub-hub", "fontSize": 15, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "quik9", "x": 110, "y": 648, "width": 180, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "quik9_t" }] },
+    { "type": "text", "id": "quik9_t", "containerId": "quik9", "x": 120, "y": 660, "width": 160, "height": 40, "text": "Quik-9\n(7-Eleven)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "grocery", "x": 110, "y": 740, "width": 180, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "grocery_t" }] },
+    { "type": "text", "id": "grocery_t", "containerId": "grocery", "x": 120, "y": 752, "width": 160, "height": 40, "text": "Vince's Market\n(small grocery)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "bar", "x": 110, "y": 832, "width": 180, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "bar_t" }] },
+    { "type": "text", "id": "bar_t", "containerId": "bar", "x": 120, "y": 844, "width": 160, "height": 40, "text": "The Lamplighter\n(corner bar)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "fotohut", "x": 290, "y": 928, "width": 180, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "fotohut_t" }] },
+    { "type": "text", "id": "fotohut_t", "containerId": "fotohut", "x": 300, "y": 940, "width": 160, "height": 40, "text": "Foto Hut\n(film drop kiosk)", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "burnsville", "x": 760, "y": 648, "width": 200, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 2, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "burnsville_t" }] },
+    { "type": "text", "id": "burnsville_t", "containerId": "burnsville", "x": 770, "y": 660, "width": 180, "height": 40, "text": "Burnsville Electronics\n(the hardware store · Stan)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "gas", "x": 760, "y": 740, "width": 200, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "gas_t" }] },
+    { "type": "text", "id": "gas_t", "containerId": "gas", "x": 770, "y": 752, "width": 180, "height": 40, "text": "Gas Station\n(cig vending · coin returns)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "storeextra", "x": 760, "y": 832, "width": 200, "height": 64, "strokeColor": "#e67700", "backgroundColor": "#fff3bf", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "storeextra_t" }] },
+    { "type": "text", "id": "storeextra_t", "containerId": "storeextra", "x": 770, "y": 844, "width": 180, "height": 40, "text": "Plaza Stores\n(barber · pizza · +1 TBD)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "vwvan", "x": 470, "y": 832, "width": 180, "height": 64, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "vwvan_t" }] },
+    { "type": "text", "id": "vwvan_t", "containerId": "vwvan", "x": 480, "y": 844, "width": 160, "height": 40, "text": "VW Hippie Van\n(roving · parks in lot)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "church", "x": 430, "y": 944, "width": 220, "height": 64, "strokeColor": "#495057", "backgroundColor": "#dee2e6", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "church_t" }] },
+    { "type": "text", "id": "church_t", "containerId": "church", "x": 440, "y": 956, "width": 200, "height": 40, "text": "St. Casimir's Church\n(across from the plaza)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "ellipse", "id": "townhub", "x": 1480, "y": 250, "width": 200, "height": 96, "strokeColor": "#333333", "backgroundColor": "#e8a838", "fillStyle": "solid", "strokeWidth": 2, "boundElements": [{ "type": "text", "id": "townhub_t" }] },
+    { "type": "text", "id": "townhub_t", "containerId": "townhub", "x": 1490, "y": 280, "width": 180, "height": 36, "text": "Town Square ★ HUB", "fontSize": 16, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "mall", "x": 1280, "y": 200, "width": 170, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "mall_t" }] },
+    { "type": "text", "id": "mall_t", "containerId": "mall", "x": 1290, "y": 220, "width": 150, "height": 24, "text": "Hertzler's Mall", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "arcade", "x": 1280, "y": 300, "width": 170, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "arcade_t" }] },
+    { "type": "text", "id": "arcade_t", "containerId": "arcade", "x": 1290, "y": 312, "width": 150, "height": 40, "text": "Sultan's Lair\n+ Cinerama", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "library", "x": 1720, "y": 200, "width": 160, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "library_t" }] },
+    { "type": "text", "id": "library_t", "containerId": "library", "x": 1730, "y": 220, "width": 140, "height": 24, "text": "The Library", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "highschool", "x": 1720, "y": 300, "width": 160, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "highschool_t" }] },
+    { "type": "text", "id": "highschool_t", "containerId": "highschool", "x": 1730, "y": 320, "width": 140, "height": 24, "text": "The High School", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "bilbos", "x": 1280, "y": 410, "width": 170, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "bilbos_t" }] },
+    { "type": "text", "id": "bilbos_t", "containerId": "bilbos", "x": 1290, "y": 430, "width": 150, "height": 24, "text": "Bilbo's Liquors", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "pool", "x": 1720, "y": 410, "width": 160, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "pool_t" }] },
+    { "type": "text", "id": "pool_t", "containerId": "pool", "x": 1730, "y": 430, "width": 140, "height": 24, "text": "The Swim Club", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "drivein", "x": 1490, "y": 470, "width": 180, "height": 64, "strokeColor": "#0c8599", "backgroundColor": "#99e9f2", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "drivein_t" }] },
+    { "type": "text", "id": "drivein_t", "containerId": "drivein", "x": 1500, "y": 482, "width": 160, "height": 40, "text": "The Starview\nDrive-In", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "rectangle", "id": "zone3", "x": 1300, "y": 950, "width": 540, "height": 100, "strokeColor": "#862e9c", "backgroundColor": "#f3d9fa", "fillStyle": "solid", "strokeWidth": 1, "roundness": { "type": 3 }, "boundElements": [{ "type": "text", "id": "zone3_t" }] },
+    { "type": "text", "id": "zone3_t", "containerId": "zone3", "x": 1310, "y": 970, "width": 520, "height": 60, "text": "Ocean Side · Storybook Hollow\nChocolatetown · Glen Hollow", "fontSize": 15, "fontFamily": 1, "strokeColor": "#000000", "textAlign": "center", "verticalAlign": "middle" },
+
+    { "type": "arrow", "id": "a_marek", "x": 535, "y": 298, "width": 295, "height": 66, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [-295, -66]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "marek", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_karras", "x": 535, "y": 298, "width": 295, "height": 34, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [-295, 34]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "karras", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_kowalski", "x": 535, "y": 298, "width": 295, "height": 134, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [-295, 134]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "kowalski", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_link", "x": 640, "y": 298, "width": 100, "height": 66, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [100, -66]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "linkletter", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_aband", "x": 640, "y": 298, "width": 100, "height": 34, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [100, 34]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "abandoned", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_bus", "x": 640, "y": 298, "width": 100, "height": 134, "strokeColor": "#1864ab", "strokeWidth": 1.5, "points": [[0, 0], [100, 134]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "busstop", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_park", "x": 525, "y": 346, "width": 15, "height": 168, "strokeColor": "#2f9e44", "strokeWidth": 1.5, "points": [[0, 0], [-15, 168]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "park", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_pet", "x": 595, "y": 346, "width": 135, "height": 168, "strokeColor": "#2f9e44", "strokeWidth": 1.5, "points": [[0, 0], [135, 168]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "petcem", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_woods", "x": 535, "y": 250, "width": 0, "height": 28, "strokeColor": "#2f9e44", "strokeWidth": 1.5, "strokeStyle": "dotted", "points": [[0, 0], [0, -28]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "woods", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "a_creek", "x": 460, "y": 330, "width": 230, "height": 180, "strokeColor": "#2f9e44", "strokeWidth": 1.5, "strokeStyle": "dotted", "points": [[0, 0], [-230, 180]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "creek", "focus": 0, "gap": 4 } },
+
+    { "type": "arrow", "id": "a_walk", "x": 540, "y": 346, "width": 0, "height": 354, "strokeColor": "#495057", "strokeWidth": 2, "points": [[0, 0], [0, 354]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 } },
+    { "type": "text", "id": "walklabel", "x": 555, "y": 500, "width": 220, "height": 22, "text": "walk — a few blocks", "fontSize": 14, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "arrow", "id": "p_quik", "x": 420, "y": 730, "width": 215, "height": 50, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [-215, -50]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "quik9", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_groc", "x": 420, "y": 760, "width": 215, "height": 12, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [-215, 12]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "grocery", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_bar", "x": 420, "y": 770, "width": 215, "height": 94, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [-215, 94]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "bar", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_foto", "x": 470, "y": 790, "width": 90, "height": 138, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [-90, 138]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "fotohut", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_burns", "x": 660, "y": 730, "width": 100, "height": 50, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [100, -50]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "burnsville", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_gas", "x": 660, "y": 760, "width": 100, "height": 12, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [100, 12]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "gas", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_store", "x": 660, "y": 770, "width": 100, "height": 94, "strokeColor": "#e67700", "strokeWidth": 1.5, "points": [[0, 0], [100, 94]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "storeextra", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_vw", "x": 555, "y": 800, "width": 5, "height": 32, "strokeColor": "#2f9e44", "strokeWidth": 1.5, "points": [[0, 0], [5, 32]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "vwvan", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "p_church", "x": 540, "y": 800, "width": 0, "height": 144, "strokeColor": "#495057", "strokeWidth": 1.5, "strokeStyle": "dotted", "points": [[0, 0], [0, 144]], "startBinding": { "elementId": "plazahub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "church", "focus": 0, "gap": 4 } },
+
+    { "type": "arrow", "id": "z2_mall", "x": 1480, "y": 290, "width": 115, "height": 58, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [-115, -58]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "mall", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_arc", "x": 1365, "y": 264, "width": 0, "height": 36, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [0, 36]], "startBinding": { "elementId": "mall", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "arcade", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_lib", "x": 1680, "y": 290, "width": 120, "height": 58, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [120, -58]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "library", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_hs", "x": 1680, "y": 300, "width": 120, "height": 32, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [120, 32]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "highschool", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_bilbo", "x": 1480, "y": 320, "width": 115, "height": 122, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [-115, 122]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "bilbos", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_pool", "x": 1680, "y": 320, "width": 120, "height": 122, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [120, 122]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "pool", "focus": 0, "gap": 4 } },
+    { "type": "arrow", "id": "z2_drive", "x": 1580, "y": 346, "width": 10, "height": 124, "strokeColor": "#0c8599", "strokeWidth": 1.5, "points": [[0, 0], [10, 124]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "drivein", "focus": 0, "gap": 4 } },
+
+    { "type": "arrow", "id": "gate_bike", "x": 640, "y": 290, "width": 840, "height": 0, "strokeColor": "#D13438", "strokeWidth": 4, "points": [[0, 0], [840, 0]], "startBinding": { "elementId": "lindenhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "townhub", "focus": 0, "gap": 4 } },
+    { "type": "text", "id": "bikelabel", "x": 980, "y": 250, "width": 260, "height": 28, "text": "🚲 BIKE unlock → Zone 2 (one ring)", "fontSize": 15, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "center", "verticalAlign": "top" },
+
+    { "type": "arrow", "id": "gate_car", "x": 1580, "y": 346, "width": 10, "height": 604, "strokeColor": "#D13438", "strokeWidth": 4, "points": [[0, 0], [-10, 604]], "startBinding": { "elementId": "townhub", "focus": 0, "gap": 4 }, "endBinding": { "elementId": "zone3", "focus": 0, "gap": 4 } },
+    { "type": "text", "id": "carlabel", "x": 1600, "y": 640, "width": 220, "height": 28, "text": "🚗 CAR / family trip (Act 3)", "fontSize": 15, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" },
+
+    { "type": "text", "id": "legend", "x": 40, "y": 1060, "width": 1160, "height": 60, "text": "LEGEND:  ★ gold = hub/sub-hub (spawn & return)   ·   blue = houses   ·   orange = plaza stores   ·   green = nature/outdoors   ·   gray = church   ·   teal = Zone 2 town   ·   purple = Zone 3 destinations   ·   dotted = soft border (no wall)   ·   thick red = the ONLY two gates (bike, car)", "fontSize": 13, "fontFamily": 1, "strokeColor": "#000000", "backgroundColor": "transparent", "textAlign": "left", "verticalAlign": "top" }
+  ],
+  "appState": { "viewBackgroundColor": "#ffffff" }
+}

@@ -1,11 +1,14 @@
-# Survive the 70s — Story Arc (DRAFT)
+# Survive the 70s — Story Scripts (SCRIPT LAYER)
 
-> **STATUS:** `revision_status: draft` — actively being co-written by Mark + Clawpilot in chat.
-> **Started:** 2026-05-23
-> **Structure:** Opening → Act 1 → Act 2 → Act 3 → Ending
-> **Format:** All five beats begin with a short **cut-scene** (cinematic, non-interactive) that hands the player off into gameplay. The cut-scenes are the spine; the gameplay/quests fill the space between them.
+> **Status:** 📝 SCRIPT LAYER · companion to the canonical `story/00–04` act files · reclassified 2026-05-30.
+> **Role:** This file holds the **fleshed-out cut-scene scripts and locked dialogue** (The Jump, the basement dance, All-Hope-Is-Lost, the Bicentennial kiss, the Lamborghini ending, the Era Teaching System). The per-act files in [`story/`](story/) are the canonical **beat structure**; this file is the **detailed script** that fills them in.
+> **Authority:** When this file and a `story/0X` act file disagree on *structure*, the act file wins. This file's **dialogue/prose** is the richest draft and is being folded scene-by-scene into the act files. Until a scene is folded, its script lives here.
+> **Started:** 2026-05-23 (originally the unified story-arc scratchpad).
 >
-> This draft will eventually graduate to `story-arc.md` (locked) and any conflicts with `premise.md` get reconciled via `decisions-log.md`. Until then this is the scratchpad — nothing in here is canon yet.
+> **⚠️ Known conflicts to resolve during the fold (need Mark's ruling):**
+> 1. **Kay smoke-detector exchange** — `story/00-opening.md` has the short version; this file (Beat 3) has a longer version. Both marked "verbatim / do not rewrite." Pick one.
+> 2. **Act-1 closing comms line** — `story/01-act1.md` + `story/02-act2.md` agree on *"I'm scared / get me home"* → *"Same, I hate it here too."* This file ends Act 1 on *"How hard can it be." / "You have no idea."* Reconcile.
+> 3. **Mark's home year** — this file says **2026**; the `story/` act files say **2027**. Lock one and sweep.
 
 ---
 

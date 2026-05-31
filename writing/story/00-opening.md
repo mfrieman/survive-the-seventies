@@ -1,5 +1,7 @@
 # Opening — Cold Open to Title Card
 
+> **Status:** 🔒 CANON — beat structure · 2026-05-30. Canonical *structure* for this beat. Detailed cut-scene script lives in [`../story-arc.draft.md`](../story-arc.draft.md) (script layer), pending scene-by-scene fold.
+
 **Length target:** ~6–8 minutes of play.
 **Ends on:** Title card ***SURVIVE THE 70s***.
 **Player sees:** Cutscene-heavy intro, two short interactive moments (TV ask + smoke detector reply), then bedroom mechanics intro.

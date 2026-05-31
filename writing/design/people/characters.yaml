@@ -1,0 +1,162 @@
+# characters.yaml — T1–T3 (heavy + medium). Schema: design/README.md §5.1
+# PILOT (2026-05-30): 3 migrated entities stress-testing the v2 schema + live FKs.
+# FK targets: place=places.yaml · items=items.yaml · quests=quests/ · dialog=dialog/<id>.md
+#             draws_on=../source/encyclopedia/*.yaml
+
+characters:
+
+  # ============================================================
+  # T1 — SIGNIFICANT  (deep relationship + major purpose)
+  # ============================================================
+
+  - id: kay-marek
+    name: Kay Marek
+    tier: 1
+    category: family
+    role: mom; the loud one
+    age_1976: 38
+    relation: mother
+
+    essence: The block's loud-mouthed, ferociously loving Motown mom who can't be fooled — only managed.
+    want: To keep her family fed, churched, and in line — and to be proven right.
+    wound: A smart son she's proud of but can't read; it makes her nervous in a way she'd never admit.
+    lie: "If I just talk loud enough at the room, everyone will fall into place."
+    voice: |
+      Baltimore working-class. Mouth like a sailor with a heart of gold — will call her own kids
+      "fucking idiots" with the same tone she uses for "I love you, hon." Zero filter, somehow
+      always right. Comedy lineage: Lois Wilkerson (Malcolm in the Middle).
+    physical: |
+      Housedress in the morning, jeans and a Motown concert tee by afternoon. Permanent menthol
+      Kool 100 between two fingers. Coffee cup always in the other hand. Hair feathered when down,
+      curlers Saturday night for Sunday church.
+    vibe: |
+      Loves the kids ferociously; insults them ferociously. Hates phonies. Doesn't drink (finds
+      drunks pathetic) but smokes like the chimney's on fire. Plays Motown loud enough to embarrass
+      the neighbors and doesn't care.
+
+    location: { place: marek-house, address: "1437 Linden Drive" }
+    likes_items: []                        # TODO: gift hooks if Kay becomes relationship-buildable
+    quests:
+      - { id: TBD-kay-errands, role: requester }   # kitchen/cash/keys errand-giver (quest not yet authored)
+    dialog: kay-marek                      # → design/dialog/kay-marek.md (TBD)
+    draws_on: [smoking-everywhere]         # LINEAGE: Kay smoking at the kitchen table = this custom in-game
+
+    relationship:
+      starts_at: cold        # she's Danny's mom — to Mark she rings cold; he must earn her
+      gates_at:  warm        # warm enough that she trusts him with cash/keys/the car errand
+      warms_via:
+        - { quest: TBD-kay-errands }   # running her errands without backtalk
+        - { beat:  managing-not-fooling }  # she can't be lied to — warmth comes from MANAGING her well
+      cools_via:
+        - { betrayal: caught-in-a-lie }    # she sniffs out lies; getting caught sours the fork hard
+      notes: |
+        Cannot be fooled, only managed — so warmth is earned by competence and respect, not gifts.
+        Fastest path to warm = reliably running errands and not lying. The cold start is the theme:
+        even his own "mother" doesn't ring true until Mark does the work.
+
+    tags: [family, mom, authority, vulgar, motown, funny, loud]
+    audience: both
+    status: sketch
+    notes: |
+      Biggest in-house gatekeeper: kitchen, cash, keys, phone. Threw out the time machine
+      ("looks like junk"). Cannot be lied to — player must MANAGE her, not fool her. Source of
+      accidentally-useful intel (gossips with neighbors in the player's earshot). Bobby is her
+      not-so-secret favorite. STORY CONFLICT open: short vs long smoke-detector exchange in the
+      opening (see canon-review-packet C1a).
+
+  # ============================================================
+  # T2 — ACTIVE RELATIONSHIP  (tracked, not pillar)
+  # ============================================================
+
+  - id: mickey-karras
+    name: Mickey Karras
+    tier: 2
+    category: neighborhood
+    role: guitar virtuoso; Danny's close friend; location-locked to the Dungeon
+    age_1976: 16
+    relation: close childhood friend, lives 5 houses down
+
+    essence: The effortlessly cool guitar kid who's loved Danny his whole life — and is the highest cover-blow risk on the block.
+    want: To play guitar and be left alone to get great at it.
+    wound: Named after a baseball hero by a dad whose world he could never fit into.
+    lie: "Nothing has to change; Danny's still Danny and the basement's still ours."
+    voice: |
+      Cool by default, cooler when he doesn't try. Catholic-school kid; talks in records, gear,
+      and easy loyalty. Gossips about kids the player doesn't know.
+    physical: |
+      Sixteen, two years older than Danny. Guitar never far from his hands. A revolving cast of
+      short-lived girlfriends who always lose to the instrument.
+    vibe: |
+      Loyal in the easy way of two kids who've known each other forever. Doesn't know Danny isn't
+      Danny — which makes every visit a tightrope.
+
+    location: { place: the-dungeon, address: "Karras house basement, Linden Drive" }
+    likes_items: []                        # TODO: warmth-raiser gifts (records? guitar strings?)
+    quests:
+      - { id: TBD-mickey-amp-gear, role: giver }   # possible electronics/amp-parts ally (machine link TBD)
+    dialog: mickey-karras                  # → design/dialog/mickey-karras.md (TBD)
+    draws_on: []
+
+    relationship:
+      starts_at: cold        # thinks Mark IS Danny — bond rings cold because Mark hasn't lived their history
+      gates_at:  warm        # warm enough to lend gear / cover for Mark / share contraband intel
+      warms_via:
+        - { gift:  TBD-record }            # records / guitar strings (define in items.yaml)
+        - { beat:  bike-jump }             # group muster beat warms many friends at once incl. Mickey
+        - { quest: TBD-mickey-amp-gear }   # tinkering on gear together
+      cools_via:
+        - { betrayal: blow-the-cover }     # acting too "not-Danny" around him spikes a bad buzz
+      notes: |
+        Highest cover-blow risk on the block, so warmth is a tightrope: the Dungeon's haze covers
+        small slips. Fastest path to warm = the bike-jump beat + hanging in the basement over gear.
+        Roster slot P5; may promote toward the T2 friend-core.
+
+    tags: [neighborhood, peer, friend, band, location-locked, cover-risk]
+    audience: both
+    status: sketch
+    notes: |
+      LOCATION-LOCKED to the Dungeon — never roams; the player goes to him. The Dungeon's culture
+      (loud music, low focus, haze) is the cover that mitigates his high cover-blow risk. Candidate
+      threads: contraband source, older-kid gossip, electronics-tinkering ally, emotional anchor to
+      Danny's old life. Roster slot P5.
+
+  # ============================================================
+  # T3 — QUEST / SCAVENGE  (real purpose, no relationship grind)
+  # ============================================================
+
+  - id: athena-karras
+    name: Athena Karras
+    tier: 3
+    category: neighborhood
+    role: religious Italian mom; Mickey's mother
+    age_1976: 45
+    relation: neighbor mom (5 houses down)
+
+    essence: The sweetest, kindest woman in Old Bay County — and an oblivious, heroically bad cook.
+    # want/wound/lie optional at T3 — captured lightly in vibe instead.
+    voice: |
+      Warm, sincere, faith-laced. Talks about her boys' wholesome "rock band" and what the saints
+      think. Never a harsh word.
+    physical: |
+      Devout Catholic Italian mom, 45. Aggressively flowery upholstery; a spotless upstairs she
+      has no idea sits atop the Dungeon.
+    vibe: |
+      Everyone loves her. Watches cooking shows constantly yet cooks inedibly — her family conceals
+      it with heroic acting. Her sincere kindness makes lying to her feel awful.
+
+    location: { place: karras-house, address: "Karras house, Linden Drive" }
+    likes_items: []
+    quests:
+      - { id: TBD-athena-baked-goods, role: requester }   # deliver her (inedible) baked goods to neighbors
+    dialog: athena-karras                  # → design/dialog/athena-karras.md (TBD)
+    draws_on: []
+    # NO relationship: block — T3 has a quest link but is NOT Note-tracked (see README §5.1a).
+
+    tags: [neighborhood, mom, religious, kind, oblivious, quest-giver]
+    audience: both
+    status: sketch
+    notes: |
+      T3 quest-giver pilot — proves the "Supporting w/ a quest link, no relationship grind" shape.
+      Comic-relief obstacle to anything carried in the front door. The baked-goods delivery quest is
+      a small MORAL check: her kindness makes deceiving her cost the player something. NOT
+      relationship-tracked (no Note), but personality-rich per the no-wasted-NPC rule.

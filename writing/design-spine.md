@@ -7,6 +7,9 @@
 > **Authority:** This doc does not *override* the system docs — it **indexes** them and defines how
 > they connect. When a detail here and a system doc disagree, the **system doc wins** (and this index
 > gets corrected). Last mapped: 2026-05-30.
+>
+> **Reviewing / prioritizing what to build next?** See [`canon-review-packet.md`](canon-review-packet.md)
+> — the doc map + every open decision in one prioritized register.
 
 ---
 
@@ -165,10 +168,10 @@ keeps only the **one-line distilled takeaway.** (Law: [`tear-system.md`](compone
 |---|---|---|
 | Entry point | `design-spine.md` (this file) | CANON-INDEX |
 | Premise / story foundation | `premise.md` | 🔒 LOCKED |
-| Story acts | `story/00-opening.md` … `04-ending.md` | 🔒 / 📝 |
+| Story acts | `story/00-opening.md` … `04-ending.md` (canonical beat structure) + `story-arc.draft.md` (script layer — cut-scene dialogue, being folded in) | 🔒 structure / 📝 scripts |
 | Gameplay loop | `gameplay-loop.md` | CANON (v0.1) |
 | Machine | `components/machine-architecture.md` (canon spine) + `components/backbone.md` (Path-1 chassis) + `components/second-pathway-ritual-platform.md` (Path-2 design) | ✅ RECONCILED 2026-05-30 |
-| Machine components (detail) | `components/index.md`, `components/component-*.md` | CANON detail |
+| Machine components (detail) | `components/index.md` ⚠️ (old 10-letter scheme — still referenced by component-J/L, money, tear; reconcile to machine-architecture before archiving), `components/component-*.md` | ⚠️ REVIEW |
 | Second pathway | `components/second-pathway-ritual-platform.md` | 📝 PROPOSAL |
 | The Tear | `components/tear-system.md` | 🔒 CANON (law) |
 | Money / economy | `components/money-economy.md` | CANON |
@@ -195,9 +198,15 @@ These are genuine canon ambiguities. I left them in the canon space **untouched*
    is the canon spine (Path 2 reworked to the ritual platform; **16 blueprint slots** = 10 Signal + 5
    stones + 1 amber). `machine-rules.md` (v0.1 letter model) and `machine-rules-v0.2-proposal.md`
    archived with tombstone redirects; `components/backbone.md` kept as the Path-1 chassis/money layer.
-2. **Narrative master:** `story-arc.draft.md` (56KB draft) vs `story/00–04` (per-act files). Which is
-   the authority? Likely: `story/` = canon, `story-arc.draft.md` → archive once confirmed.
-3. **`scene-outlines.md`** — keep as canon working doc, or archived draft?
+2. ~~**Narrative master:** `story-arc.draft.md` vs `story/00–04`?~~ ✅ **RESOLVED 2026-05-30 (role-split).**
+   `story/00–04` = canonical **beat structure**; `story-arc.draft.md` = the **script layer** (fleshed-out
+   cut-scene dialogue/prose), reclassified — NOT archived (it holds the richest writing and is cross-linked
+   from 7+ canon docs). Scripts fold scene-by-scene into the act files. **3 conflicts flagged** in the draft
+   header for your ruling (Kay exchange long/short; Act-1 comms line; 2026 vs 2027).
+3. ~~**`scene-outlines.md`** — keep or archive?~~ ✅ **ARCHIVED 2026-05-30** (self-declared stale, pre–body-swap pivot).
+4. **`components/index.md`** — the old 10-letter component scheme. Superseded as the machine *spine* by
+   `machine-architecture.md`, but still referenced by `component-J/L`, `money-economy`, `tear-system`,
+   `worldbuilding-rules`. **Do not archive** until those refs are repointed. Reconcile, then decide.
 
 ---
 

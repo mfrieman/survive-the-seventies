@@ -36,7 +36,7 @@ Each idea has:
 - Trade item: a free paper (could matter for a quest where Mark needs a specific newspaper article — Bicentennial coverage, classifieds, etc.)
 - NPC: justifies a "kid with paper route" friend AND introduces 2–3 "customer door" mini-NPCs (older lady on fixed income, busy dad never home, the deadbeat house). Each one is one-line characterization.
 
-**Status:** **LIKELY.** Want this in. Best as a one-shot quest with a callback (the friend mentions paper-route stories in later scenes).
+**Status:** **LIKELY.** Want this in. Best as a one-shot quest with a callback (the friend mentions paper-route stories in later scenes). **[SLATED 2026-05-30 → Q-012, T3 Favor]**
 
 ---
 

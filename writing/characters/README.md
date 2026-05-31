@@ -1,47 +1,67 @@
 # Characters — System & How to Document Them
 
-> **Status:** CANON (system doc) · 2026-05-30. Defines the **three character tiers**, how we write
+> **Status:** CANON (system doc) · 2026-05-30. Defines the **five character tiers** (top-down), how we write
 > **personalities**, and the **state-driven dialog system** (the part that changes by act + quest).
 > Templates live beside this file; the cast lives in [`roster.md`](roster.md).
 > **Parent:** [`../design-spine.md`](../design-spine.md) §6–7 (the Note, quest archetypes, NPC tiers).
 
 ---
 
-## 1. The three tiers
+## 1. The five tiers (top-down)
 
-We deliberately spend our writing effort where the player feels it. Three tiers, escalating depth:
+We deliberately spend our writing effort where the player feels it. **Five descriptive tiers**, numbered
+top-down (T1 = most significant), mapping onto **three authoring templates** (the real cost buckets):
 
-| Tier | Name | Fork? | Relationship? | What we write | Template |
+| Tier | Name | Note rings / notebook? | Quest-giver? | Template | Count |
 |---|---|---|---|---|---|
-| **1** | **Ambient NPC** | No | No | A handful of **barks** (flat lines) + maybe one barter line. Atmosphere. | [`_template-ambient.md`](_template-ambient.md) |
-| **2** | **Supporting** | No | No | A real **personality** + a small topic set + **barter/gatekeeper** lines. Light act-variation. | [`_template-supporting.md`](_template-supporting.md) |
-| **3** | **Prime** | **Yes** | **Yes** | **Full**: backstory, personality, voice, relationship arc, **dialog tree across acts**, Book Wants/Leads, Note reading. | [`_template-prime.md`](_template-prime.md) |
+| **T1** | **Significant** — core cast: deep relationship **+** major game purpose (mentors, Iwona) | ✅ tracked | yes | **Prime** | see budget |
+| **T2** | **Active relationship** — people you build relationships with, not pillar-significant | ✅ tracked | yes | **Prime** | see budget |
+| **T3** | **Quest / scavenge** — real purpose in quests or item-gathering, **no** relationship grind | ❌ | yes | **Supporting** | see budget |
+| **T4** | **Minor recurring** — exists because a **quest needs them**; small defined role, a few lines, no tree | ❌ | yes (their reason to exist) | **Ambient+** | ~40 |
+| **T5** | **Background** — store bystanders, boardwalk walkers; 0–2 flavor lines, no quest role | ❌ | no | **Ambient** | ~12 archetypes |
+
+> **Cast budget (authoritative):** see [`../design/README.md`](../design/README.md) §2a. In short — the
+> **entire interactive cast (T1–T3) is ≤40, goal ~30** (fewer and more well-developed is the goal); T4 ~40
+> named extras; T5 ~12 population archetypes. These are **ceilings, not quotas.**
+
+**The three boundaries that matter:**
+- **Relationship & the Note = T1 + T2 only.** These are the people the Note rings for and the only ones
+  in the relationships notebook (the diegetic cap — *"It won't sing for everyone, child."*).
+- **Quest-givers span T1–T3.** Giving a quest item is a **capability, not a tier** — a T3 can hand you
+  beer cans or candy; a T1 can gate a hero machine part. Anyone tied to a quest sits in T1–T3.
+- **T4/T5 exist to kill "wasted NPCs."** Even a store clerk gets a line or two, classified so no one
+  ships as a faceless prop. T4 = minor-but-recurring (simple depth); T5 = true background flavor.
+
+**Authoring reality — five labels, three templates:** T1≈T2 share the **Prime** sheet, T4≈T5 share the
+**Ambient** sheet, T3 is **Supporting**. You get five tiers of granularity for the cost of three formats.
 
 **Rules of thumb:**
-- **Prime is capped (~10–12).** These are the only people the **Note rings for** (the diegetic cap —
-  *"It won't sing for everyone, child."*). Every Prime gets heart: a want, a wound, a voice, an arc.
-- **Supporting** still have personality (players barter with them, remember them) but **no fork, no
+- **The interactive cast (T1–T3) is capped at ~40, goal ~30** (see budget above). Of those, the
+  Note-tracked Prime set (T1–T2) is the smallest, most-developed group — every Prime gets heart: a want,
+  a wound, a voice, an arc. *Fewer and better always wins.*
+- **Supporting (T3)** have personality (players barter with them, remember them) but **no fork, no
   relationship grind.** Store owners are mostly here ("**stores ARE the NPCs**").
-- **Ambient** are flavor. Don't over-invest — 3–6 good barks beat a flat paragraph.
-- A character can be **promoted** a tier if the design needs it (e.g., a Supporting shopkeeper who
-  becomes a quest-giver). Note promotions in `roster.md`.
+- **Ambient (T4–T5)** are flavor. Don't over-invest — 3–6 good barks beat a flat paragraph. T4 gets a
+  touch more (recurring, named, simple depth); T5 is 0–2 lines.
+- A character can be **promoted** a tier if the design needs it (e.g., a T3 shopkeeper who becomes a
+  relationship target). Note promotions in `roster.md`.
 
 ---
 
 ## 2. How we write PERSONALITY (so players feel the heart)
 
-Every Tier-2 and Tier-3 sheet answers these — short, specific, era-true, **never generic**:
+Every **Prime and Supporting** sheet answers these — short, specific, era-true, **never generic**:
 
 1. **One-line essence** — who they are in a sentence.
 2. **Want / Wound / Lie** — what they want, the hurt underneath, the lie they tell themselves. (This is
-   the engine of a character players *care* about. Tier 3 mandatory; Tier 2 optional.)
+   the engine of a character players *care* about. **Prime mandatory; Supporting optional.**)
 3. **Voice** — how they talk: vocabulary, rhythm, verbal tics, what they *never* say. Give 3–4 sample
    lines so any writer can match the voice.
 4. **Look & staging** — silhouette, where you find them, what they're doing.
 5. **Relationship to Mark/Danny** — do they know the *old* Danny? (Critical: Mark is an impostor, so
    anyone who knew Danny well reads "off" — mine that.)
 6. **Function** — what they gate (parts, muster, info, barter, story).
-7. **Arc** — how they change across Acts 1→3 (Tier 3).
+7. **Arc** — how they change across Acts 1→3 (**Prime**).
 
 > **Heart test:** if you deleted this character, would a player *miss* them? If not, they're either
 > Ambient (fine) or under-written (fix).

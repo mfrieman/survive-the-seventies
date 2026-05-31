@@ -41,7 +41,7 @@ Pattern: One NPC = multiple yields across multiple quests. Cap at 3 yields per N
 
 | Quest ID | Quest | Primary Yield | Trades For (downstream) | Machine Slot |
 |---|---|---|---|---|
-| Q-001 | Elga Paper Drive | Playboy magazine + Old papers haul | ❓ TBD top-tier machine part | TBD Signal slot |
+| Q-001 | Elga Paper Drive | Playboy magazine + Old papers haul | → Q-004 (lawn-dart trade) | Enabler for Slot 10 |
 | Q-002 | Elga Garden Cleanup | Marijuana | → VW-hippie-van quest (comedic payoff) | None — not a machine part |
 | Q-003 | Showtime (Caruso Band Light Show) | Dead amp → 12AX7 tubes + Marshall transformer | Direct use (both) | Signal Slot 7 (Spirit Valve) + Signal Slot 4 |
 | Q-IDEA-10 | 2nd Caruso Band quest (reserved) | ❓ TBD part or trade currency | ❓ TBD | ❓ TBD — add a part here if story needs more |
@@ -50,9 +50,55 @@ Pattern: One NPC = multiple yields across multiple quests. Cap at 3 yields per N
 
 ---
 
+## 📋 CANDIDATE SLATE — drafted 2026-05-30 (to author next; binds open machine slots to inbox ideas)
+
+> Demand side: of 16 blueprint slots, only Slots 4 + 7 are sourced (Q-003). This slate binds the
+> remaining Act 1–2 Signal slots + the support economy to LIKELY inbox ideas. Act 3 slots (5 stones,
+> U-238, amber) are already sourced in `machine-architecture.md` and get their own Act-3 quest pass.
+
+| ID | Quest (working title) | Quest Tier | Archetype | Primary Yield | Fills Slot | Inbox src | Act |
+|---|---|---|---|---|---|---|---|
+| **Q-004** | Lawn-Dart Trade Chain | **T1 Part** (multi-item) | Part | Lawn-dart grounding rod | Signal 10 | Q-IDEA-04 (Playboy) | 1–2 |
+| **Q-005** | Babysitting the Chaos Kid | **T1 Part** | Part/Favor | Slinky helical coil (the kid's toy = payment) | Signal 5 | Q-IDEA-05 | 1 |
+| **Q-006** | Junkyard / Dumpster Run | **T1 Part** | Part | Ignition coil + found trade junk | Signal 3 | Q-IDEA-02 | 1–2 |
+| **Q-007** | The Busted Walkie-Talkie | **T1 Part** (RECOVER) | Part | CB crystal + tuning knob | Signal 6 | (new) | 1–2 |
+| **Q-008** | The Antique Shop | **T1 Part** (ACQUIRE, hero) | Part | Shoe-store X-ray tube | Signal 2 | (new NPC) | 2 |
+| **Q-009** | Pat the Vet — Power Cell | **T1 Part** (RECOVER) | Part | Surplus military battery | Signal 1 (Good) | tracker | 2 |
+| **Q-010** | Mom's Canning Shelf | **T1 Part** | Favor→Part | Mason jar vacuum chamber | Signal 8 | (Kay errand) | 1 |
+| **Q-011** | Cap-Gun Carbide | **T1 Part** (RECOVER) | Part | Cap gun + carbide trigger | Signal 9 | Q-IDEA-06 spirit | 1–2 |
+| **Q-012** | Paper-Route Help | **T3 Favor** | Favor | cash + free newspaper + friend warmth | — | Q-IDEA-01 | 1 |
+| **Q-013** | Dumpster-to-Yard-Sale | **T2 Supply** (hub) | Favor | cash + trade stock (feeds Q-004/006) | — | Q-IDEA-02/03 | 1–2 |
+| **Q-014** | Parent Errands (cigs/checks) | **T3 Favor** (recurring) | Favor | small cash + relationship currency | — | Q-IDEA-07 | 1–3 |
+
+**Recommended authoring order:** Q-004 (proves multi-item trade chain + homes the Playboy) → Q-005
+(clean single-slot comedy + a peer friend) → Q-013 (the supply hub that feeds the part quests).
+
+---
+
+## 🏷️ QUEST TIER TAXONOMY — proposed 2026-05-30 (parallels the 5-tier CHARACTER system)
+
+> Mark wants quests tiered like characters. The tier is defined by **what completion does**, not by
+> difficulty — so it's mechanical and unambiguous (mirrors how character tier = relationship/role weight).
+> Keep it to **3 tiers** for now; expand only if real quests demand it.
+
+| Quest Tier | Completion effect | Maps to archetype | Examples |
+|---|---|---|---|
+| **T1 — Part Quest** | Places a **component on the Blueprint** (Signal slot, stone, power, U-238, amber). The "main course." | Part / Muster | Q-003, Q-004–Q-011, the Act-3 set |
+| **T2 — Supply Quest** | Yields **cash or a trade-currency item that a T1 quest consumes** (Playboy, found radio, beer). Exists to *feed* a T1. | trade-currency Favor | Q-001, Q-013; the Playboy sub-step inside Q-004 |
+| **T3 — Favor Quest** | Yields **relationship warmth only** (read by the Note) → *unlocks* gated T1/T2 quests. No item, no part. | pure-warmth Favor | Q-012, Q-014 |
+
+**Multi-item rule (Mark's question, answered):** a quest that needs several items to earn one part is
+**still ONE T1 record** — it carries `requires_items: [...]` + a `§7 Trade Chain`. The sub-items it
+consumes are typically **T2 Supply** quests/steps. One T1 quest, one part; many T2 inputs feed it.
+This respects the anti-coupling rules (max 2 hops, one canonical source per part).
+
+**Status:** PROPOSED — validate against Q-004/005/013 when authored, then lock into `quests/README.md`.
+
 ## Open Coupling Questions
 
-- **Who wants the Playboy magazine?** ❓ Must NOT be Pat the Vet (already hub) or Tony Caruso (already hub). New NPC needed — probably a teenager Mark trades with for a Signal-pathway part. Candidates: junkyard older kid, antique-shop kid, the pyromaniac kid (Q-IDEA-06), Tony Caruso's older brother (paper-route money kid).
+- ~~**Who wants the Playboy magazine?**~~ ✅ RESOLVED 2026-05-30 — **Q-004 Lawn-Dart Trade Chain.** An older
+  kid (neighbor's-shed archetype, NOT Pat/Tony Caruso) trades the **lawn-dart grounding rod (Signal Slot 10)**
+  for the Playboy. This homes the Playboy *and* sources Slot 10 in one chain. Q-001 → Q-004.
 - **What does the Boy Scout friend want?** ❓ Lower-tier trade. Candidates: baseball cards, comic books, matchbooks, a favor (covers his route one day).
 - ~~**Secondary marijuana source?**~~ ✅ RESOLVED 2026-05-30 — exactly ONE marijuana quest, source = Elga only. Marijuana is no longer a machine ingredient (it feeds the standalone VW-hippie-van quest), so no safety-net is needed.
 

@@ -33,5 +33,7 @@ Each beat is marked:
 ## Authoritative sources
 
 - **Canon files** (worldbuilding-rules.md, decisions-log.md, etc.) override anything here.
-- **This folder** overrides `story-arc.draft.md` and `scene-outlines.md` (both archive).
+- **This folder = canonical beat structure.** For *structure*, it overrides `../story-arc.draft.md`.
+- **`../story-arc.draft.md` = the script layer** — the fleshed-out cut-scene dialogue/prose that fills in these beats. Not archived; being folded scene-by-scene into these act files. When it and an act file disagree on structure, the act file wins.
+- **`../scene-outlines.md` is ARCHIVED** (pre–body-swap pivot, stale).
 - **Session file** is historical record — quote from it, don't link players to it.

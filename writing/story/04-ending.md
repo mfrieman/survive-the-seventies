@@ -1,5 +1,7 @@
 # Ending — Back to 2027
 
+> **Status:** 🔒 CANON — beat structure · 2026-05-30. Canonical *structure* for this beat. The fully-scripted Lamborghini scene + post-credits stinger live in [`../story-arc.draft.md`](../story-arc.draft.md) (script layer), pending scene-by-scene fold.
+
 **Length:** Short. BTTF-style closer. Sequel hook implied, not stated.
 **Tone:** Bittersweet → comedy beat → curiosity hook.
 
